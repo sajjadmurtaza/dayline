@@ -1,3 +1,35 @@
+# Dayline
+
+Personal daily operating system. Today is the primary product.
+
+## Law
+
+- Do not hard-code user-facing strings. Use next-intl.
+- One canonical `Item` union. Reuse `TaskCard`, `EventCard`, `Timeline`, `StickyNote`.
+- UI → services → domain. Persistence and connectors stay at the edge.
+- Planning never moves fixed events without an explicit user accept.
+- No productivity scores, streaks, or shame copy.
+- Locales: `en`, `ar`, `ur`, `ja`, `de`, `fr`, `hi`, `bn`, `tr`, `es`, `id`, `ko`, `zh`, `ru`. RTL: `ar`, `ur`. Adding a locale is JSON + `src/i18n/config.ts` + `load-messages.ts`.
+- Time is the interface. `day-view` owns bands; `DayTimeline` / `buildSpine` own spatial layout.
+- Icons: custom SVG through `DaylineIcon` (`public/favicon.svg`, `public/og.svg`). Daymark owns companion drawing.
+- Motion explains start / complete / drop. Gaps are spatial; human copy lives in the companion.
+- Do not show database timestamps. Prefer human clock ranges.
+
+## Commands
+
+```
+npm run dev
+npm test
+npm run validate:i18n
+npm run verify
+```
+
+Specs:
+
+- `docs/superpowers/specs/2026-08-19-dayline-mvp-design.md`
+- `docs/superpowers/specs/2026-08-19-dayline-today-alive-design.md`
+- `docs/superpowers/specs/2026-08-19-dayline-visual-system.md`
+
 <!-- BEGIN:nextjs-agent-rules -->
 
 # This is NOT the Next.js you know

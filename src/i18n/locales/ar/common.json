@@ -1,0 +1,127 @@
+{
+  "appName": "Dayline",
+  "language": "اللغة",
+  "nav": {
+    "today": "اليوم",
+    "inbox": "الوارد",
+    "upcoming": "القادم",
+    "calendar": "التقويم",
+    "projects": "المشاريع",
+    "notes": "الملاحظات",
+    "sometime": "في وقت ما",
+    "search": "بحث",
+    "brainDump": "تفريغ ذهني",
+    "more": "المزيد",
+    "add": "إضافة"
+  },
+  "actions": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "undo": "تراجع",
+    "start": "ابدأ",
+    "pause": "إيقاف مؤقت",
+    "done": "تم",
+    "resume": "متابعة",
+    "planMyDay": "خطط ليومي",
+    "acceptPlan": "قبول الخطة",
+    "keepSchedule": "إبقاء الجدول كما هو",
+    "whatNow": "ماذا أفعل الآن؟",
+    "convertToTask": "تحويل إلى مهمة",
+    "useEstimate": "استخدام التقدير",
+    "change": "تغيير",
+    "moveTomorrow": "نقل إلى الغد",
+    "laterWeek": "لاحقًا هذا الأسبوع",
+    "pickTime": "اختيار وقت",
+    "backToInbox": "العودة إلى الوارد",
+    "clearDemo": "إعادة بيانات التجربة",
+    "reviewSuggestions": "مراجعة الاقتراحات",
+    "confirmSelected": "حفظ المحدد"
+  },
+  "undoToast": {
+    "capture": "تم الالتقاط",
+    "start": "بدأ المؤقت",
+    "pause": "توقف مؤقتًا",
+    "complete": "تم الإنجاز",
+    "schedule": "نُقل على الخط الزمني",
+    "plan": "طُبقت الخطة",
+    "inbox": "أُرسل إلى الوارد",
+    "delete": "أُزيل",
+    "convert": "حُوّل إلى مهمة"
+  },
+  "status": {
+    "inbox": "وارد",
+    "planned": "مخطط",
+    "ready": "جاهز",
+    "running": "جارٍ",
+    "paused": "متوقف",
+    "completed": "مكتمل",
+    "deferred": "مؤجل",
+    "cancelled": "ملغى"
+  },
+  "kind": {
+    "task": "مهمة",
+    "event": "حدث",
+    "note": "ملاحظة",
+    "reminder": "تذكير",
+    "fixed": "ثابت",
+    "flexible": "مرن"
+  },
+  "priority": {
+    "low": "منخفض",
+    "normal": "عادي",
+    "high": "مرتفع",
+    "urgent": "عاجل"
+  },
+  "deadlineKind": {
+    "none": "بدون موعد",
+    "target": "هدف",
+    "due": "استحقاق"
+  },
+  "noteType": {
+    "idea": "فكرة",
+    "remember": "تذكّر",
+    "question": "سؤال",
+    "research": "بحث",
+    "meeting": "فكرة اجتماع",
+    "personal": "شخصي",
+    "temporary": "مؤقت",
+    "freeform": "ملاحظة"
+  },
+  "duration": {
+    "estimated": "تقديري",
+    "actual": "فعلي",
+    "elapsed": "منقضية",
+    "over": "تجاوز التقدير بـ {minutes} د",
+    "custom": "مخصص",
+    "minutes": "{count, plural, one {# د} other {# د}}",
+    "hours": "{count, plural, one {# ساعة} other {# ساعات}}"
+  },
+  "bands": {
+    "past": "ماضي",
+    "now": "الآن",
+    "next": "التالي",
+    "later": "لاحقًا"
+  },
+  "source": {
+    "local": "Dayline",
+    "google-calendar": "تقويم غوغل",
+    "outlook-calendar": "تقويم أوتلوك"
+  },
+  "a11y": {
+    "openNav": "فتح التنقل",
+    "closeNav": "إغلاق التنقل",
+    "skipToContent": "تخطي إلى المحتوى",
+    "nowMarker": "الوقت الحالي",
+    "progress": "منقضٍ {elapsed} من تقدير {estimate}",
+    "runningTask": "المهمة الجارية"
+  },
+  "areas": {
+    "work": "العمل",
+    "study": "الدراسة",
+    "health": "الصحة",
+    "finance": "المال",
+    "family": "العائلة",
+    "personal": "شخصي"
+  }
+}

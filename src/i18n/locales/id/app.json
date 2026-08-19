@@ -1,0 +1,174 @@
+{
+  "today": {
+    "title": "Hari ini",
+    "unscheduled": "Perlu tempat",
+    "pinnedNotes": "Disematkan",
+    "nextEvent": "Berikutnya: {title} pukul {time}",
+    "freeBlock": "Blok kosong terbesar: {start}–{end}",
+    "noEvents": "Tidak ada acara tetap hari ini",
+    "noMoreEvents": "Tidak ada acara lagi hari ini",
+    "emptyUnscheduled": "Tidak ada yang menunggu diletakkan.",
+    "planPreview": "Tempat yang disarankan",
+    "planWhy": "Muat di blok kosong tanpa memindahkan acara tetap.",
+    "nowSuggestion": "Kamu punya {minutes} menit sebelum {next}. {title} seharusnya muat.",
+    "nowSuggestionOpen": "Ada waktu kosong. Mulai dengan {title}.",
+    "nowBusy": "Kamu sedang di {title} sampai {time}.",
+    "conflict": "Bentrok waktu",
+    "needsAttention": "Perlu perhatian",
+    "current": "Saat ini",
+    "nowLabel": "Sekarang",
+    "startedAt": "Dimulai {time}",
+    "greeting": {
+      "morning": "Selamat pagi",
+      "afternoon": "Selamat siang",
+      "evening": "Selamat malam",
+      "night": "Selamat malam"
+    },
+    "summaryNowTask": "Sekarang: {title}",
+    "summaryNowEvent": "Kamu sedang di {title} sampai {time}",
+    "summaryNowFree": "Tidak ada yang dijadwalkan saat ini.",
+    "summaryNext": "Berikutnya: {title} pukul {time}",
+    "summaryNextNone": "Tidak ada lagi yang dijadwalkan hari ini.",
+    "summaryTimeUntil": "{minutes} menit sampai {title}",
+    "summaryOpenTime": "Waktu kosong dari sini.",
+    "summaryInCommitment": "Blok ini sudah terisi.",
+    "freeGap": "{label} kosong",
+    "dropHere": "Letakkan di sini untuk menempatkan",
+    "elapsedEstimate": "{elapsed} berlalu · ~{estimate} perkiraan",
+    "elapsedOnly": "{elapsed} berlalu",
+    "estimatedAbout": "Perkiraan ~{estimate}",
+    "longerThanPlanned": "{minutes} mnt lebih lama dari rencana",
+    "nextLabel": "Berikutnya",
+    "projectContext": "Proyek",
+    "proposed": "Usulan",
+    "stillOpen": "Masih terbuka",
+    "ready": "Siap",
+    "readyWhenYouAre": "Siap kapan kamu siap",
+    "plannedFor": "direncanakan pukul {time}",
+    "whatHappened": "Apa yang terjadi dengan ini?",
+    "startNow": "Mulai sekarang",
+    "findAnotherTime": "Cari waktu lain",
+    "inbox": "Kotak masuk",
+    "dismissCue": "Tutup",
+    "cancelled": "Dibatalkan"
+  },
+  "capture": {
+    "placeholder": "Taruh apa pun yang ada di kepala di sini.",
+    "hint": "Tugas, acara, catatan, ide, pengingat — satu tempat.",
+    "classifiedAs": "Sepertinya {kind}",
+    "uncertainTime": "Waktu belum diatur",
+    "suggestedEstimate": "Perkiraan yang disarankan: ~{minutes} mnt",
+    "confirm": "Tempatkan ini"
+  },
+  "inbox": {
+    "title": "Kotak masuk",
+    "empty": "Kotak masuk kosong. Tangkap sesuatu dari Hari ini saat muncul.",
+    "dropHint": "Letakkan di Hari ini untuk menjadwalkan."
+  },
+  "upcoming": {
+    "title": "Mendatang",
+    "empty": "Tidak ada yang dijadwalkan setelah hari ini."
+  },
+  "calendar": {
+    "title": "Kalender",
+    "empty": "Tidak ada acara minggu ini.",
+    "emptyDay": "Hari yang terbuka.",
+    "todayMark": "Hari ini",
+    "week": "Minggu",
+    "stillOpen": "Masih terbuka",
+    "cancelled": "Dibatalkan",
+    "mood": {
+      "today": "Hari ini",
+      "resolved": "Selesai diurus",
+      "unresolved": "Beberapa hal masih terbuka"
+    }
+  },
+  "projects": {
+    "title": "Proyek",
+    "next": "Berikutnya",
+    "upcoming": "Mendatang",
+    "notes": "Catatan",
+    "empty": "Belum ada proyek.",
+    "new": "Proyek baru",
+    "name": "Nama proyek"
+  },
+  "notes": {
+    "title": "Catatan",
+    "empty": "Belum ada catatan.",
+    "new": "Catatan baru",
+    "pinToday": "Sematkan di Hari ini",
+    "unpin": "Lepas sematan"
+  },
+  "brainDump": {
+    "title": "Kosongkan pikiran",
+    "intro": "Tulis bebas. Tinjau saran sebelum apa pun disimpan.",
+    "placeholder": "Perlu email Michael\nLihat penerbangan ke Jepang\nMungkin merancang ulang harga",
+    "process": "Proses",
+    "empty": "Tulis setidaknya satu baris."
+  },
+  "search": {
+    "title": "Cari",
+    "placeholder": "Cari tugas, acara, catatan, proyek",
+    "empty": "Tidak ada yang cocok."
+  },
+  "sometime": {
+    "title": "Suatu saat",
+    "empty": "Tidak ada di daftar suatu saat."
+  },
+  "focus": {
+    "notesPlaceholder": "Catatan singkat untuk tugas ini"
+  },
+  "pause": {
+    "meeting": "Rapat",
+    "phone": "Panggilan",
+    "break": "Istirahat",
+    "other": "Lainnya"
+  },
+  "review": {
+    "title": "Menutup hari ini",
+    "completed": "Selesai: {count}",
+    "estimated": "Perkiraan: {estimated}",
+    "actual": "Aktual: {actual}",
+    "unfinished": "Apa yang harus terjadi dengan yang belum selesai?",
+    "remember": "Ada yang patut diingat?",
+    "tomorrow": "Apa yang harus pindah ke besok?",
+    "openCount": "{count, plural, one {# masih terbuka} other {# masih terbuka}}",
+    "stillNeedHome": "{count, plural, one {# hal masih butuh tempat.} other {# hal masih butuh tempat.}}",
+    "decide": "Pindahkan ke besok atau biarkan di kotak masuk.",
+    "planTomorrow": "Rencanakan besok",
+    "leaveInbox": "Biarkan di kotak masuk",
+    "toTomorrow": "Besok",
+    "toInbox": "Kotak masuk",
+    "moveAllTomorrow": "Pindahkan semua ke besok",
+    "finishToday": "Selesaikan hari ini",
+    "thatsToday": "Itulah hari ini.",
+    "tomorrowReady": "Besok sudah siap."
+  },
+  "companion": {
+    "label": "Teman Dayline",
+    "eveningUnfinished": "Mau memindahkan yang belum selesai ini ke besok?",
+    "afternoonOpen": "Soremu jadi terbuka.",
+    "quietAfternoon": "Sore yang tenang.",
+    "freeUntil": "Kosong sampai {time}.",
+    "stayWithThis": "Tetap dengan ini. Kosong sampai {time}.",
+    "stayWithThisOpen": "Tetap dengan ini.",
+    "stillWantThis": "Masih ingin ini hari ini?",
+    "name": "Daymark"
+  },
+  "notices": {
+    "conflict": "Dua hal ini tumpang tindih. Mau lihat beberapa pilihan?",
+    "overrun": "Ini berjalan sedikit lebih lama dari rencana.",
+    "upcoming": "{title} dalam {minutes} mnt",
+    "stillWantThis": "Masih ingin ini hari ini?",
+    "wrapUp": "Tutup tugas",
+    "keepGoing": "Lanjutkan",
+    "adjustDay": "Sesuaikan hari",
+    "showOptions": "Tampilkan pilihan",
+    "ignore": "Abaikan",
+    "dismiss": "Tutup"
+  },
+  "more": {
+    "title": "Lainnya"
+  },
+  "emptyDay": "Harimu terbuka. Tangkap hal pertama yang ada di pikiran."
+}

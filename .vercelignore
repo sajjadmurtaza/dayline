@@ -1,0 +1,7 @@
+**/*.test.ts
+**/*.test.tsx
+**/coverage
+vitest.config.ts
+docs/superpowers/plans
+# Walkthrough stills stay in git for GitHub README. Do not upload them to Vercel.
+docs/readme/

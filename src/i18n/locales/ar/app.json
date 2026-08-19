@@ -1,0 +1,174 @@
+{
+  "today": {
+    "title": "اليوم",
+    "unscheduled": "يحتاج إلى مكان",
+    "pinnedNotes": "مثبّت",
+    "nextEvent": "التالي: {title} عند {time}",
+    "freeBlock": "أكبر وقت فارغ: {start}–{end}",
+    "noEvents": "لا أحداث ثابتة اليوم",
+    "noMoreEvents": "لا أحداث متبقية اليوم",
+    "emptyUnscheduled": "لا شيء بانتظار الجدولة.",
+    "planPreview": "مواقع مقترحة",
+    "planWhy": "يناسب وقتًا فارغًا دون نقل الأحداث الثابتة.",
+    "nowSuggestion": "لديك {minutes} دقيقة قبل {next}. {title} يناسب ذلك.",
+    "nowSuggestionOpen": "لديك وقت مفتوح. ابدأ بـ {title}.",
+    "nowBusy": "أنت في {title} حتى {time}.",
+    "conflict": "تعارض في الوقت",
+    "needsAttention": "يحتاج انتباهًا",
+    "current": "الآن",
+    "nowLabel": "الآن",
+    "startedAt": "بدأ {time}",
+    "greeting": {
+      "morning": "صباح الخير",
+      "afternoon": "طاب يومك",
+      "evening": "مساء الخير",
+      "night": "مساء الخير"
+    },
+    "summaryNowTask": "الآن: {title}",
+    "summaryNowEvent": "أنت في {title} حتى {time}",
+    "summaryNowFree": "لا شيء مجدول في هذه اللحظة.",
+    "summaryNext": "التالي: {title} عند {time}",
+    "summaryNextNone": "لا شيء آخر مجدول اليوم.",
+    "summaryTimeUntil": "{minutes} دقيقة حتى {title}",
+    "summaryOpenTime": "وقت مفتوح من هنا.",
+    "summaryInCommitment": "هذه الفترة ملتزم بها.",
+    "freeGap": "{label} مفتوح",
+    "dropHere": "أسقط هنا للجدولة",
+    "elapsedEstimate": "{elapsed} منقضية · تقدير ~{estimate}",
+    "elapsedOnly": "{elapsed} منقضية",
+    "estimatedAbout": "تقديري ~{estimate}",
+    "longerThanPlanned": "أطول من المخطط بـ {minutes} د",
+    "nextLabel": "التالي",
+    "projectContext": "المشروع",
+    "proposed": "مقترح",
+    "stillOpen": "ما زال مفتوحًا",
+    "ready": "جاهز",
+    "readyWhenYouAre": "جاهز عندما تكون",
+    "plannedFor": "كان مخططًا عند {time}",
+    "whatHappened": "ماذا حدث لهذا؟",
+    "startNow": "ابدأ الآن",
+    "findAnotherTime": "اعثر على وقت آخر",
+    "inbox": "الوارد",
+    "dismissCue": "إخفاء",
+    "cancelled": "أُلغي"
+  },
+  "capture": {
+    "placeholder": "ضع أي شيء في رأسك هنا.",
+    "hint": "مهمة، حدث، ملاحظة، فكرة، تذكير — مكان واحد.",
+    "classifiedAs": "يبدو كـ {kind}",
+    "uncertainTime": "لم يُحدد الوقت",
+    "suggestedEstimate": "تقدير مقترح: ~{minutes} د",
+    "confirm": "ضعه في مكانه"
+  },
+  "inbox": {
+    "title": "الوارد",
+    "empty": "الوارد فارغ. التقط شيئًا من اليوم عندما يظهر.",
+    "dropHint": "ضعه على اليوم لجدولته."
+  },
+  "upcoming": {
+    "title": "القادم",
+    "empty": "لا شيء بعد اليوم."
+  },
+  "calendar": {
+    "title": "التقويم",
+    "empty": "لا أحداث هذا الأسبوع.",
+    "emptyDay": "يوم مفتوح.",
+    "todayMark": "اليوم",
+    "week": "أسبوع",
+    "stillOpen": "ما زال مفتوحًا",
+    "cancelled": "أُلغي",
+    "mood": {
+      "today": "اليوم",
+      "resolved": "مُنجز",
+      "unresolved": "بعض الأمور ما زالت مفتوحة"
+    }
+  },
+  "projects": {
+    "title": "المشاريع",
+    "next": "التالي",
+    "upcoming": "القادم",
+    "notes": "ملاحظات",
+    "empty": "لا مشاريع بعد.",
+    "new": "مشروع جديد",
+    "name": "اسم المشروع"
+  },
+  "notes": {
+    "title": "الملاحظات",
+    "empty": "لا ملاحظات بعد.",
+    "new": "ملاحظة جديدة",
+    "pinToday": "تثبيت على اليوم",
+    "unpin": "إلغاء التثبيت"
+  },
+  "brainDump": {
+    "title": "تفريغ ذهني",
+    "intro": "اكتب بحرية. راجع الاقتراحات قبل الحفظ.",
+    "placeholder": "أحتاج مراسلة مايكل\nالاطلاع على رحلات اليابان\nربما إعادة تصميم التسعير",
+    "process": "معالجة",
+    "empty": "اكتب سطرًا واحدًا على الأقل."
+  },
+  "search": {
+    "title": "بحث",
+    "placeholder": "ابحث في المهام والأحداث والملاحظات والمشاريع",
+    "empty": "لا نتائج."
+  },
+  "sometime": {
+    "title": "في وقت ما",
+    "empty": "القائمة فارغة."
+  },
+  "focus": {
+    "notesPlaceholder": "ملاحظة سريعة لهذه المهمة"
+  },
+  "pause": {
+    "meeting": "اجتماع",
+    "phone": "مكالمة",
+    "break": "استراحة",
+    "other": "أخرى"
+  },
+  "review": {
+    "title": "إغلاق اليوم",
+    "completed": "مكتمل: {count}",
+    "estimated": "تقديري: {estimated}",
+    "actual": "فعلي: {actual}",
+    "unfinished": "ماذا يحدث للعناصر غير المكتملة؟",
+    "remember": "أي شيء يستحق التذكر؟",
+    "tomorrow": "ماذا يُنقل إلى الغد؟",
+    "openCount": "{count, plural, one {# لا يزال مفتوحًا} other {# لا تزال مفتوحة}}",
+    "stillNeedHome": "{count, plural, one {أمر واحد ما زال يحتاج إلى مكان.} other {# أمور ما زالت تحتاج إلى مكان.}}",
+    "decide": "انقلها إلى الغد أو اتركها في الوارد.",
+    "planTomorrow": "خطط للغد",
+    "leaveInbox": "اتركها في الوارد",
+    "toTomorrow": "غدًا",
+    "toInbox": "الوارد",
+    "moveAllTomorrow": "انقل الكل إلى الغد",
+    "finishToday": "إنهاء اليوم",
+    "thatsToday": "هذا هو اليوم.",
+    "tomorrowReady": "الغد جاهز."
+  },
+  "companion": {
+    "label": "رفيق دايلين",
+    "eveningUnfinished": "هل ننقل هذه الأمور غير المكتملة إلى الغد؟",
+    "afternoonOpen": "ظهرك أصبح مفتوحًا.",
+    "quietAfternoon": "بعد ظهر هادئ.",
+    "freeUntil": "حر حتى {time}.",
+    "stayWithThis": "ابقَ مع هذا. حر حتى {time}.",
+    "stayWithThisOpen": "ابقَ مع هذا.",
+    "stillWantThis": "ما زلت تريده اليوم؟",
+    "name": "دايمارك"
+  },
+  "notices": {
+    "conflict": "هذان الأمران يتداخلان. هل تريد رؤية بعض الخيارات؟",
+    "overrun": "هذا يستغرق أطول قليلًا من المخطط.",
+    "upcoming": "{title} خلال {minutes} د",
+    "stillWantThis": "ما زلت تريده اليوم؟",
+    "wrapUp": "إنهاء المهمة",
+    "keepGoing": "متابعة",
+    "adjustDay": "تعديل اليوم",
+    "showOptions": "عرض الخيارات",
+    "ignore": "تجاهل",
+    "dismiss": "إخفاء"
+  },
+  "more": {
+    "title": "المزيد"
+  },
+  "emptyDay": "يومك مفتوح. التقط أول ما في ذهنك."
+}

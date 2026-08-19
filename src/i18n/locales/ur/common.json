@@ -1,0 +1,127 @@
+{
+  "appName": "Dayline",
+  "language": "زبان",
+  "nav": {
+    "today": "آج",
+    "inbox": "ان باکس",
+    "upcoming": "آنے والا",
+    "calendar": "کیلنڈر",
+    "projects": "پروجیکٹس",
+    "notes": "نوٹس",
+    "sometime": "کبھی",
+    "search": "تلاش",
+    "brainDump": "دماغ خالی کریں",
+    "more": "مزید",
+    "add": "شامل کریں"
+  },
+  "actions": {
+    "save": "محفوظ کریں",
+    "cancel": "منسوخ",
+    "delete": "حذف کریں",
+    "undo": "واپس",
+    "start": "شروع کریں",
+    "pause": "وقفہ",
+    "done": "ہو گیا",
+    "resume": "جاری رکھیں",
+    "planMyDay": "میرا دن منصوبہ بنائیں",
+    "acceptPlan": "منصوبہ قبول کریں",
+    "keepSchedule": "شیڈول جیسا ہے ویسا رہنے دیں",
+    "whatNow": "اب مجھے کیا کرنا چاہیے؟",
+    "convertToTask": "کام میں تبدیل کریں",
+    "useEstimate": "تخمینہ استعمال کریں",
+    "change": "بدلیں",
+    "moveTomorrow": "کل پر منتقل کریں",
+    "laterWeek": "اس ہفتے بعد میں",
+    "pickTime": "وقت چنیں",
+    "backToInbox": "ان باکس پر واپس",
+    "clearDemo": "ڈیمو ڈیٹا ری سیٹ کریں",
+    "reviewSuggestions": "تجاویز دیکھیں",
+    "confirmSelected": "منتخب محفوظ کریں"
+  },
+  "undoToast": {
+    "capture": "لکھا گیا",
+    "start": "ٹائمر شروع ہوا",
+    "pause": "رک گیا",
+    "complete": "مکمل نشان لگایا",
+    "schedule": "ٹائم لائن پر منتقل کیا",
+    "plan": "منصوبہ لاگو ہوا",
+    "inbox": "ان باکس بھیجا گیا",
+    "delete": "ہٹایا گیا",
+    "convert": "کام میں بدلا گیا"
+  },
+  "status": {
+    "inbox": "ان باکس",
+    "planned": "منصوبہ بند",
+    "ready": "تیار",
+    "running": "چل رہا ہے",
+    "paused": "رکا ہوا",
+    "completed": "مکمل",
+    "deferred": "ملتوی",
+    "cancelled": "منسوخ"
+  },
+  "kind": {
+    "task": "کام",
+    "event": "تقریب",
+    "note": "نوٹ",
+    "reminder": "یاددہانی",
+    "fixed": "مقرر",
+    "flexible": "لچکدار"
+  },
+  "priority": {
+    "low": "کم",
+    "normal": "عام",
+    "high": "اونچی",
+    "urgent": "فوری"
+  },
+  "deadlineKind": {
+    "none": "کوئی آخری تاریخ نہیں",
+    "target": "ہدف",
+    "due": "واجب"
+  },
+  "noteType": {
+    "idea": "خیال",
+    "remember": "یاد رکھیں",
+    "question": "سوال",
+    "research": "تحقیق",
+    "meeting": "میٹنگ کا خیال",
+    "personal": "ذاتی",
+    "temporary": "عارضی",
+    "freeform": "نوٹ"
+  },
+  "duration": {
+    "estimated": "تخمینی",
+    "actual": "اصلی",
+    "elapsed": "گزر چکا",
+    "over": "تخمینے سے {minutes} منٹ زیادہ",
+    "custom": "حسبِ ضرورت",
+    "minutes": "{count, plural, one {# منٹ} other {# منٹ}}",
+    "hours": "{count, plural, one {# گھنٹہ} other {# گھنٹے}}"
+  },
+  "bands": {
+    "past": "گزرا ہوا",
+    "now": "اب",
+    "next": "اگلا",
+    "later": "بعد میں"
+  },
+  "source": {
+    "local": "Dayline",
+    "google-calendar": "گوگل کیلنڈر",
+    "outlook-calendar": "آؤٹ لک کیلنڈر"
+  },
+  "a11y": {
+    "openNav": "نیویگیشن کھولیں",
+    "closeNav": "نیویگیشن بند کریں",
+    "skipToContent": "مواد پر جائیں",
+    "nowMarker": "موجودہ وقت",
+    "progress": "تخمینی {estimate} میں سے {elapsed} گزر چکا",
+    "runningTask": "چلتا ہوا کام"
+  },
+  "areas": {
+    "work": "کام",
+    "study": "پڑھائی",
+    "health": "صحت",
+    "finance": "پیسہ",
+    "family": "خاندان",
+    "personal": "ذاتی"
+  }
+}

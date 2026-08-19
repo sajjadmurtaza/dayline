@@ -1,0 +1,127 @@
+{
+  "appName": "Dayline",
+  "language": "Bahasa",
+  "nav": {
+    "today": "Hari ini",
+    "inbox": "Kotak masuk",
+    "upcoming": "Mendatang",
+    "calendar": "Kalender",
+    "projects": "Proyek",
+    "notes": "Catatan",
+    "sometime": "Suatu saat",
+    "search": "Cari",
+    "brainDump": "Kosongkan pikiran",
+    "more": "Lainnya",
+    "add": "Tambah"
+  },
+  "actions": {
+    "save": "Simpan",
+    "cancel": "Batal",
+    "delete": "Hapus",
+    "undo": "Urungkan",
+    "start": "Mulai",
+    "pause": "Jeda",
+    "done": "Selesai",
+    "resume": "Lanjutkan",
+    "planMyDay": "Rencanakan hariku",
+    "acceptPlan": "Terima rencana",
+    "keepSchedule": "Biarkan jadwal tidak berubah",
+    "whatNow": "Apa yang sebaiknya kulakukan sekarang?",
+    "convertToTask": "Ubah menjadi tugas",
+    "useEstimate": "Gunakan perkiraan",
+    "change": "Ubah",
+    "moveTomorrow": "Pindahkan ke besok",
+    "laterWeek": "Nanti minggu ini",
+    "pickTime": "Pilih waktu",
+    "backToInbox": "Kembali ke kotak masuk",
+    "clearDemo": "Reset data demo",
+    "reviewSuggestions": "Tinjau saran",
+    "confirmSelected": "Simpan yang dipilih"
+  },
+  "undoToast": {
+    "capture": "Tersimpan",
+    "start": "Penghitung waktu dimulai",
+    "pause": "Dijeda",
+    "complete": "Ditandai selesai",
+    "schedule": "Dipindah di garis waktu",
+    "plan": "Rencana diterapkan",
+    "inbox": "Dikirim ke kotak masuk",
+    "delete": "Dihapus",
+    "convert": "Diubah menjadi tugas"
+  },
+  "status": {
+    "inbox": "Kotak masuk",
+    "planned": "Direncanakan",
+    "ready": "Siap",
+    "running": "Berjalan",
+    "paused": "Dijeda",
+    "completed": "Selesai",
+    "deferred": "Ditunda",
+    "cancelled": "Dibatalkan"
+  },
+  "kind": {
+    "task": "Tugas",
+    "event": "Acara",
+    "note": "Catatan",
+    "reminder": "Pengingat",
+    "fixed": "Tetap",
+    "flexible": "Luwes"
+  },
+  "priority": {
+    "low": "Rendah",
+    "normal": "Biasa",
+    "high": "Tinggi",
+    "urgent": "Mendesak"
+  },
+  "deadlineKind": {
+    "none": "Tanpa tenggat",
+    "target": "Sasaran",
+    "due": "Jatuh tempo"
+  },
+  "noteType": {
+    "idea": "Ide",
+    "remember": "Ingat",
+    "question": "Pertanyaan",
+    "research": "Riset",
+    "meeting": "Pikiran rapat",
+    "personal": "Pribadi",
+    "temporary": "Sementara",
+    "freeform": "Catatan"
+  },
+  "duration": {
+    "estimated": "Perkiraan",
+    "actual": "Aktual",
+    "elapsed": "berlalu",
+    "over": "{minutes} mnt melebihi perkiraan",
+    "custom": "Kustom",
+    "minutes": "{count, plural, one {# mnt} other {# mnt}}",
+    "hours": "{count, plural, one {# jam} other {# jam}}"
+  },
+  "bands": {
+    "past": "Lalu",
+    "now": "Sekarang",
+    "next": "Berikutnya",
+    "later": "Nanti"
+  },
+  "source": {
+    "local": "Dayline",
+    "google-calendar": "Google Kalender",
+    "outlook-calendar": "Kalender Outlook"
+  },
+  "a11y": {
+    "openNav": "Buka navigasi",
+    "closeNav": "Tutup navigasi",
+    "skipToContent": "Lewati ke konten",
+    "nowMarker": "Waktu saat ini",
+    "progress": "{elapsed} berlalu dari perkiraan {estimate}",
+    "runningTask": "Tugas yang sedang berjalan"
+  },
+  "areas": {
+    "work": "Kerja",
+    "study": "Belajar",
+    "health": "Kesehatan",
+    "finance": "Keuangan",
+    "family": "Keluarga",
+    "personal": "Pribadi"
+  }
+}

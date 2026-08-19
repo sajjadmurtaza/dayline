@@ -1,0 +1,127 @@
+{
+  "appName": "Dayline",
+  "language": "Idioma",
+  "nav": {
+    "today": "Hoy",
+    "inbox": "Bandeja",
+    "upcoming": "Próximo",
+    "calendar": "Calendario",
+    "projects": "Proyectos",
+    "notes": "Notas",
+    "sometime": "Algún día",
+    "search": "Buscar",
+    "brainDump": "Vaciar la mente",
+    "more": "Más",
+    "add": "Añadir"
+  },
+  "actions": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "undo": "Deshacer",
+    "start": "Empezar",
+    "pause": "Pausar",
+    "done": "Hecho",
+    "resume": "Reanudar",
+    "planMyDay": "Planear mi día",
+    "acceptPlan": "Aceptar el plan",
+    "keepSchedule": "Dejar el horario como está",
+    "whatNow": "¿Qué debería hacer ahora?",
+    "convertToTask": "Convertir en tarea",
+    "useEstimate": "Usar la estimación",
+    "change": "Cambiar",
+    "moveTomorrow": "Mover a mañana",
+    "laterWeek": "Más adelante esta semana",
+    "pickTime": "Elegir hora",
+    "backToInbox": "Volver a la bandeja",
+    "clearDemo": "Restablecer datos de demo",
+    "reviewSuggestions": "Revisar sugerencias",
+    "confirmSelected": "Guardar selección"
+  },
+  "undoToast": {
+    "capture": "Capturado",
+    "start": "Temporizador iniciado",
+    "pause": "En pausa",
+    "complete": "Marcado como hecho",
+    "schedule": "Movido en la línea de tiempo",
+    "plan": "Plan aplicado",
+    "inbox": "Enviado a la bandeja",
+    "delete": "Eliminado",
+    "convert": "Convertido en tarea"
+  },
+  "status": {
+    "inbox": "Bandeja",
+    "planned": "Planificado",
+    "ready": "Listo",
+    "running": "En curso",
+    "paused": "En pausa",
+    "completed": "Completado",
+    "deferred": "Aplazado",
+    "cancelled": "Cancelado"
+  },
+  "kind": {
+    "task": "Tarea",
+    "event": "Evento",
+    "note": "Nota",
+    "reminder": "Recordatorio",
+    "fixed": "Fijo",
+    "flexible": "Flexible"
+  },
+  "priority": {
+    "low": "Baja",
+    "normal": "Normal",
+    "high": "Alta",
+    "urgent": "Urgente"
+  },
+  "deadlineKind": {
+    "none": "Sin fecha límite",
+    "target": "Objetivo",
+    "due": "Vencimiento"
+  },
+  "noteType": {
+    "idea": "Idea",
+    "remember": "Recordar",
+    "question": "Pregunta",
+    "research": "Investigación",
+    "meeting": "Pensamiento de reunión",
+    "personal": "Personal",
+    "temporary": "Temporal",
+    "freeform": "Nota"
+  },
+  "duration": {
+    "estimated": "Estimado",
+    "actual": "Real",
+    "elapsed": "transcurrido",
+    "over": "{minutes} min por encima de la estimación",
+    "custom": "Personalizado",
+    "minutes": "{count, plural, one {# min} other {# min}}",
+    "hours": "{count, plural, one {# hora} other {# horas}}"
+  },
+  "bands": {
+    "past": "Pasado",
+    "now": "Ahora",
+    "next": "Siguiente",
+    "later": "Más tarde"
+  },
+  "source": {
+    "local": "Dayline",
+    "google-calendar": "Google Calendar",
+    "outlook-calendar": "Outlook Calendar"
+  },
+  "a11y": {
+    "openNav": "Abrir navegación",
+    "closeNav": "Cerrar navegación",
+    "skipToContent": "Saltar al contenido",
+    "nowMarker": "Hora actual",
+    "progress": "Transcurrido {elapsed} de {estimate} estimado",
+    "runningTask": "Tarea en curso"
+  },
+  "areas": {
+    "work": "Trabajo",
+    "study": "Estudio",
+    "health": "Salud",
+    "finance": "Finanzas",
+    "family": "Familia",
+    "personal": "Personal"
+  }
+}

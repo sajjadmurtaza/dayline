@@ -1,0 +1,174 @@
+{
+  "today": {
+    "title": "今天",
+    "unscheduled": "需要一个位置",
+    "pinnedNotes": "已固定",
+    "nextEvent": "接下来：{title}，{time}",
+    "freeBlock": "最长空闲时段：{start}–{end}",
+    "noEvents": "今天没有固定事件",
+    "noMoreEvents": "今天没有更多事件",
+    "emptyUnscheduled": "没有等待安排的事项。",
+    "planPreview": "建议的位置",
+    "planWhy": "能放进空闲时段，无需移动固定事件。",
+    "nowSuggestion": "距离 {next} 还有 {minutes} 分钟。{title} 应该放得下。",
+    "nowSuggestionOpen": "你有空闲时间。从 {title} 开始吧。",
+    "nowBusy": "你正在 {title}，直到 {time}。",
+    "conflict": "时间冲突",
+    "needsAttention": "需要留意",
+    "current": "当前",
+    "nowLabel": "现在",
+    "startedAt": "开始于 {time}",
+    "greeting": {
+      "morning": "早上好",
+      "afternoon": "下午好",
+      "evening": "晚上好",
+      "night": "晚上好"
+    },
+    "summaryNowTask": "现在：{title}",
+    "summaryNowEvent": "你正在 {title}，直到 {time}",
+    "summaryNowFree": "此刻没有安排。",
+    "summaryNext": "接下来：{title}，{time}",
+    "summaryNextNone": "今天没有其他安排。",
+    "summaryTimeUntil": "距离 {title} 还有 {minutes} 分钟",
+    "summaryOpenTime": "从这里开始是空闲时间。",
+    "summaryInCommitment": "这段时间已经有安排。",
+    "freeGap": "{label} 空闲",
+    "dropHere": "拖到这里来放置",
+    "elapsedEstimate": "已过 {elapsed} · 预估 ~{estimate}",
+    "elapsedOnly": "已过 {elapsed}",
+    "estimatedAbout": "预估 ~{estimate}",
+    "longerThanPlanned": "比计划多 {minutes} 分钟",
+    "nextLabel": "接下来",
+    "projectContext": "项目",
+    "proposed": "建议",
+    "stillOpen": "仍未完成",
+    "ready": "就绪",
+    "readyWhenYouAre": "你准备好了就可以",
+    "plannedFor": "计划于 {time}",
+    "whatHappened": "这件事后来怎样了？",
+    "startNow": "现在开始",
+    "findAnotherTime": "找另一个时间",
+    "inbox": "收件箱",
+    "dismissCue": "忽略",
+    "cancelled": "已取消"
+  },
+  "capture": {
+    "placeholder": "脑子里有什么，都放到这里。",
+    "hint": "任务、事件、笔记、想法、提醒 — 一个地方就够。",
+    "classifiedAs": "看起来像{kind}",
+    "uncertainTime": "尚未设定时间",
+    "suggestedEstimate": "建议预估：约 {minutes} 分钟",
+    "confirm": "放好它"
+  },
+  "inbox": {
+    "title": "收件箱",
+    "empty": "收件箱是空的。从今天里记下突然出现的事。",
+    "dropHint": "放到今天来安排。"
+  },
+  "upcoming": {
+    "title": "即将到来",
+    "empty": "今天之后没有安排。"
+  },
+  "calendar": {
+    "title": "日历",
+    "empty": "本周没有事件。",
+    "emptyDay": "空闲的一天。",
+    "todayMark": "今天",
+    "week": "周",
+    "stillOpen": "仍未完成",
+    "cancelled": "已取消",
+    "mood": {
+      "today": "今天",
+      "resolved": "已理清",
+      "unresolved": "还有些事未完成"
+    }
+  },
+  "projects": {
+    "title": "项目",
+    "next": "接下来",
+    "upcoming": "即将到来",
+    "notes": "笔记",
+    "empty": "还没有项目。",
+    "new": "新项目",
+    "name": "项目名称"
+  },
+  "notes": {
+    "title": "笔记",
+    "empty": "还没有笔记。",
+    "new": "新笔记",
+    "pinToday": "固定到今天",
+    "unpin": "取消固定"
+  },
+  "brainDump": {
+    "title": "清空脑子",
+    "intro": "随便写。保存之前先看一看建议。",
+    "placeholder": "得给 Michael 发邮件\n看看去日本的航班\n也许重新想想定价",
+    "process": "整理",
+    "empty": "至少写一行。"
+  },
+  "search": {
+    "title": "搜索",
+    "placeholder": "搜索任务、事件、笔记、项目",
+    "empty": "没有匹配项。"
+  },
+  "sometime": {
+    "title": "有空再说",
+    "empty": "有空再说列表是空的。"
+  },
+  "focus": {
+    "notesPlaceholder": "给这项任务的短笔记"
+  },
+  "pause": {
+    "meeting": "会议",
+    "phone": "电话",
+    "break": "休息",
+    "other": "其他"
+  },
+  "review": {
+    "title": "结束今天",
+    "completed": "已完成：{count}",
+    "estimated": "预估：{estimated}",
+    "actual": "实际：{actual}",
+    "unfinished": "未完成的事项要怎么处理？",
+    "remember": "有什么值得记住的吗？",
+    "tomorrow": "哪些要移到明天？",
+    "openCount": "{count, plural, one {# 项仍未完成} other {# 项仍未完成}}",
+    "stillNeedHome": "{count, plural, one {# 件事还需要一个位置。} other {# 件事还需要一个位置。}}",
+    "decide": "把它们移到明天，或留在收件箱。",
+    "planTomorrow": "规划明天",
+    "leaveInbox": "留在收件箱",
+    "toTomorrow": "明天",
+    "toInbox": "收件箱",
+    "moveAllTomorrow": "全部移到明天",
+    "finishToday": "结束今天",
+    "thatsToday": "今天就到这里。",
+    "tomorrowReady": "明天已经准备好了。"
+  },
+  "companion": {
+    "label": "Dayline 伴侣",
+    "eveningUnfinished": "要把这些未完成的事移到明天吗？",
+    "afternoonOpen": "下午空出来了。",
+    "quietAfternoon": "一个安静的下午。",
+    "freeUntil": "空闲到 {time}。",
+    "stayWithThis": "继续做这个。空闲到 {time}。",
+    "stayWithThisOpen": "继续做这个。",
+    "stillWantThis": "今天还想做这件事吗？",
+    "name": "Daymark"
+  },
+  "notices": {
+    "conflict": "这两件事重叠了。要看看一些选择吗？",
+    "overrun": "这件事比计划稍长了一点。",
+    "upcoming": "{minutes} 分钟后是 {title}",
+    "stillWantThis": "今天还想做这件事吗？",
+    "wrapUp": "收尾任务",
+    "keepGoing": "继续",
+    "adjustDay": "调整今天",
+    "showOptions": "查看选择",
+    "ignore": "忽略",
+    "dismiss": "关闭"
+  },
+  "more": {
+    "title": "更多"
+  },
+  "emptyDay": "今天是空的。把脑子里的第一件事记下来。"
+}

@@ -1,0 +1,174 @@
+{
+  "today": {
+    "title": "Сегодня",
+    "unscheduled": "Нужно место",
+    "pinnedNotes": "Закреплено",
+    "nextEvent": "Дальше: {title} в {time}",
+    "freeBlock": "Самый большой свободный блок: {start}–{end}",
+    "noEvents": "Сегодня нет фиксированных событий",
+    "noMoreEvents": "Сегодня больше нет событий",
+    "emptyUnscheduled": "Ничто не ждёт своего места.",
+    "planPreview": "Предложенные места",
+    "planWhy": "Влезает в свободный блок, не сдвигая фиксированные события.",
+    "nowSuggestion": "У тебя {minutes} минут до {next}. {title} должно влезть.",
+    "nowSuggestionOpen": "Есть свободное время. Начни с {title}.",
+    "nowBusy": "Ты в {title} до {time}.",
+    "conflict": "Пересечение по времени",
+    "needsAttention": "Нужно внимание",
+    "current": "Сейчас",
+    "nowLabel": "Сейчас",
+    "startedAt": "Начато в {time}",
+    "greeting": {
+      "morning": "Доброе утро",
+      "afternoon": "Добрый день",
+      "evening": "Добрый вечер",
+      "night": "Добрый вечер"
+    },
+    "summaryNowTask": "Сейчас: {title}",
+    "summaryNowEvent": "Ты в {title} до {time}",
+    "summaryNowFree": "В этот момент ничего не запланировано.",
+    "summaryNext": "Дальше: {title} в {time}",
+    "summaryNextNone": "Сегодня больше ничего не запланировано.",
+    "summaryTimeUntil": "{minutes} минут до {title}",
+    "summaryOpenTime": "Отсюда свободное время.",
+    "summaryInCommitment": "Этот блок уже занят.",
+    "freeGap": "{label} свободно",
+    "dropHere": "Отпусти здесь, чтобы разместить",
+    "elapsedEstimate": "{elapsed} прошло · ~{estimate} оценка",
+    "elapsedOnly": "{elapsed} прошло",
+    "estimatedAbout": "Оценка ~{estimate}",
+    "longerThanPlanned": "на {minutes} мин дольше плана",
+    "nextLabel": "Дальше",
+    "projectContext": "Проект",
+    "proposed": "Предложение",
+    "stillOpen": "Ещё открыто",
+    "ready": "Готово",
+    "readyWhenYouAre": "Готово, когда ты готов",
+    "plannedFor": "запланировано на {time}",
+    "whatHappened": "Что с этим стало?",
+    "startNow": "Начать сейчас",
+    "findAnotherTime": "Найти другое время",
+    "inbox": "Входящие",
+    "dismissCue": "Скрыть",
+    "cancelled": "Отменено"
+  },
+  "capture": {
+    "placeholder": "Положи сюда всё, что крутится в голове.",
+    "hint": "Задача, событие, заметка, идея, напоминание — одно место.",
+    "classifiedAs": "Похоже на {kind}",
+    "uncertainTime": "Время не задано",
+    "suggestedEstimate": "Предложенная оценка: ~{minutes} мин",
+    "confirm": "Разместить"
+  },
+  "inbox": {
+    "title": "Входящие",
+    "empty": "Входящие пусты. Запиши что-нибудь из Сегодня, когда оно появится.",
+    "dropHint": "Положи на Сегодня, чтобы запланировать."
+  },
+  "upcoming": {
+    "title": "Предстоит",
+    "empty": "После сегодня ничего не запланировано."
+  },
+  "calendar": {
+    "title": "Календарь",
+    "empty": "На этой неделе нет событий.",
+    "emptyDay": "Свободный день.",
+    "todayMark": "Сегодня",
+    "week": "Неделя",
+    "stillOpen": "Ещё открыто",
+    "cancelled": "Отменено",
+    "mood": {
+      "today": "Сегодня",
+      "resolved": "Разобрано",
+      "unresolved": "Кое-что ещё открыто"
+    }
+  },
+  "projects": {
+    "title": "Проекты",
+    "next": "Дальше",
+    "upcoming": "Предстоит",
+    "notes": "Заметки",
+    "empty": "Проектов пока нет.",
+    "new": "Новый проект",
+    "name": "Название проекта"
+  },
+  "notes": {
+    "title": "Заметки",
+    "empty": "Заметок пока нет.",
+    "new": "Новая заметка",
+    "pinToday": "Закрепить на Сегодня",
+    "unpin": "Открепить"
+  },
+  "brainDump": {
+    "title": "Выгрузить мысли",
+    "intro": "Пиши свободно. Посмотри предложения, прежде чем что-то сохранится.",
+    "placeholder": "Написать Майклу\nПосмотреть рейсы в Японию\nМожет, пересмотреть цены",
+    "process": "Разобрать",
+    "empty": "Напиши хотя бы одну строку."
+  },
+  "search": {
+    "title": "Поиск",
+    "placeholder": "Искать задачи, события, заметки, проекты",
+    "empty": "Ничего не найдено."
+  },
+  "sometime": {
+    "title": "Когда-нибудь",
+    "empty": "В списке «когда-нибудь» пусто."
+  },
+  "focus": {
+    "notesPlaceholder": "Короткая заметка к этой задаче"
+  },
+  "pause": {
+    "meeting": "Встреча",
+    "phone": "Звонок",
+    "break": "Перерыв",
+    "other": "Другое"
+  },
+  "review": {
+    "title": "Закрыть сегодня",
+    "completed": "Выполнено: {count}",
+    "estimated": "Оценка: {estimated}",
+    "actual": "Факт: {actual}",
+    "unfinished": "Что сделать с незавершённым?",
+    "remember": "Есть что запомнить?",
+    "tomorrow": "Что перенести на завтра?",
+    "openCount": "{count, plural, one {# ещё открыто} few {# ещё открыто} many {# ещё открыто} other {# ещё открыто}}",
+    "stillNeedHome": "{count, plural, one {# вещи ещё нужно место.} few {# вещам ещё нужно место.} many {# вещам ещё нужно место.} other {# вещам ещё нужно место.}}",
+    "decide": "Перенеси их на завтра или оставь во входящих.",
+    "planTomorrow": "Спланировать завтра",
+    "leaveInbox": "Оставить во входящих",
+    "toTomorrow": "Завтра",
+    "toInbox": "Входящие",
+    "moveAllTomorrow": "Всё на завтра",
+    "finishToday": "Закончить сегодня",
+    "thatsToday": "Это было сегодня.",
+    "tomorrowReady": "Завтра готово."
+  },
+  "companion": {
+    "label": "Спутник Dayline",
+    "eveningUnfinished": "Перенести эти незавершённые вещи на завтра?",
+    "afternoonOpen": "Послеобеденное время освободилось.",
+    "quietAfternoon": "Тихий день.",
+    "freeUntil": "Свободно до {time}.",
+    "stayWithThis": "Останься с этим. Свободно до {time}.",
+    "stayWithThisOpen": "Останься с этим.",
+    "stillWantThis": "Ещё хочешь это сегодня?",
+    "name": "Daymark"
+  },
+  "notices": {
+    "conflict": "Эти две вещи пересекаются. Посмотреть варианты?",
+    "overrun": "Это идёт чуть дольше, чем планировалось.",
+    "upcoming": "{title} через {minutes} мин",
+    "stillWantThis": "Ещё хочешь это сегодня?",
+    "wrapUp": "Завершить задачу",
+    "keepGoing": "Продолжить",
+    "adjustDay": "Подстроить день",
+    "showOptions": "Показать варианты",
+    "ignore": "Пропустить",
+    "dismiss": "Скрыть"
+  },
+  "more": {
+    "title": "Ещё"
+  },
+  "emptyDay": "День открыт. Запиши первое, что приходит в голову."
+}

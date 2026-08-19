@@ -1,0 +1,174 @@
+{
+  "today": {
+    "title": "आज",
+    "unscheduled": "जगह चाहिए",
+    "pinnedNotes": "पिन किया",
+    "nextEvent": "अगला: {title} {time} पर",
+    "freeBlock": "सबसे बड़ा खाली ब्लॉक: {start}–{end}",
+    "noEvents": "आज कोई निश्चित इवेंट नहीं",
+    "noMoreEvents": "आज और कोई इवेंट नहीं",
+    "emptyUnscheduled": "रखे जाने की प्रतीक्षा में कुछ नहीं।",
+    "planPreview": "सुझाई गई जगहें",
+    "planWhy": "निश्चित इवेंट हटाए बिना खाली ब्लॉक में फिट बैठता है।",
+    "nowSuggestion": "{next} से पहले आपके पास {minutes} मिनट हैं। {title} फिट हो जाना चाहिए।",
+    "nowSuggestionOpen": "आपके पास खुला समय है। {title} से शुरू करें।",
+    "nowBusy": "आप {time} तक {title} में हैं।",
+    "conflict": "समय टकराव",
+    "needsAttention": "ध्यान चाहिए",
+    "current": "मौजूदा",
+    "nowLabel": "अभी",
+    "startedAt": "{time} पर शुरू",
+    "greeting": {
+      "morning": "सुप्रभात",
+      "afternoon": "नमस्कार",
+      "evening": "शुभ संध्या",
+      "night": "शुभ संध्या"
+    },
+    "summaryNowTask": "अभी: {title}",
+    "summaryNowEvent": "आप {time} तक {title} में हैं",
+    "summaryNowFree": "इस पल कुछ निर्धारित नहीं है।",
+    "summaryNext": "अगला: {title} {time} पर",
+    "summaryNextNone": "आज और कुछ निर्धारित नहीं है।",
+    "summaryTimeUntil": "{title} तक {minutes} मिनट",
+    "summaryOpenTime": "यहाँ से खुला समय।",
+    "summaryInCommitment": "यह ब्लॉक पहले से भरा है।",
+    "freeGap": "{label} खुला",
+    "dropHere": "यहाँ रखकर जगह दें",
+    "elapsedEstimate": "{elapsed} बीता · अनुमान ~{estimate}",
+    "elapsedOnly": "{elapsed} बीता",
+    "estimatedAbout": "अनुमान ~{estimate}",
+    "longerThanPlanned": "योजना से {minutes} मिनट ज़्यादा",
+    "nextLabel": "अगला",
+    "projectContext": "प्रोजेक्ट",
+    "proposed": "प्रस्तावित",
+    "stillOpen": "अभी भी खुला",
+    "ready": "तैयार",
+    "readyWhenYouAre": "जब आप तैयार हों",
+    "plannedFor": "{time} के लिए योजनाबद्ध",
+    "whatHappened": "इसका क्या हुआ?",
+    "startNow": "अभी शुरू करें",
+    "findAnotherTime": "कोई और समय खोजें",
+    "inbox": "इनबॉक्स",
+    "dismissCue": "छिपाएँ",
+    "cancelled": "रद्द"
+  },
+  "capture": {
+    "placeholder": "दिमाग़ में जो भी है, यहाँ रख दें।",
+    "hint": "कार्य, इवेंट, नोट, विचार, रिमाइंडर — एक जगह।",
+    "classifiedAs": "{kind} लगता है",
+    "uncertainTime": "समय तय नहीं",
+    "suggestedEstimate": "सुझाया अनुमान: ~{minutes} मि",
+    "confirm": "इसे रखें"
+  },
+  "inbox": {
+    "title": "इनबॉक्स",
+    "empty": "इनबॉक्स साफ़ है। जब कुछ आए, आज से दर्ज करें।",
+    "dropHint": "निर्धारित करने के लिए आज पर रखें।"
+  },
+  "upcoming": {
+    "title": "आने वाला",
+    "empty": "आज के बाद कुछ निर्धारित नहीं।"
+  },
+  "calendar": {
+    "title": "कैलेंडर",
+    "empty": "इस हफ़्ते कोई इवेंट नहीं।",
+    "emptyDay": "खुला दिन।",
+    "todayMark": "आज",
+    "week": "सप्ताह",
+    "stillOpen": "अभी भी खुला",
+    "cancelled": "रद्द",
+    "mood": {
+      "today": "आज",
+      "resolved": "निपटा",
+      "unresolved": "कुछ चीज़ें अभी भी खुली हैं"
+    }
+  },
+  "projects": {
+    "title": "प्रोजेक्ट",
+    "next": "अगला",
+    "upcoming": "आने वाला",
+    "notes": "नोट्स",
+    "empty": "अभी कोई प्रोजेक्ट नहीं।",
+    "new": "नया प्रोजेक्ट",
+    "name": "प्रोजेक्ट का नाम"
+  },
+  "notes": {
+    "title": "नोट्स",
+    "empty": "अभी कोई नोट नहीं।",
+    "new": "नया नोट",
+    "pinToday": "आज पर पिन करें",
+    "unpin": "पिन हटाएँ"
+  },
+  "brainDump": {
+    "title": "दिमाग़ खाली करें",
+    "intro": "आज़ादी से लिखें। कुछ सहेजने से पहले सुझाव देख लें।",
+    "placeholder": "माइकल को मेल करना है\nजापान की उड़ानें देखनी हैं\nशायद कीमतें दोबारा सोचें",
+    "process": "संभालें",
+    "empty": "कम से कम एक पंक्ति लिखें।"
+  },
+  "search": {
+    "title": "खोज",
+    "placeholder": "कार्य, इवेंट, नोट्स, प्रोजेक्ट खोजें",
+    "empty": "कोई मेल नहीं।"
+  },
+  "sometime": {
+    "title": "कभी",
+    "empty": "कभी वाली सूची खाली है।"
+  },
+  "focus": {
+    "notesPlaceholder": "इस कार्य के लिए छोटी सी नोट"
+  },
+  "pause": {
+    "meeting": "मीटिंग",
+    "phone": "फ़ोन कॉल",
+    "break": "विराम",
+    "other": "अन्य"
+  },
+  "review": {
+    "title": "आज बंद करें",
+    "completed": "पूरा: {count}",
+    "estimated": "अनुमानित: {estimated}",
+    "actual": "वास्तविक: {actual}",
+    "unfinished": "अधूरी चीज़ों का क्या हो?",
+    "remember": "याद रखने लायक कुछ है?",
+    "tomorrow": "कल पर क्या जाए?",
+    "openCount": "{count, plural, one {# अभी भी खुला} other {# अभी भी खुले}}",
+    "stillNeedHome": "{count, plural, one {# चीज़ को अभी भी जगह चाहिए।} other {# चीज़ों को अभी भी जगह चाहिए।}}",
+    "decide": "उन्हें कल पर ले जाएँ या इनबॉक्स में रहने दें।",
+    "planTomorrow": "कल की योजना करें",
+    "leaveInbox": "इनबॉक्स में छोड़ें",
+    "toTomorrow": "कल",
+    "toInbox": "इनबॉक्स",
+    "moveAllTomorrow": "सब कल पर ले जाएँ",
+    "finishToday": "आज समाप्त करें",
+    "thatsToday": "आज इतना ही।",
+    "tomorrowReady": "कल तैयार है।"
+  },
+  "companion": {
+    "label": "Dayline साथी",
+    "eveningUnfinished": "ये अधूरी चीज़ें कल पर ले जाएँ?",
+    "afternoonOpen": "आपकी दोपहर खुल गई।",
+    "quietAfternoon": "शांत दोपहर।",
+    "freeUntil": "{time} तक खाली।",
+    "stayWithThis": "इसी के साथ रहें। {time} तक खाली।",
+    "stayWithThisOpen": "इसी के साथ रहें।",
+    "stillWantThis": "आज भी यह चाहिए?",
+    "name": "Daymark"
+  },
+  "notices": {
+    "conflict": "ये दो चीज़ें ओवरलैप कर रही हैं। कुछ विकल्प देखें?",
+    "overrun": "यह योजना से थोड़ा ज़्यादा चल रहा है।",
+    "upcoming": "{minutes} मि में {title}",
+    "stillWantThis": "आज भी यह चाहिए?",
+    "wrapUp": "कार्य समेटें",
+    "keepGoing": "जारी रखें",
+    "adjustDay": "दिन समायोजित करें",
+    "showOptions": "विकल्प दिखाएँ",
+    "ignore": "नज़रअंदाज़ करें",
+    "dismiss": "छिपाएँ"
+  },
+  "more": {
+    "title": "और"
+  },
+  "emptyDay": "आपका दिन खुला है। दिमाग़ में जो पहला ख्याल आए, उसे दर्ज करें।"
+}

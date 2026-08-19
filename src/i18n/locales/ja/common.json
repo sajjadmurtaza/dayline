@@ -1,0 +1,127 @@
+{
+  "appName": "Dayline",
+  "language": "言語",
+  "nav": {
+    "today": "今日",
+    "inbox": "受信箱",
+    "upcoming": "これから",
+    "calendar": "カレンダー",
+    "projects": "プロジェクト",
+    "notes": "メモ",
+    "sometime": "いつか",
+    "search": "検索",
+    "brainDump": "頭の中を出す",
+    "more": "その他",
+    "add": "追加"
+  },
+  "actions": {
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "undo": "元に戻す",
+    "start": "開始",
+    "pause": "一時停止",
+    "done": "完了",
+    "resume": "再開",
+    "planMyDay": "今日を計画する",
+    "acceptPlan": "計画を受け入れる",
+    "keepSchedule": "予定はそのまま",
+    "whatNow": "今、何をすればいい？",
+    "convertToTask": "タスクに変換",
+    "useEstimate": "見積もりを使う",
+    "change": "変更",
+    "moveTomorrow": "明日に移す",
+    "laterWeek": "今週の後半",
+    "pickTime": "時刻を選ぶ",
+    "backToInbox": "受信箱に戻る",
+    "clearDemo": "デモデータをリセット",
+    "reviewSuggestions": "提案を確認",
+    "confirmSelected": "選択したものを保存"
+  },
+  "undoToast": {
+    "capture": "取り込みました",
+    "start": "タイマーを開始しました",
+    "pause": "一時停止しました",
+    "complete": "完了にしました",
+    "schedule": "タイムライン上で移動しました",
+    "plan": "計画を適用しました",
+    "inbox": "受信箱に送りました",
+    "delete": "取り除きました",
+    "convert": "タスクに変換しました"
+  },
+  "status": {
+    "inbox": "受信箱",
+    "planned": "予定済み",
+    "ready": "準備完了",
+    "running": "進行中",
+    "paused": "一時停止",
+    "completed": "完了",
+    "deferred": "先送り",
+    "cancelled": "キャンセル"
+  },
+  "kind": {
+    "task": "タスク",
+    "event": "予定",
+    "note": "メモ",
+    "reminder": "リマインダー",
+    "fixed": "固定",
+    "flexible": "柔軟"
+  },
+  "priority": {
+    "low": "低",
+    "normal": "普通",
+    "high": "高",
+    "urgent": "急ぎ"
+  },
+  "deadlineKind": {
+    "none": "期限なし",
+    "target": "目標",
+    "due": "締切"
+  },
+  "noteType": {
+    "idea": "アイデア",
+    "remember": "覚えておく",
+    "question": "質問",
+    "research": "調べもの",
+    "meeting": "会議の思いつき",
+    "personal": "個人",
+    "temporary": "一時的",
+    "freeform": "メモ"
+  },
+  "duration": {
+    "estimated": "見積もり",
+    "actual": "実績",
+    "elapsed": "経過",
+    "over": "見積もりより {minutes} 分超過",
+    "custom": "カスタム",
+    "minutes": "{count, plural, one {#分} other {#分}}",
+    "hours": "{count, plural, one {#時間} other {#時間}}"
+  },
+  "bands": {
+    "past": "過去",
+    "now": "いま",
+    "next": "次",
+    "later": "あとで"
+  },
+  "source": {
+    "local": "Dayline",
+    "google-calendar": "Google カレンダー",
+    "outlook-calendar": "Outlook カレンダー"
+  },
+  "a11y": {
+    "openNav": "ナビゲーションを開く",
+    "closeNav": "ナビゲーションを閉じる",
+    "skipToContent": "コンテンツへスキップ",
+    "nowMarker": "現在時刻",
+    "progress": "見積もり {estimate} のうち {elapsed} 経過",
+    "runningTask": "進行中のタスク"
+  },
+  "areas": {
+    "work": "仕事",
+    "study": "勉強",
+    "health": "健康",
+    "finance": "お金",
+    "family": "家族",
+    "personal": "個人"
+  }
+}

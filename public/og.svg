@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fff9ed"/>
+  <rect x="72" y="72" width="1056" height="486" rx="36" fill="#fff9ed"/>
+  <circle cx="156" cy="168" r="28" fill="#e07a32"/>
+  <text x="210" y="182" font-size="52" font-family="ui-sans-serif, system-ui, sans-serif" font-weight="700" fill="#2a2622">Dayline</text>
+  <text x="210" y="232" font-size="24" font-family="ui-sans-serif, system-ui, sans-serif" fill="#6d675f">A visual daily operating system</text>
+  <line x1="156" y1="290" x2="156" y2="500" stroke="#eadcc8" stroke-width="4" stroke-linecap="round"/>
+  <rect x="196" y="300" width="280" height="56" rx="16" fill="#3d6fd4" opacity="0.9"/>
+  <rect x="196" y="372" width="220" height="44" rx="14" fill="#6b5ce0" opacity="0.85"/>
+  <line x1="120" y1="430" x2="980" y2="430" stroke="#e06a2c" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="156" cy="430" r="8" fill="#e06a2c"/>
+  <text x="196" y="438" font-size="20" font-family="ui-sans-serif, system-ui, sans-serif" font-weight="600" fill="#e06a2c">NOW</text>
+  <rect x="196" y="456" width="180" height="40" rx="14" fill="#f3e6cf"/>
+  <text x="760" y="360" font-size="22" font-family="ui-sans-serif, system-ui, sans-serif" fill="#2a2622">See the day. Place the work.</text>
+  <text x="760" y="400" font-size="22" font-family="ui-sans-serif, system-ui, sans-serif" fill="#6d675f">Events stay fixed. Tasks find a home.</text>
+</svg>

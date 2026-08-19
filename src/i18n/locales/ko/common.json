@@ -1,0 +1,127 @@
+{
+  "appName": "Dayline",
+  "language": "언어",
+  "nav": {
+    "today": "오늘",
+    "inbox": "수신함",
+    "upcoming": "다가오는 일",
+    "calendar": "캘린더",
+    "projects": "프로젝트",
+    "notes": "메모",
+    "sometime": "언젠가",
+    "search": "검색",
+    "brainDump": "머릿속 비우기",
+    "more": "더보기",
+    "add": "추가"
+  },
+  "actions": {
+    "save": "저장",
+    "cancel": "취소",
+    "delete": "삭제",
+    "undo": "실행 취소",
+    "start": "시작",
+    "pause": "일시 정지",
+    "done": "완료",
+    "resume": "이어하기",
+    "planMyDay": "오늘 계획하기",
+    "acceptPlan": "계획 받아들이기",
+    "keepSchedule": "일정 그대로 두기",
+    "whatNow": "지금 무엇을 하면 좋을까요?",
+    "convertToTask": "할 일로 바꾸기",
+    "useEstimate": "예상 시간 사용",
+    "change": "변경",
+    "moveTomorrow": "내일로 옮기기",
+    "laterWeek": "이번 주 나중에",
+    "pickTime": "시간 고르기",
+    "backToInbox": "수신함으로 돌아가기",
+    "clearDemo": "데모 데이터 초기화",
+    "reviewSuggestions": "제안 살펴보기",
+    "confirmSelected": "선택한 항목 저장"
+  },
+  "undoToast": {
+    "capture": "담았습니다",
+    "start": "타이머를 시작했습니다",
+    "pause": "일시 정지했습니다",
+    "complete": "완료로 표시했습니다",
+    "schedule": "타임라인에서 옮겼습니다",
+    "plan": "계획을 적용했습니다",
+    "inbox": "수신함으로 보냈습니다",
+    "delete": "제거했습니다",
+    "convert": "할 일로 바꿨습니다"
+  },
+  "status": {
+    "inbox": "수신함",
+    "planned": "계획됨",
+    "ready": "준비됨",
+    "running": "진행 중",
+    "paused": "일시 정지",
+    "completed": "완료",
+    "deferred": "미룸",
+    "cancelled": "취소됨"
+  },
+  "kind": {
+    "task": "할 일",
+    "event": "일정",
+    "note": "메모",
+    "reminder": "알림",
+    "fixed": "고정",
+    "flexible": "유연"
+  },
+  "priority": {
+    "low": "낮음",
+    "normal": "보통",
+    "high": "높음",
+    "urgent": "급함"
+  },
+  "deadlineKind": {
+    "none": "마감 없음",
+    "target": "목표",
+    "due": "마감"
+  },
+  "noteType": {
+    "idea": "아이디어",
+    "remember": "기억해 두기",
+    "question": "질문",
+    "research": "조사",
+    "meeting": "회의 생각",
+    "personal": "개인",
+    "temporary": "임시",
+    "freeform": "메모"
+  },
+  "duration": {
+    "estimated": "예상",
+    "actual": "실제",
+    "elapsed": "경과",
+    "over": "예정보다 {minutes}분 초과",
+    "custom": "직접 입력",
+    "minutes": "{count, plural, one {#분} other {#분}}",
+    "hours": "{count, plural, one {#시간} other {#시간}}"
+  },
+  "bands": {
+    "past": "지난 일",
+    "now": "지금",
+    "next": "다음",
+    "later": "나중에"
+  },
+  "source": {
+    "local": "Dayline",
+    "google-calendar": "Google 캘린더",
+    "outlook-calendar": "Outlook 캘린더"
+  },
+  "a11y": {
+    "openNav": "탐색 열기",
+    "closeNav": "탐색 닫기",
+    "skipToContent": "본문으로 건너뛰기",
+    "nowMarker": "현재 시각",
+    "progress": "예상 {estimate} 중 {elapsed} 경과",
+    "runningTask": "진행 중인 할 일"
+  },
+  "areas": {
+    "work": "일",
+    "study": "공부",
+    "health": "건강",
+    "finance": "돈",
+    "family": "가족",
+    "personal": "개인"
+  }
+}

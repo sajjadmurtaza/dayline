@@ -1,0 +1,127 @@
+{
+  "appName": "Dayline",
+  "language": "भाषा",
+  "nav": {
+    "today": "आज",
+    "inbox": "इनबॉक्स",
+    "upcoming": "आने वाला",
+    "calendar": "कैलेंडर",
+    "projects": "प्रोजेक्ट",
+    "notes": "नोट्स",
+    "sometime": "कभी",
+    "search": "खोज",
+    "brainDump": "दिमाग़ खाली करें",
+    "more": "और",
+    "add": "जोड़ें"
+  },
+  "actions": {
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "delete": "हटाएँ",
+    "undo": "पूर्ववत",
+    "start": "शुरू करें",
+    "pause": "रोकें",
+    "done": "हो गया",
+    "resume": "जारी रखें",
+    "planMyDay": "मेरा दिन योजना करें",
+    "acceptPlan": "योजना स्वीकार करें",
+    "keepSchedule": "शेड्यूल जैसा है वैसा रहने दें",
+    "whatNow": "अब मुझे क्या करना चाहिए?",
+    "convertToTask": "कार्य में बदलें",
+    "useEstimate": "अनुमान इस्तेमाल करें",
+    "change": "बदलें",
+    "moveTomorrow": "कल पर ले जाएँ",
+    "laterWeek": "इस हफ़्ते बाद में",
+    "pickTime": "समय चुनें",
+    "backToInbox": "इनबॉक्स पर वापस",
+    "clearDemo": "डेमो डेटा रीसेट करें",
+    "reviewSuggestions": "सुझाव देखें",
+    "confirmSelected": "चयन सहेजें"
+  },
+  "undoToast": {
+    "capture": "दर्ज हो गया",
+    "start": "टाइमर शुरू हुआ",
+    "pause": "रुका",
+    "complete": "पूरा चिह्नित किया",
+    "schedule": "टाइमलाइन पर स्थान बदला",
+    "plan": "योजना लागू हुई",
+    "inbox": "इनबॉक्स में भेजा",
+    "delete": "हटाया गया",
+    "convert": "कार्य में बदला गया"
+  },
+  "status": {
+    "inbox": "इनबॉक्स",
+    "planned": "योजनाबद्ध",
+    "ready": "तैयार",
+    "running": "चल रहा है",
+    "paused": "रुका हुआ",
+    "completed": "पूरा",
+    "deferred": "टाला गया",
+    "cancelled": "रद्द"
+  },
+  "kind": {
+    "task": "कार्य",
+    "event": "इवेंट",
+    "note": "नोट",
+    "reminder": "रिमाइंडर",
+    "fixed": "निश्चित",
+    "flexible": "लचीला"
+  },
+  "priority": {
+    "low": "कम",
+    "normal": "सामान्य",
+    "high": "ऊँची",
+    "urgent": "तुरंत"
+  },
+  "deadlineKind": {
+    "none": "कोई समय सीमा नहीं",
+    "target": "लक्ष्य",
+    "due": "नियत"
+  },
+  "noteType": {
+    "idea": "विचार",
+    "remember": "याद रखें",
+    "question": "सवाल",
+    "research": "खोज",
+    "meeting": "मीटिंग का ख्याल",
+    "personal": "निजी",
+    "temporary": "अस्थायी",
+    "freeform": "नोट"
+  },
+  "duration": {
+    "estimated": "अनुमानित",
+    "actual": "वास्तविक",
+    "elapsed": "बीता",
+    "over": "अनुमान से {minutes} मिनट ज़्यादा",
+    "custom": "कस्टम",
+    "minutes": "{count, plural, one {# मि} other {# मि}}",
+    "hours": "{count, plural, one {# घंटा} other {# घंटे}}"
+  },
+  "bands": {
+    "past": "बीता हुआ",
+    "now": "अभी",
+    "next": "अगला",
+    "later": "बाद में"
+  },
+  "source": {
+    "local": "Dayline",
+    "google-calendar": "Google कैलेंडर",
+    "outlook-calendar": "Outlook कैलेंडर"
+  },
+  "a11y": {
+    "openNav": "नेविगेशन खोलें",
+    "closeNav": "नेविगेशन बंद करें",
+    "skipToContent": "सामग्री पर जाएँ",
+    "nowMarker": "मौजूदा समय",
+    "progress": "अनुमानित {estimate} में से {elapsed} बीता",
+    "runningTask": "चल रहा कार्य"
+  },
+  "areas": {
+    "work": "काम",
+    "study": "पढ़ाई",
+    "health": "स्वास्थ्य",
+    "finance": "पैसे",
+    "family": "परिवार",
+    "personal": "निजी"
+  }
+}

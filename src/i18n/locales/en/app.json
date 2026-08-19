@@ -1,0 +1,174 @@
+{
+  "today": {
+    "title": "Today",
+    "unscheduled": "Needs a place",
+    "pinnedNotes": "Pinned",
+    "nextEvent": "Next: {title} at {time}",
+    "freeBlock": "Largest free block: {start}–{end}",
+    "noEvents": "No fixed events today",
+    "noMoreEvents": "No more events today",
+    "emptyUnscheduled": "Nothing waiting to be placed.",
+    "planPreview": "Suggested placements",
+    "planWhy": "Fits a free block without moving fixed events.",
+    "nowSuggestion": "You have {minutes} minutes before {next}. {title} should fit.",
+    "nowSuggestionOpen": "You have open time. Start with {title}.",
+    "nowBusy": "You are in {title} until {time}.",
+    "conflict": "Time conflict",
+    "needsAttention": "Needs attention",
+    "current": "Current",
+    "nowLabel": "Now",
+    "startedAt": "Started {time}",
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening",
+      "night": "Good evening"
+    },
+    "summaryNowTask": "Now: {title}",
+    "summaryNowEvent": "You are in {title} until {time}",
+    "summaryNowFree": "Nothing is scheduled at this moment.",
+    "summaryNext": "Next: {title} at {time}",
+    "summaryNextNone": "Nothing else is scheduled today.",
+    "summaryTimeUntil": "{minutes} minutes until {title}",
+    "summaryOpenTime": "Open time from here.",
+    "summaryInCommitment": "This block is already committed.",
+    "freeGap": "{label} open",
+    "dropHere": "Drop to place here",
+    "elapsedEstimate": "{elapsed} elapsed · ~{estimate} estimated",
+    "elapsedOnly": "{elapsed} elapsed",
+    "estimatedAbout": "Estimated ~{estimate}",
+    "longerThanPlanned": "{minutes} min longer than planned",
+    "nextLabel": "Next",
+    "projectContext": "Project",
+    "proposed": "Proposed",
+    "stillOpen": "Still open",
+    "ready": "Ready",
+    "readyWhenYouAre": "Ready when you are",
+    "plannedFor": "planned for {time}",
+    "whatHappened": "What happened with this?",
+    "startNow": "Start now",
+    "findAnotherTime": "Find another time",
+    "inbox": "Inbox",
+    "dismissCue": "Dismiss",
+    "cancelled": "Cancelled"
+  },
+  "capture": {
+    "placeholder": "Put anything in your head here.",
+    "hint": "Task, event, note, idea, reminder — one place.",
+    "classifiedAs": "Looks like a {kind}",
+    "uncertainTime": "Time not set",
+    "suggestedEstimate": "Suggested estimate: ~{minutes} min",
+    "confirm": "Place this"
+  },
+  "inbox": {
+    "title": "Inbox",
+    "empty": "Inbox is clear. Capture something from Today when it appears.",
+    "dropHint": "Place on Today to schedule."
+  },
+  "upcoming": {
+    "title": "Upcoming",
+    "empty": "Nothing scheduled after today."
+  },
+  "calendar": {
+    "title": "Calendar",
+    "empty": "No events this week.",
+    "emptyDay": "Open day.",
+    "todayMark": "Today",
+    "week": "Week",
+    "stillOpen": "Still open",
+    "cancelled": "Cancelled",
+    "mood": {
+      "today": "Today",
+      "resolved": "Resolved",
+      "unresolved": "Some things still open"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "next": "Next",
+    "upcoming": "Upcoming",
+    "notes": "Notes",
+    "empty": "No projects yet.",
+    "new": "New project",
+    "name": "Project name"
+  },
+  "notes": {
+    "title": "Notes",
+    "empty": "No notes yet.",
+    "new": "New note",
+    "pinToday": "Pin on Today",
+    "unpin": "Unpin"
+  },
+  "brainDump": {
+    "title": "Brain Dump",
+    "intro": "Write freely. Review the suggestions before anything is saved.",
+    "placeholder": "Need to email Michael\nLook at Japan flights\nMaybe redesign pricing",
+    "process": "Process",
+    "empty": "Write at least one line."
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Search tasks, events, notes, projects",
+    "empty": "No matches."
+  },
+  "sometime": {
+    "title": "Sometime",
+    "empty": "Nothing on the sometime list."
+  },
+  "focus": {
+    "notesPlaceholder": "Quick note for this task"
+  },
+  "pause": {
+    "meeting": "Meeting",
+    "phone": "Phone call",
+    "break": "Break",
+    "other": "Other"
+  },
+  "review": {
+    "title": "Closing today",
+    "completed": "Completed: {count}",
+    "estimated": "Estimated: {estimated}",
+    "actual": "Actual: {actual}",
+    "unfinished": "What should happen with the unfinished items?",
+    "remember": "Anything worth remembering?",
+    "tomorrow": "What should move to tomorrow?",
+    "openCount": "{count, plural, one {# still open} other {# still open}}",
+    "stillNeedHome": "{count, plural, one {# thing still needs a home.} other {# things still need a home.}}",
+    "decide": "Move them to tomorrow or leave them in Inbox.",
+    "planTomorrow": "Plan tomorrow",
+    "leaveInbox": "Leave in Inbox",
+    "toTomorrow": "Tomorrow",
+    "toInbox": "Inbox",
+    "moveAllTomorrow": "Move all to tomorrow",
+    "finishToday": "Finish today",
+    "thatsToday": "That's today.",
+    "tomorrowReady": "Tomorrow is ready."
+  },
+  "companion": {
+    "label": "Dayline companion",
+    "name": "Daymark",
+    "eveningUnfinished": "Want to move these unfinished things to tomorrow?",
+    "afternoonOpen": "Your afternoon opened up.",
+    "quietAfternoon": "A quiet afternoon.",
+    "freeUntil": "Free until {time}.",
+    "stayWithThis": "Stay with this. Free until {time}.",
+    "stayWithThisOpen": "Stay with this.",
+    "stillWantThis": "Still want this today?"
+  },
+  "notices": {
+    "conflict": "These two things overlap. Want to see some options?",
+    "overrun": "This is running a little longer than planned.",
+    "upcoming": "{title} in {minutes} min",
+    "stillWantThis": "Still want this today?",
+    "wrapUp": "Wrap up task",
+    "keepGoing": "Keep going",
+    "adjustDay": "Adjust day",
+    "showOptions": "Show options",
+    "ignore": "Ignore",
+    "dismiss": "Dismiss"
+  },
+  "more": {
+    "title": "More"
+  },
+  "emptyDay": "Your day is open. Capture the first thing on your mind."
+}

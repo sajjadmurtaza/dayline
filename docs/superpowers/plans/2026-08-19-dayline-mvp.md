@@ -12,7 +12,7 @@
 
 - Path: `/Users/sajjad/work/others/dayline` only. Do not modify Bustan or other apps.
 - No user-facing strings in components (next-intl keys).
-- Locales: `en`, `ar` with RTL.
+- Locales: Bustan’s 14 (`en`, `ar`, `ur`, `ja`, `de`, `fr`, `hi`, `bn`, `tr`, `es`, `id`, `ko`, `zh`, `ru`). RTL: `ar`, `ur`.
 - One canonical `Item` union. One `TaskCard` / `EventCard` / `Timeline`.
 - Planning never moves fixed events.
 - Connectors: interface + local ingest only; registry stubs for google-calendar / outlook disabled.

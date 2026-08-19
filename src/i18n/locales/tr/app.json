@@ -1,0 +1,174 @@
+{
+  "today": {
+    "title": "Bugün",
+    "unscheduled": "Bir yere ihtiyacı var",
+    "pinnedNotes": "Sabitlenmiş",
+    "nextEvent": "Sıradaki: {time} itibarıyla {title}",
+    "freeBlock": "En büyük boş blok: {start}–{end}",
+    "noEvents": "Bugün sabit etkinlik yok",
+    "noMoreEvents": "Bugün başka etkinlik yok",
+    "emptyUnscheduled": "Yerleşmeyi bekleyen bir şey yok.",
+    "planPreview": "Önerilen yerler",
+    "planWhy": "Sabit etkinlikleri oynatmadan boş bir bloğa sığıyor.",
+    "nowSuggestion": "{next} öncesinde {minutes} dakikan var. {title} sığmalı.",
+    "nowSuggestionOpen": "Boş zamanın var. {title} ile başla.",
+    "nowBusy": "{time} kadar {title} içindesin.",
+    "conflict": "Zaman çakışması",
+    "needsAttention": "Dikkat istiyor",
+    "current": "Şu an",
+    "nowLabel": "Şimdi",
+    "startedAt": "{time} başladı",
+    "greeting": {
+      "morning": "Günaydın",
+      "afternoon": "İyi günler",
+      "evening": "İyi akşamlar",
+      "night": "İyi akşamlar"
+    },
+    "summaryNowTask": "Şimdi: {title}",
+    "summaryNowEvent": "{time} kadar {title} içindesin",
+    "summaryNowFree": "Şu anda planlanmış bir şey yok.",
+    "summaryNext": "Sıradaki: {time} itibarıyla {title}",
+    "summaryNextNone": "Bugün başka bir şey planlanmamış.",
+    "summaryTimeUntil": "{title} için {minutes} dakika",
+    "summaryOpenTime": "Buradan itibaren boş zaman.",
+    "summaryInCommitment": "Bu blok zaten dolu.",
+    "freeGap": "{label} boş",
+    "dropHere": "Buraya bırakarak yerleştir",
+    "elapsedEstimate": "{elapsed} geçen · ~{estimate} tahmini",
+    "elapsedOnly": "{elapsed} geçen",
+    "estimatedAbout": "Tahmini ~{estimate}",
+    "longerThanPlanned": "plandan {minutes} dk uzun",
+    "nextLabel": "Sıradaki",
+    "projectContext": "Proje",
+    "proposed": "Öneri",
+    "stillOpen": "Hâlâ açık",
+    "ready": "Hazır",
+    "readyWhenYouAre": "Sen hazır olunca hazır",
+    "plannedFor": "{time} için planlandı",
+    "whatHappened": "Bunun sonu ne oldu?",
+    "startNow": "Şimdi başla",
+    "findAnotherTime": "Başka bir zaman bul",
+    "inbox": "Gelen kutusu",
+    "dismissCue": "Gizle",
+    "cancelled": "İptal edildi"
+  },
+  "capture": {
+    "placeholder": "Aklındaki her şeyi buraya koy.",
+    "hint": "Görev, etkinlik, not, fikir, anımsatıcı — tek yer.",
+    "classifiedAs": "{kind} gibi duruyor",
+    "uncertainTime": "Saat ayarlanmadı",
+    "suggestedEstimate": "Önerilen tahmin: ~{minutes} dk",
+    "confirm": "Bunu yerleştir"
+  },
+  "inbox": {
+    "title": "Gelen kutusu",
+    "empty": "Gelen kutusu boş. Aklına gelince Bugün'den kaydet.",
+    "dropHint": "Planlamak için Bugün'e koy."
+  },
+  "upcoming": {
+    "title": "Yaklaşan",
+    "empty": "Bugünden sonra planlanmış bir şey yok."
+  },
+  "calendar": {
+    "title": "Takvim",
+    "empty": "Bu hafta etkinlik yok.",
+    "emptyDay": "Açık bir gün.",
+    "todayMark": "Bugün",
+    "week": "Hafta",
+    "stillOpen": "Hâlâ açık",
+    "cancelled": "İptal edildi",
+    "mood": {
+      "today": "Bugün",
+      "resolved": "Halloldu",
+      "unresolved": "Bazı şeyler hâlâ açık"
+    }
+  },
+  "projects": {
+    "title": "Projeler",
+    "next": "Sıradaki",
+    "upcoming": "Yaklaşan",
+    "notes": "Notlar",
+    "empty": "Henüz proje yok.",
+    "new": "Yeni proje",
+    "name": "Proje adı"
+  },
+  "notes": {
+    "title": "Notlar",
+    "empty": "Henüz not yok.",
+    "new": "Yeni not",
+    "pinToday": "Bugün'e sabitle",
+    "unpin": "Sabitlemeyi kaldır"
+  },
+  "brainDump": {
+    "title": "Kafayı boşalt",
+    "intro": "Serbestçe yaz. Herhangi bir şey kaydedilmeden önce önerileri incele.",
+    "placeholder": "Michael'a mail atmam lazım\nJaponya uçuşlarına bak\nBelki fiyatlandırmayı yeniden düşün",
+    "process": "İşle",
+    "empty": "En az bir satır yaz."
+  },
+  "search": {
+    "title": "Ara",
+    "placeholder": "Görev, etkinlik, not, proje ara",
+    "empty": "Eşleşme yok."
+  },
+  "sometime": {
+    "title": "Bir ara",
+    "empty": "Bir ara listesinde bir şey yok."
+  },
+  "focus": {
+    "notesPlaceholder": "Bu görev için kısa not"
+  },
+  "pause": {
+    "meeting": "Toplantı",
+    "phone": "Telefon",
+    "break": "Mola",
+    "other": "Diğer"
+  },
+  "review": {
+    "title": "Bugünü kapat",
+    "completed": "Tamamlanan: {count}",
+    "estimated": "Tahmini: {estimated}",
+    "actual": "Gerçek: {actual}",
+    "unfinished": "Bitmeyenlerle ne olsun?",
+    "remember": "Hatırlamaya değer bir şey var mı?",
+    "tomorrow": "Yarına ne taşınsın?",
+    "openCount": "{count, plural, one {# hâlâ açık} other {# hâlâ açık}}",
+    "stillNeedHome": "{count, plural, one {# şeyin hâlâ bir yere ihtiyacı var.} other {# şeyin hâlâ bir yere ihtiyacı var.}}",
+    "decide": "Yarına taşı veya gelen kutusunda bırak.",
+    "planTomorrow": "Yarını planla",
+    "leaveInbox": "Gelen kutusunda bırak",
+    "toTomorrow": "Yarın",
+    "toInbox": "Gelen kutusu",
+    "moveAllTomorrow": "Hepsini yarına taşı",
+    "finishToday": "Bugünü bitir",
+    "thatsToday": "Bugün buydu.",
+    "tomorrowReady": "Yarın hazır."
+  },
+  "companion": {
+    "label": "Dayline yol arkadaşı",
+    "eveningUnfinished": "Bu bitmeyenleri yarına taşımak ister misin?",
+    "afternoonOpen": "Öğleden sonra açıldı.",
+    "quietAfternoon": "Sakin bir öğleden sonra.",
+    "freeUntil": "{time} kadar boş.",
+    "stayWithThis": "Bununla kal. {time} kadar boş.",
+    "stayWithThisOpen": "Bununla kal.",
+    "stillWantThis": "Bunu bugün hâlâ istiyor musun?",
+    "name": "Daymark"
+  },
+  "notices": {
+    "conflict": "Bu iki şey çakışıyor. Birkaç seçeneğe bakmak ister misin?",
+    "overrun": "Bu, planlanandan biraz daha uzun sürüyor.",
+    "upcoming": "{minutes} dk sonra {title}",
+    "stillWantThis": "Bunu bugün hâlâ istiyor musun?",
+    "wrapUp": "Görevi toparla",
+    "keepGoing": "Devam et",
+    "adjustDay": "Günü ayarla",
+    "showOptions": "Seçenekleri göster",
+    "ignore": "Yoksay",
+    "dismiss": "Gizle"
+  },
+  "more": {
+    "title": "Daha fazla"
+  },
+  "emptyDay": "Günün açık. Aklındaki ilk şeyi kaydet."
+}

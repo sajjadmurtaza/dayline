@@ -1,0 +1,127 @@
+{
+  "appName": "Dayline",
+  "language": "Langue",
+  "nav": {
+    "today": "Aujourd'hui",
+    "inbox": "Boîte de réception",
+    "upcoming": "À venir",
+    "calendar": "Calendrier",
+    "projects": "Projets",
+    "notes": "Notes",
+    "sometime": "Un jour",
+    "search": "Recherche",
+    "brainDump": "Vider la tête",
+    "more": "Plus",
+    "add": "Ajouter"
+  },
+  "actions": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "undo": "Défaire",
+    "start": "Démarrer",
+    "pause": "Pause",
+    "done": "Terminé",
+    "resume": "Reprendre",
+    "planMyDay": "Planifier ma journée",
+    "acceptPlan": "Accepter le plan",
+    "keepSchedule": "Laisser l'emploi du temps tel quel",
+    "whatNow": "Que faire maintenant ?",
+    "convertToTask": "Convertir en tâche",
+    "useEstimate": "Utiliser l'estimation",
+    "change": "Modifier",
+    "moveTomorrow": "Déplacer à demain",
+    "laterWeek": "Plus tard cette semaine",
+    "pickTime": "Choisir l'heure",
+    "backToInbox": "Retour à la boîte de réception",
+    "clearDemo": "Réinitialiser les données de démo",
+    "reviewSuggestions": "Examiner les suggestions",
+    "confirmSelected": "Enregistrer la sélection"
+  },
+  "undoToast": {
+    "capture": "Capturé",
+    "start": "Minuteur lancé",
+    "pause": "En pause",
+    "complete": "Marqué comme terminé",
+    "schedule": "Déplacé sur la chronologie",
+    "plan": "Plan appliqué",
+    "inbox": "Envoyé dans la boîte de réception",
+    "delete": "Retiré",
+    "convert": "Converti en tâche"
+  },
+  "status": {
+    "inbox": "Boîte de réception",
+    "planned": "Planifié",
+    "ready": "Prêt",
+    "running": "En cours",
+    "paused": "En pause",
+    "completed": "Terminé",
+    "deferred": "Reporté",
+    "cancelled": "Annulé"
+  },
+  "kind": {
+    "task": "Tâche",
+    "event": "Événement",
+    "note": "Note",
+    "reminder": "Rappel",
+    "fixed": "Fixe",
+    "flexible": "Flexible"
+  },
+  "priority": {
+    "low": "Basse",
+    "normal": "Normale",
+    "high": "Haute",
+    "urgent": "Urgente"
+  },
+  "deadlineKind": {
+    "none": "Pas d'échéance",
+    "target": "Objectif",
+    "due": "Échéance"
+  },
+  "noteType": {
+    "idea": "Idée",
+    "remember": "À retenir",
+    "question": "Question",
+    "research": "Recherche",
+    "meeting": "Pensée de réunion",
+    "personal": "Personnel",
+    "temporary": "Temporaire",
+    "freeform": "Note"
+  },
+  "duration": {
+    "estimated": "Estimé",
+    "actual": "Réel",
+    "elapsed": "écoulé",
+    "over": "{minutes} min au-delà de l'estimation",
+    "custom": "Personnalisé",
+    "minutes": "{count, plural, one {# min} other {# min}}",
+    "hours": "{count, plural, one {# heure} other {# heures}}"
+  },
+  "bands": {
+    "past": "Passé",
+    "now": "Maintenant",
+    "next": "Ensuite",
+    "later": "Plus tard"
+  },
+  "source": {
+    "local": "Dayline",
+    "google-calendar": "Google Agenda",
+    "outlook-calendar": "Calendrier Outlook"
+  },
+  "a11y": {
+    "openNav": "Ouvrir la navigation",
+    "closeNav": "Fermer la navigation",
+    "skipToContent": "Aller au contenu",
+    "nowMarker": "Heure actuelle",
+    "progress": "{elapsed} écoulé sur {estimate} estimé",
+    "runningTask": "Tâche en cours"
+  },
+  "areas": {
+    "work": "Travail",
+    "study": "Études",
+    "health": "Santé",
+    "finance": "Finances",
+    "family": "Famille",
+    "personal": "Personnel"
+  }
+}

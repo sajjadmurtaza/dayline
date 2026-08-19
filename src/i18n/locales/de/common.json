@@ -1,0 +1,127 @@
+{
+  "appName": "Dayline",
+  "language": "Sprache",
+  "nav": {
+    "today": "Heute",
+    "inbox": "Posteingang",
+    "upcoming": "Demnächst",
+    "calendar": "Kalender",
+    "projects": "Projekte",
+    "notes": "Notizen",
+    "sometime": "Irgendwann",
+    "search": "Suche",
+    "brainDump": "Gedanken leeren",
+    "more": "Mehr",
+    "add": "Hinzufügen"
+  },
+  "actions": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "undo": "Rückgängig",
+    "start": "Starten",
+    "pause": "Pause",
+    "done": "Fertig",
+    "resume": "Fortsetzen",
+    "planMyDay": "Meinen Tag planen",
+    "acceptPlan": "Plan annehmen",
+    "keepSchedule": "Zeitplan unverändert lassen",
+    "whatNow": "Was soll ich jetzt tun?",
+    "convertToTask": "In Aufgabe umwandeln",
+    "useEstimate": "Schätzung verwenden",
+    "change": "Ändern",
+    "moveTomorrow": "Auf morgen verschieben",
+    "laterWeek": "Später in dieser Woche",
+    "pickTime": "Zeit wählen",
+    "backToInbox": "Zurück zum Posteingang",
+    "clearDemo": "Demodaten zurücksetzen",
+    "reviewSuggestions": "Vorschläge prüfen",
+    "confirmSelected": "Auswahl speichern"
+  },
+  "undoToast": {
+    "capture": "Erfasst",
+    "start": "Timer gestartet",
+    "pause": "Pausiert",
+    "complete": "Als erledigt markiert",
+    "schedule": "Auf der Zeitleiste verschoben",
+    "plan": "Plan übernommen",
+    "inbox": "In den Posteingang gelegt",
+    "delete": "Entfernt",
+    "convert": "In eine Aufgabe umgewandelt"
+  },
+  "status": {
+    "inbox": "Posteingang",
+    "planned": "Geplant",
+    "ready": "Bereit",
+    "running": "Läuft",
+    "paused": "Pausiert",
+    "completed": "Erledigt",
+    "deferred": "Verschoben",
+    "cancelled": "Abgebrochen"
+  },
+  "kind": {
+    "task": "Aufgabe",
+    "event": "Termin",
+    "note": "Notiz",
+    "reminder": "Erinnerung",
+    "fixed": "Fest",
+    "flexible": "Flexibel"
+  },
+  "priority": {
+    "low": "Niedrig",
+    "normal": "Normal",
+    "high": "Hoch",
+    "urgent": "Dringend"
+  },
+  "deadlineKind": {
+    "none": "Keine Frist",
+    "target": "Ziel",
+    "due": "Fällig"
+  },
+  "noteType": {
+    "idea": "Idee",
+    "remember": "Merken",
+    "question": "Frage",
+    "research": "Recherche",
+    "meeting": "Gedanke zum Meeting",
+    "personal": "Persönlich",
+    "temporary": "Vorübergehend",
+    "freeform": "Notiz"
+  },
+  "duration": {
+    "estimated": "Geschätzt",
+    "actual": "Tatsächlich",
+    "elapsed": "vergangen",
+    "over": "{minutes} Min. über der Schätzung",
+    "custom": "Benutzerdefiniert",
+    "minutes": "{count, plural, one {# Min.} other {# Min.}}",
+    "hours": "{count, plural, one {# Stunde} other {# Stunden}}"
+  },
+  "bands": {
+    "past": "Vergangen",
+    "now": "Jetzt",
+    "next": "Als Nächstes",
+    "later": "Später"
+  },
+  "source": {
+    "local": "Dayline",
+    "google-calendar": "Google Kalender",
+    "outlook-calendar": "Outlook-Kalender"
+  },
+  "a11y": {
+    "openNav": "Navigation öffnen",
+    "closeNav": "Navigation schließen",
+    "skipToContent": "Zum Inhalt springen",
+    "nowMarker": "Aktuelle Zeit",
+    "progress": "{elapsed} von geschätzten {estimate} vergangen",
+    "runningTask": "Laufende Aufgabe"
+  },
+  "areas": {
+    "work": "Arbeit",
+    "study": "Studium",
+    "health": "Gesundheit",
+    "finance": "Finanzen",
+    "family": "Familie",
+    "personal": "Persönlich"
+  }
+}

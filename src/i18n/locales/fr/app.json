@@ -1,0 +1,174 @@
+{
+  "today": {
+    "title": "Aujourd'hui",
+    "unscheduled": "A besoin d'une place",
+    "pinnedNotes": "Épinglé",
+    "nextEvent": "Ensuite : {title} à {time}",
+    "freeBlock": "Plus grand créneau libre : {start}–{end}",
+    "noEvents": "Aucun événement fixe aujourd'hui",
+    "noMoreEvents": "Plus d'événements aujourd'hui",
+    "emptyUnscheduled": "Rien n'attend d'être placé.",
+    "planPreview": "Emplacements suggérés",
+    "planWhy": "S'insère dans un créneau libre sans déplacer les événements fixes.",
+    "nowSuggestion": "Tu as {minutes} minutes avant {next}. {title} devrait tenir.",
+    "nowSuggestionOpen": "Tu as du temps libre. Commence par {title}.",
+    "nowBusy": "Tu es dans {title} jusqu'à {time}.",
+    "conflict": "Conflit d'horaire",
+    "needsAttention": "A besoin d'attention",
+    "current": "En cours",
+    "nowLabel": "Maintenant",
+    "startedAt": "Commencé à {time}",
+    "greeting": {
+      "morning": "Bonjour",
+      "afternoon": "Bon après-midi",
+      "evening": "Bonsoir",
+      "night": "Bonsoir"
+    },
+    "summaryNowTask": "Maintenant : {title}",
+    "summaryNowEvent": "Tu es dans {title} jusqu'à {time}",
+    "summaryNowFree": "Rien n'est prévu pour le moment.",
+    "summaryNext": "Ensuite : {title} à {time}",
+    "summaryNextNone": "Rien d'autre n'est prévu aujourd'hui.",
+    "summaryTimeUntil": "{minutes} minutes jusqu'à {title}",
+    "summaryOpenTime": "Du temps libre à partir d'ici.",
+    "summaryInCommitment": "Ce créneau est déjà pris.",
+    "freeGap": "{label} libre",
+    "dropHere": "Déposer ici pour placer",
+    "elapsedEstimate": "{elapsed} écoulé · ~{estimate} estimé",
+    "elapsedOnly": "{elapsed} écoulé",
+    "estimatedAbout": "Estimé ~{estimate}",
+    "longerThanPlanned": "{minutes} min de plus que prévu",
+    "nextLabel": "Ensuite",
+    "projectContext": "Projet",
+    "proposed": "Proposé",
+    "stillOpen": "Encore ouvert",
+    "ready": "Prêt",
+    "readyWhenYouAre": "Prêt quand tu l'es",
+    "plannedFor": "prévu pour {time}",
+    "whatHappened": "Qu'est-il devenu ?",
+    "startNow": "Commencer maintenant",
+    "findAnotherTime": "Trouver un autre moment",
+    "inbox": "Boîte de réception",
+    "dismissCue": "Ignorer",
+    "cancelled": "Annulé"
+  },
+  "capture": {
+    "placeholder": "Pose ici tout ce qui te passe par la tête.",
+    "hint": "Tâche, événement, note, idée, rappel — un seul endroit.",
+    "classifiedAs": "On dirait {kind}",
+    "uncertainTime": "Heure non définie",
+    "suggestedEstimate": "Estimation suggérée : ~{minutes} min",
+    "confirm": "Placer ceci"
+  },
+  "inbox": {
+    "title": "Boîte de réception",
+    "empty": "La boîte de réception est vide. Capture quelque chose depuis Aujourd'hui quand ça apparaît.",
+    "dropHint": "Place sur Aujourd'hui pour planifier."
+  },
+  "upcoming": {
+    "title": "À venir",
+    "empty": "Rien de prévu après aujourd'hui."
+  },
+  "calendar": {
+    "title": "Calendrier",
+    "empty": "Aucun événement cette semaine.",
+    "emptyDay": "Journée ouverte.",
+    "todayMark": "Aujourd'hui",
+    "week": "Semaine",
+    "stillOpen": "Encore ouvert",
+    "cancelled": "Annulé",
+    "mood": {
+      "today": "Aujourd'hui",
+      "resolved": "Réglé",
+      "unresolved": "Certaines choses encore ouvertes"
+    }
+  },
+  "projects": {
+    "title": "Projets",
+    "next": "Ensuite",
+    "upcoming": "À venir",
+    "notes": "Notes",
+    "empty": "Pas encore de projets.",
+    "new": "Nouveau projet",
+    "name": "Nom du projet"
+  },
+  "notes": {
+    "title": "Notes",
+    "empty": "Pas encore de notes.",
+    "new": "Nouvelle note",
+    "pinToday": "Épingler sur Aujourd'hui",
+    "unpin": "Désépingler"
+  },
+  "brainDump": {
+    "title": "Vider la tête",
+    "intro": "Écris librement. Relis les suggestions avant que quoi que ce soit soit enregistré.",
+    "placeholder": "Envoyer un mail à Michael\nRegarder les vols pour le Japon\nPeut-être revoir les prix",
+    "process": "Traiter",
+    "empty": "Écris au moins une ligne."
+  },
+  "search": {
+    "title": "Recherche",
+    "placeholder": "Rechercher tâches, événements, notes, projets",
+    "empty": "Aucun résultat."
+  },
+  "sometime": {
+    "title": "Un jour",
+    "empty": "Rien sur la liste Un jour."
+  },
+  "focus": {
+    "notesPlaceholder": "Note rapide pour cette tâche"
+  },
+  "pause": {
+    "meeting": "Réunion",
+    "phone": "Appel",
+    "break": "Pause",
+    "other": "Autre"
+  },
+  "review": {
+    "title": "Clôturer aujourd'hui",
+    "completed": "Terminé : {count}",
+    "estimated": "Estimé : {estimated}",
+    "actual": "Réel : {actual}",
+    "unfinished": "Que faire des éléments non terminés ?",
+    "remember": "Quelque chose qui vaut d'être retenu ?",
+    "tomorrow": "Que déplacer à demain ?",
+    "openCount": "{count, plural, one {# encore ouvert} other {# encore ouverts}}",
+    "stillNeedHome": "{count, plural, one {# chose a encore besoin d'une place.} other {# choses ont encore besoin d'une place.}}",
+    "decide": "Déplace-les à demain ou laisse-les dans la boîte de réception.",
+    "planTomorrow": "Planifier demain",
+    "leaveInbox": "Laisser dans la boîte de réception",
+    "toTomorrow": "Demain",
+    "toInbox": "Boîte de réception",
+    "moveAllTomorrow": "Tout déplacer à demain",
+    "finishToday": "Terminer aujourd'hui",
+    "thatsToday": "Voilà pour aujourd'hui.",
+    "tomorrowReady": "Demain est prêt."
+  },
+  "companion": {
+    "label": "Compagnon Dayline",
+    "eveningUnfinished": "Veux-tu déplacer ces choses non terminées à demain ?",
+    "afternoonOpen": "Ton après-midi s'est libéré.",
+    "quietAfternoon": "Un après-midi calme.",
+    "freeUntil": "Libre jusqu'à {time}.",
+    "stayWithThis": "Reste avec ça. Libre jusqu'à {time}.",
+    "stayWithThisOpen": "Reste avec ça.",
+    "stillWantThis": "Tu veux encore ça aujourd'hui ?",
+    "name": "Daymark"
+  },
+  "notices": {
+    "conflict": "Ces deux choses se chevauchent. Voir quelques options ?",
+    "overrun": "Ça dure un peu plus longtemps que prévu.",
+    "upcoming": "{title} dans {minutes} min",
+    "stillWantThis": "Tu veux encore ça aujourd'hui ?",
+    "wrapUp": "Terminer la tâche",
+    "keepGoing": "Continuer",
+    "adjustDay": "Ajuster la journée",
+    "showOptions": "Voir les options",
+    "ignore": "Ignorer",
+    "dismiss": "Masquer"
+  },
+  "more": {
+    "title": "Plus"
+  },
+  "emptyDay": "Ta journée est ouverte. Capture la première chose qui te vient à l'esprit."
+}

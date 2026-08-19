@@ -1,0 +1,127 @@
+{
+  "appName": "Dayline",
+  "language": "语言",
+  "nav": {
+    "today": "今天",
+    "inbox": "收件箱",
+    "upcoming": "即将到来",
+    "calendar": "日历",
+    "projects": "项目",
+    "notes": "笔记",
+    "sometime": "有空再说",
+    "search": "搜索",
+    "brainDump": "清空脑子",
+    "more": "更多",
+    "add": "添加"
+  },
+  "actions": {
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "undo": "撤销",
+    "start": "开始",
+    "pause": "暂停",
+    "done": "完成",
+    "resume": "继续",
+    "planMyDay": "规划今天",
+    "acceptPlan": "接受计划",
+    "keepSchedule": "保持日程不变",
+    "whatNow": "现在该做什么？",
+    "convertToTask": "转为任务",
+    "useEstimate": "使用预估",
+    "change": "更改",
+    "moveTomorrow": "移到明天",
+    "laterWeek": "本周晚些时候",
+    "pickTime": "选择时间",
+    "backToInbox": "返回收件箱",
+    "clearDemo": "重置演示数据",
+    "reviewSuggestions": "查看建议",
+    "confirmSelected": "保存所选"
+  },
+  "undoToast": {
+    "capture": "已记下",
+    "start": "计时已开始",
+    "pause": "已暂停",
+    "complete": "已标为完成",
+    "schedule": "已在时间线上移动",
+    "plan": "已应用计划",
+    "inbox": "已送到收件箱",
+    "delete": "已移除",
+    "convert": "已转为任务"
+  },
+  "status": {
+    "inbox": "收件箱",
+    "planned": "已安排",
+    "ready": "就绪",
+    "running": "进行中",
+    "paused": "已暂停",
+    "completed": "已完成",
+    "deferred": "已推迟",
+    "cancelled": "已取消"
+  },
+  "kind": {
+    "task": "任务",
+    "event": "事件",
+    "note": "笔记",
+    "reminder": "提醒",
+    "fixed": "固定",
+    "flexible": "灵活"
+  },
+  "priority": {
+    "low": "低",
+    "normal": "普通",
+    "high": "高",
+    "urgent": "紧急"
+  },
+  "deadlineKind": {
+    "none": "无截止日期",
+    "target": "目标",
+    "due": "到期"
+  },
+  "noteType": {
+    "idea": "想法",
+    "remember": "记住",
+    "question": "问题",
+    "research": "调研",
+    "meeting": "会议随想",
+    "personal": "个人",
+    "temporary": "临时",
+    "freeform": "笔记"
+  },
+  "duration": {
+    "estimated": "预估",
+    "actual": "实际",
+    "elapsed": "已过",
+    "over": "超出预估 {minutes} 分钟",
+    "custom": "自定义",
+    "minutes": "{count, plural, one {# 分钟} other {# 分钟}}",
+    "hours": "{count, plural, one {# 小时} other {# 小时}}"
+  },
+  "bands": {
+    "past": "过去",
+    "now": "现在",
+    "next": "接下来",
+    "later": "稍后"
+  },
+  "source": {
+    "local": "Dayline",
+    "google-calendar": "Google 日历",
+    "outlook-calendar": "Outlook 日历"
+  },
+  "a11y": {
+    "openNav": "打开导航",
+    "closeNav": "关闭导航",
+    "skipToContent": "跳到内容",
+    "nowMarker": "当前时间",
+    "progress": "已过 {elapsed}，预估 {estimate}",
+    "runningTask": "进行中的任务"
+  },
+  "areas": {
+    "work": "工作",
+    "study": "学习",
+    "health": "健康",
+    "finance": "财务",
+    "family": "家庭",
+    "personal": "个人"
+  }
+}

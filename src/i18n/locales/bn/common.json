@@ -1,0 +1,127 @@
+{
+  "appName": "Dayline",
+  "language": "ভাষা",
+  "nav": {
+    "today": "আজ",
+    "inbox": "ইনবক্স",
+    "upcoming": "আসন্ন",
+    "calendar": "ক্যালেন্ডার",
+    "projects": "প্রজেক্ট",
+    "notes": "নোট",
+    "sometime": "কখনো",
+    "search": "খোঁজ",
+    "brainDump": "মাথা খালি করুন",
+    "more": "আরও",
+    "add": "যোগ"
+  },
+  "actions": {
+    "save": "সংরক্ষণ",
+    "cancel": "বাতিল",
+    "delete": "মুছুন",
+    "undo": "আগের অবস্থা",
+    "start": "শুরু",
+    "pause": "বিরতি",
+    "done": "হয়ে গেছে",
+    "resume": "চালিয়ে যান",
+    "planMyDay": "আজকের দিন পরিকল্পনা করুন",
+    "acceptPlan": "পরিকল্পনা গ্রহণ করুন",
+    "keepSchedule": "সময়সূচি অপরিবর্তিত রাখুন",
+    "whatNow": "এখন কী করা উচিত?",
+    "convertToTask": "কাজে রূপান্তর করুন",
+    "useEstimate": "অনুমান ব্যবহার করুন",
+    "change": "বদলান",
+    "moveTomorrow": "আগামীকালে সরান",
+    "laterWeek": "এই সপ্তাহে পরে",
+    "pickTime": "সময় বেছে নিন",
+    "backToInbox": "ইনবক্সে ফিরুন",
+    "clearDemo": "ডেমো ডেটা রিসেট করুন",
+    "reviewSuggestions": "পরামর্শ দেখুন",
+    "confirmSelected": "নির্বাচিতগুলো সংরক্ষণ করুন"
+  },
+  "undoToast": {
+    "capture": "ধরা হয়েছে",
+    "start": "টাইমার শুরু হয়েছে",
+    "pause": "বিরতিতে",
+    "complete": "শেষ হিসেবে চিহ্নিত",
+    "schedule": "টাইমলাইনে সরানো হয়েছে",
+    "plan": "পরিকল্পনা প্রয়োগ হয়েছে",
+    "inbox": "ইনবক্সে পাঠানো হয়েছে",
+    "delete": "সরানো হয়েছে",
+    "convert": "কাজে রূপান্তরিত"
+  },
+  "status": {
+    "inbox": "ইনবক্স",
+    "planned": "পরিকল্পিত",
+    "ready": "প্রস্তুত",
+    "running": "চলছে",
+    "paused": "বিরতিতে",
+    "completed": "সম্পন্ন",
+    "deferred": "স্থগিত",
+    "cancelled": "বাতিল"
+  },
+  "kind": {
+    "task": "কাজ",
+    "event": "ইভেন্ট",
+    "note": "নোট",
+    "reminder": "রিমাইন্ডার",
+    "fixed": "স্থির",
+    "flexible": "নমনীয়"
+  },
+  "priority": {
+    "low": "কম",
+    "normal": "সাধারণ",
+    "high": "উচ্চ",
+    "urgent": "জরুরি"
+  },
+  "deadlineKind": {
+    "none": "কোনো সময়সীমা নেই",
+    "target": "লক্ষ্য",
+    "due": "নির্ধারিত"
+  },
+  "noteType": {
+    "idea": "ধারণা",
+    "remember": "মনে রাখুন",
+    "question": "প্রশ্ন",
+    "research": "গবেষণা",
+    "meeting": "মিটিংয়ের ভাবনা",
+    "personal": "ব্যক্তিগত",
+    "temporary": "সাময়িক",
+    "freeform": "নোট"
+  },
+  "duration": {
+    "estimated": "অনুমানিত",
+    "actual": "প্রকৃত",
+    "elapsed": "কেটেছে",
+    "over": "অনুমানের চেয়ে {minutes} মিনিট বেশি",
+    "custom": "কাস্টম",
+    "minutes": "{count, plural, one {# মি} other {# মি}}",
+    "hours": "{count, plural, one {# ঘণ্টা} other {# ঘণ্টা}}"
+  },
+  "bands": {
+    "past": "অতীত",
+    "now": "এখন",
+    "next": "পরবর্তী",
+    "later": "পরে"
+  },
+  "source": {
+    "local": "Dayline",
+    "google-calendar": "Google ক্যালেন্ডার",
+    "outlook-calendar": "Outlook ক্যালেন্ডার"
+  },
+  "a11y": {
+    "openNav": "নেভিগেশন খুলুন",
+    "closeNav": "নেভিগেশন বন্ধ করুন",
+    "skipToContent": "কন্টেন্টে যান",
+    "nowMarker": "বর্তমান সময়",
+    "progress": "অনুমানিত {estimate} এর মধ্যে {elapsed} কেটেছে",
+    "runningTask": "চলমান কাজ"
+  },
+  "areas": {
+    "work": "কাজ",
+    "study": "পড়াশোনা",
+    "health": "স্বাস্থ্য",
+    "finance": "অর্থ",
+    "family": "পরিবার",
+    "personal": "ব্যক্তিগত"
+  }
+}

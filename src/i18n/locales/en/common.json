@@ -1,0 +1,127 @@
+{
+  "appName": "Dayline",
+  "language": "Language",
+  "nav": {
+    "today": "Today",
+    "inbox": "Inbox",
+    "upcoming": "Upcoming",
+    "calendar": "Calendar",
+    "projects": "Projects",
+    "notes": "Notes",
+    "sometime": "Sometime",
+    "search": "Search",
+    "brainDump": "Brain Dump",
+    "more": "More",
+    "add": "Add"
+  },
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "undo": "Undo",
+    "start": "Start",
+    "pause": "Pause",
+    "done": "Done",
+    "resume": "Resume",
+    "planMyDay": "Plan my day",
+    "acceptPlan": "Accept plan",
+    "keepSchedule": "Leave schedule unchanged",
+    "whatNow": "What should I do now?",
+    "convertToTask": "Convert to task",
+    "useEstimate": "Use estimate",
+    "change": "Change",
+    "moveTomorrow": "Move to tomorrow",
+    "laterWeek": "Later this week",
+    "pickTime": "Pick time",
+    "backToInbox": "Back to Inbox",
+    "clearDemo": "Reset demo data",
+    "reviewSuggestions": "Review suggestions",
+    "confirmSelected": "Save selected"
+  },
+  "undoToast": {
+    "capture": "Captured",
+    "start": "Timer started",
+    "pause": "Paused",
+    "complete": "Marked done",
+    "schedule": "Moved on the timeline",
+    "plan": "Plan applied",
+    "inbox": "Sent to Inbox",
+    "delete": "Removed",
+    "convert": "Converted to a task"
+  },
+  "status": {
+    "inbox": "Inbox",
+    "planned": "Planned",
+    "ready": "Ready",
+    "running": "Running",
+    "paused": "Paused",
+    "completed": "Completed",
+    "deferred": "Deferred",
+    "cancelled": "Cancelled"
+  },
+  "kind": {
+    "task": "Task",
+    "event": "Event",
+    "note": "Note",
+    "reminder": "Reminder",
+    "fixed": "Fixed",
+    "flexible": "Flexible"
+  },
+  "priority": {
+    "low": "Low",
+    "normal": "Normal",
+    "high": "High",
+    "urgent": "Urgent"
+  },
+  "deadlineKind": {
+    "none": "No deadline",
+    "target": "Target",
+    "due": "Due"
+  },
+  "noteType": {
+    "idea": "Idea",
+    "remember": "Remember",
+    "question": "Question",
+    "research": "Research",
+    "meeting": "Meeting thought",
+    "personal": "Personal",
+    "temporary": "Temporary",
+    "freeform": "Note"
+  },
+  "duration": {
+    "estimated": "Estimated",
+    "actual": "Actual",
+    "elapsed": "elapsed",
+    "over": "{minutes} min over estimate",
+    "custom": "Custom",
+    "minutes": "{count, plural, one {# min} other {# min}}",
+    "hours": "{count, plural, one {# hour} other {# hours}}"
+  },
+  "bands": {
+    "past": "Past",
+    "now": "Now",
+    "next": "Next",
+    "later": "Later"
+  },
+  "source": {
+    "local": "Dayline",
+    "google-calendar": "Google Calendar",
+    "outlook-calendar": "Outlook Calendar"
+  },
+  "a11y": {
+    "openNav": "Open navigation",
+    "closeNav": "Close navigation",
+    "skipToContent": "Skip to content",
+    "nowMarker": "Current time",
+    "progress": "Elapsed {elapsed} of {estimate} estimated",
+    "runningTask": "Running task"
+  },
+  "areas": {
+    "work": "Work",
+    "study": "Study",
+    "health": "Health",
+    "finance": "Finance",
+    "family": "Family",
+    "personal": "Personal"
+  }
+}

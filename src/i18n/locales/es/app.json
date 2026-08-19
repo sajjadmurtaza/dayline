@@ -1,0 +1,174 @@
+{
+  "today": {
+    "title": "Hoy",
+    "unscheduled": "Necesita un lugar",
+    "pinnedNotes": "Fijado",
+    "nextEvent": "Siguiente: {title} a las {time}",
+    "freeBlock": "Bloque libre más grande: {start}–{end}",
+    "noEvents": "Hoy no hay eventos fijos",
+    "noMoreEvents": "No quedan más eventos hoy",
+    "emptyUnscheduled": "Nada espera a ser colocado.",
+    "planPreview": "Ubicaciones sugeridas",
+    "planWhy": "Cabe en un bloque libre sin mover los eventos fijos.",
+    "nowSuggestion": "Tienes {minutes} minutos antes de {next}. {title} debería caber.",
+    "nowSuggestionOpen": "Tienes tiempo libre. Empieza con {title}.",
+    "nowBusy": "Estás en {title} hasta las {time}.",
+    "conflict": "Conflicto de horario",
+    "needsAttention": "Necesita atención",
+    "current": "Actual",
+    "nowLabel": "Ahora",
+    "startedAt": "Empezó a las {time}",
+    "greeting": {
+      "morning": "Buenos días",
+      "afternoon": "Buenas tardes",
+      "evening": "Buenas tardes",
+      "night": "Buenas tardes"
+    },
+    "summaryNowTask": "Ahora: {title}",
+    "summaryNowEvent": "Estás en {title} hasta las {time}",
+    "summaryNowFree": "Nada está programado en este momento.",
+    "summaryNext": "Siguiente: {title} a las {time}",
+    "summaryNextNone": "No hay nada más programado hoy.",
+    "summaryTimeUntil": "{minutes} minutos hasta {title}",
+    "summaryOpenTime": "Tiempo libre a partir de aquí.",
+    "summaryInCommitment": "Este bloque ya está comprometido.",
+    "freeGap": "{label} libre",
+    "dropHere": "Suelta aquí para colocar",
+    "elapsedEstimate": "{elapsed} transcurrido · ~{estimate} estimado",
+    "elapsedOnly": "{elapsed} transcurrido",
+    "estimatedAbout": "Estimado ~{estimate}",
+    "longerThanPlanned": "{minutes} min más de lo previsto",
+    "nextLabel": "Siguiente",
+    "projectContext": "Proyecto",
+    "proposed": "Propuesto",
+    "stillOpen": "Sigue abierto",
+    "ready": "Listo",
+    "readyWhenYouAre": "Listo cuando tú lo estés",
+    "plannedFor": "previsto para las {time}",
+    "whatHappened": "¿Qué pasó con esto?",
+    "startNow": "Empezar ahora",
+    "findAnotherTime": "Buscar otro momento",
+    "inbox": "Bandeja",
+    "dismissCue": "Ocultar",
+    "cancelled": "Cancelado"
+  },
+  "capture": {
+    "placeholder": "Pon aquí lo que tengas en la cabeza.",
+    "hint": "Tarea, evento, nota, idea, recordatorio — un solo lugar.",
+    "classifiedAs": "Parece {kind}",
+    "uncertainTime": "Hora no definida",
+    "suggestedEstimate": "Estimación sugerida: ~{minutes} min",
+    "confirm": "Colocar esto"
+  },
+  "inbox": {
+    "title": "Bandeja",
+    "empty": "La bandeja está vacía. Captura algo desde Hoy cuando aparezca.",
+    "dropHint": "Colócalo en Hoy para programarlo."
+  },
+  "upcoming": {
+    "title": "Próximo",
+    "empty": "Nada programado después de hoy."
+  },
+  "calendar": {
+    "title": "Calendario",
+    "empty": "No hay eventos esta semana.",
+    "emptyDay": "Día abierto.",
+    "todayMark": "Hoy",
+    "week": "Semana",
+    "stillOpen": "Sigue abierto",
+    "cancelled": "Cancelado",
+    "mood": {
+      "today": "Hoy",
+      "resolved": "Resuelto",
+      "unresolved": "Algunas cosas siguen abiertas"
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "next": "Siguiente",
+    "upcoming": "Próximo",
+    "notes": "Notas",
+    "empty": "Aún no hay proyectos.",
+    "new": "Nuevo proyecto",
+    "name": "Nombre del proyecto"
+  },
+  "notes": {
+    "title": "Notas",
+    "empty": "Aún no hay notas.",
+    "new": "Nueva nota",
+    "pinToday": "Fijar en Hoy",
+    "unpin": "Desfijar"
+  },
+  "brainDump": {
+    "title": "Vaciar la mente",
+    "intro": "Escribe con libertad. Revisa las sugerencias antes de guardar nada.",
+    "placeholder": "Escribirle a Michael\nMirar vuelos a Japón\nQuizá rediseñar los precios",
+    "process": "Procesar",
+    "empty": "Escribe al menos una línea."
+  },
+  "search": {
+    "title": "Buscar",
+    "placeholder": "Buscar tareas, eventos, notas, proyectos",
+    "empty": "Sin coincidencias."
+  },
+  "sometime": {
+    "title": "Algún día",
+    "empty": "Nada en la lista de algún día."
+  },
+  "focus": {
+    "notesPlaceholder": "Nota rápida para esta tarea"
+  },
+  "pause": {
+    "meeting": "Reunión",
+    "phone": "Llamada",
+    "break": "Descanso",
+    "other": "Otro"
+  },
+  "review": {
+    "title": "Cerrar el día",
+    "completed": "Completado: {count}",
+    "estimated": "Estimado: {estimated}",
+    "actual": "Real: {actual}",
+    "unfinished": "¿Qué debería pasar con lo que no se terminó?",
+    "remember": "¿Algo que valga la pena recordar?",
+    "tomorrow": "¿Qué debería pasar a mañana?",
+    "openCount": "{count, plural, one {# sigue abierto} other {# siguen abiertos}}",
+    "stillNeedHome": "{count, plural, one {# cosa todavía necesita un lugar.} other {# cosas todavía necesitan un lugar.}}",
+    "decide": "Muévelas a mañana o déjalas en la bandeja.",
+    "planTomorrow": "Planear mañana",
+    "leaveInbox": "Dejar en la bandeja",
+    "toTomorrow": "Mañana",
+    "toInbox": "Bandeja",
+    "moveAllTomorrow": "Mover todo a mañana",
+    "finishToday": "Terminar el día",
+    "thatsToday": "Eso fue hoy.",
+    "tomorrowReady": "Mañana está listo."
+  },
+  "companion": {
+    "label": "Compañero Dayline",
+    "eveningUnfinished": "¿Quieres pasar estas cosas sin terminar a mañana?",
+    "afternoonOpen": "Tu tarde se ha liberado.",
+    "quietAfternoon": "Una tarde tranquila.",
+    "freeUntil": "Libre hasta las {time}.",
+    "stayWithThis": "Quédate con esto. Libre hasta las {time}.",
+    "stayWithThisOpen": "Quédate con esto.",
+    "stillWantThis": "¿Todavía lo quieres para hoy?",
+    "name": "Daymark"
+  },
+  "notices": {
+    "conflict": "Estas dos cosas se solapan. ¿Quieres ver algunas opciones?",
+    "overrun": "Esto está durando un poco más de lo previsto.",
+    "upcoming": "{title} en {minutes} min",
+    "stillWantThis": "¿Todavía lo quieres para hoy?",
+    "wrapUp": "Cerrar la tarea",
+    "keepGoing": "Seguir",
+    "adjustDay": "Ajustar el día",
+    "showOptions": "Mostrar opciones",
+    "ignore": "Ignorar",
+    "dismiss": "Ocultar"
+  },
+  "more": {
+    "title": "Más"
+  },
+  "emptyDay": "Tu día está abierto. Captura lo primero que tengas en mente."
+}

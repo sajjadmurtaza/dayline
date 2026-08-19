@@ -1,0 +1,174 @@
+{
+  "today": {
+    "title": "今日",
+    "unscheduled": "置き場所が必要",
+    "pinnedNotes": "ピン留め",
+    "nextEvent": "次: {time} の {title}",
+    "freeBlock": "いちばん長い空き: {start}–{end}",
+    "noEvents": "今日は固定の予定はありません",
+    "noMoreEvents": "今日の予定はこれ以上ありません",
+    "emptyUnscheduled": "置くのを待っているものはありません。",
+    "planPreview": "提案された配置",
+    "planWhy": "固定の予定を動かさず、空き時間に収まります。",
+    "nowSuggestion": "{next} まで {minutes} 分あります。{title} は収まりそうです。",
+    "nowSuggestionOpen": "空き時間があります。{title} から始めましょう。",
+    "nowBusy": "{time} まで {title} の最中です。",
+    "conflict": "時間が重なっています",
+    "needsAttention": "確認が必要",
+    "current": "いま",
+    "nowLabel": "いま",
+    "startedAt": "{time} に開始",
+    "greeting": {
+      "morning": "おはようございます",
+      "afternoon": "こんにちは",
+      "evening": "こんばんは",
+      "night": "こんばんは"
+    },
+    "summaryNowTask": "いま: {title}",
+    "summaryNowEvent": "{time} まで {title} の最中です",
+    "summaryNowFree": "いま予定されているものはありません。",
+    "summaryNext": "次: {time} の {title}",
+    "summaryNextNone": "今日はほかに予定はありません。",
+    "summaryTimeUntil": "{title} まで {minutes} 分",
+    "summaryOpenTime": "ここから先は空き時間です。",
+    "summaryInCommitment": "この枠はすでに埋まっています。",
+    "freeGap": "{label} 空き",
+    "dropHere": "ここに置いて配置する",
+    "elapsedEstimate": "{elapsed} 経過 · 見積もり ~{estimate}",
+    "elapsedOnly": "{elapsed} 経過",
+    "estimatedAbout": "見積もり ~{estimate}",
+    "longerThanPlanned": "予定より {minutes} 分長い",
+    "nextLabel": "次",
+    "projectContext": "プロジェクト",
+    "proposed": "提案",
+    "stillOpen": "まだ開いています",
+    "ready": "準備完了",
+    "readyWhenYouAre": "いつでも始められます",
+    "plannedFor": "{time} の予定",
+    "whatHappened": "これはどうなりましたか？",
+    "startNow": "今すぐ始める",
+    "findAnotherTime": "別の時間を探す",
+    "inbox": "受信箱",
+    "dismissCue": "閉じる",
+    "cancelled": "キャンセル"
+  },
+  "capture": {
+    "placeholder": "頭の中にあるものを、ここに置いてください。",
+    "hint": "タスク、予定、メモ、アイデア、リマインダー — ひとつの場所に。",
+    "classifiedAs": "{kind} のようです",
+    "uncertainTime": "時刻は未設定",
+    "suggestedEstimate": "提案する見積もり: 約 {minutes} 分",
+    "confirm": "ここに置く"
+  },
+  "inbox": {
+    "title": "受信箱",
+    "empty": "受信箱は空です。浮かんだら今日から取り込んでください。",
+    "dropHint": "今日に置いて予定を決めます。"
+  },
+  "upcoming": {
+    "title": "これから",
+    "empty": "今日より先の予定はありません。"
+  },
+  "calendar": {
+    "title": "カレンダー",
+    "empty": "今週の予定はありません。",
+    "emptyDay": "空いている日です。",
+    "todayMark": "今日",
+    "week": "週",
+    "stillOpen": "まだ開いています",
+    "cancelled": "キャンセル",
+    "mood": {
+      "today": "今日",
+      "resolved": "片付いた",
+      "unresolved": "まだ開いているものがあります"
+    }
+  },
+  "projects": {
+    "title": "プロジェクト",
+    "next": "次",
+    "upcoming": "これから",
+    "notes": "メモ",
+    "empty": "まだプロジェクトはありません。",
+    "new": "新しいプロジェクト",
+    "name": "プロジェクト名"
+  },
+  "notes": {
+    "title": "メモ",
+    "empty": "まだメモはありません。",
+    "new": "新しいメモ",
+    "pinToday": "今日にピン留め",
+    "unpin": "ピンを外す"
+  },
+  "brainDump": {
+    "title": "頭の中を出す",
+    "intro": "自由に書いてください。保存する前に提案を確認します。",
+    "placeholder": "マイケルにメールする\n日本行きの便を見る\n価格を見直すかも",
+    "process": "整理する",
+    "empty": "少なくとも1行書いてください。"
+  },
+  "search": {
+    "title": "検索",
+    "placeholder": "タスク、予定、メモ、プロジェクトを検索",
+    "empty": "一致するものはありません。"
+  },
+  "sometime": {
+    "title": "いつか",
+    "empty": "いつかリストは空です。"
+  },
+  "focus": {
+    "notesPlaceholder": "このタスクへの短いメモ"
+  },
+  "pause": {
+    "meeting": "会議",
+    "phone": "電話",
+    "break": "休憩",
+    "other": "その他"
+  },
+  "review": {
+    "title": "今日を閉じる",
+    "completed": "完了: {count}",
+    "estimated": "見積もり: {estimated}",
+    "actual": "実績: {actual}",
+    "unfinished": "終わっていないものはどうしますか？",
+    "remember": "覚えておきたいことはありますか？",
+    "tomorrow": "明日に移すものは？",
+    "openCount": "{count, plural, one {# 件がまだ開いています} other {# 件がまだ開いています}}",
+    "stillNeedHome": "{count, plural, one {# 件はまだ置き場所が必要です。} other {# 件はまだ置き場所が必要です。}}",
+    "decide": "明日に移すか、受信箱に残してください。",
+    "planTomorrow": "明日を計画する",
+    "leaveInbox": "受信箱に残す",
+    "toTomorrow": "明日",
+    "toInbox": "受信箱",
+    "moveAllTomorrow": "すべて明日に移す",
+    "finishToday": "今日を終える",
+    "thatsToday": "今日はここまで。",
+    "tomorrowReady": "明日の準備ができました。"
+  },
+  "companion": {
+    "label": "Dayline コンパニオン",
+    "eveningUnfinished": "終わっていないものを明日に移しますか？",
+    "afternoonOpen": "午後が空きました。",
+    "quietAfternoon": "静かな午後です。",
+    "freeUntil": "{time} まで空いています。",
+    "stayWithThis": "これに集中して。{time} まで空いています。",
+    "stayWithThisOpen": "これに集中して。",
+    "stillWantThis": "今日まだやりたいですか？",
+    "name": "Daymark"
+  },
+  "notices": {
+    "conflict": "この2つが重なっています。選択肢を見ますか？",
+    "overrun": "予定より少し長くかかっています。",
+    "upcoming": "{minutes} 分後に {title}",
+    "stillWantThis": "今日まだやりたいですか？",
+    "wrapUp": "タスクをまとめる",
+    "keepGoing": "続ける",
+    "adjustDay": "今日を調整する",
+    "showOptions": "選択肢を見る",
+    "ignore": "無視する",
+    "dismiss": "閉じる"
+  },
+  "more": {
+    "title": "その他"
+  },
+  "emptyDay": "今日は空いています。頭に浮かんだ最初のものを取り込んでください。"
+}

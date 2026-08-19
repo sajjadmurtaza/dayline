@@ -1,0 +1,174 @@
+{
+  "today": {
+    "title": "Heute",
+    "unscheduled": "Braucht einen Platz",
+    "pinnedNotes": "Angeheftet",
+    "nextEvent": "Als Nächstes: {title} um {time}",
+    "freeBlock": "Größter freier Block: {start}–{end}",
+    "noEvents": "Heute keine festen Termine",
+    "noMoreEvents": "Heute keine weiteren Termine",
+    "emptyUnscheduled": "Nichts wartet auf einen Platz.",
+    "planPreview": "Vorgeschlagene Plätze",
+    "planWhy": "Passt in einen freien Block, ohne feste Termine zu verschieben.",
+    "nowSuggestion": "Du hast {minutes} Minuten vor {next}. {title} sollte passen.",
+    "nowSuggestionOpen": "Du hast freie Zeit. Beginne mit {title}.",
+    "nowBusy": "Du bist in {title} bis {time}.",
+    "conflict": "Zeitkonflikt",
+    "needsAttention": "Braucht Aufmerksamkeit",
+    "current": "Aktuell",
+    "nowLabel": "Jetzt",
+    "startedAt": "Gestartet {time}",
+    "greeting": {
+      "morning": "Guten Morgen",
+      "afternoon": "Guten Tag",
+      "evening": "Guten Abend",
+      "night": "Guten Abend"
+    },
+    "summaryNowTask": "Jetzt: {title}",
+    "summaryNowEvent": "Du bist in {title} bis {time}",
+    "summaryNowFree": "Gerade ist nichts geplant.",
+    "summaryNext": "Als Nächstes: {title} um {time}",
+    "summaryNextNone": "Heute ist sonst nichts geplant.",
+    "summaryTimeUntil": "{minutes} Minuten bis {title}",
+    "summaryOpenTime": "Ab hier freie Zeit.",
+    "summaryInCommitment": "Dieser Block ist schon vergeben.",
+    "freeGap": "{label} frei",
+    "dropHere": "Hier ablegen, um zu platzieren",
+    "elapsedEstimate": "{elapsed} vergangen · ~{estimate} geschätzt",
+    "elapsedOnly": "{elapsed} vergangen",
+    "estimatedAbout": "Geschätzt ~{estimate}",
+    "longerThanPlanned": "{minutes} Min. länger als geplant",
+    "nextLabel": "Als Nächstes",
+    "projectContext": "Projekt",
+    "proposed": "Vorschlag",
+    "stillOpen": "Noch offen",
+    "ready": "Bereit",
+    "readyWhenYouAre": "Bereit, wenn du es bist",
+    "plannedFor": "geplant für {time}",
+    "whatHappened": "Was ist damit passiert?",
+    "startNow": "Jetzt starten",
+    "findAnotherTime": "Andere Zeit finden",
+    "inbox": "Posteingang",
+    "dismissCue": "Ausblenden",
+    "cancelled": "Abgebrochen"
+  },
+  "capture": {
+    "placeholder": "Schreib alles hierhin, was im Kopf ist.",
+    "hint": "Aufgabe, Termin, Notiz, Idee, Erinnerung — ein Ort.",
+    "classifiedAs": "Sieht aus wie {kind}",
+    "uncertainTime": "Keine Zeit gesetzt",
+    "suggestedEstimate": "Vorgeschätzte Dauer: ~{minutes} Min.",
+    "confirm": "Hier platzieren"
+  },
+  "inbox": {
+    "title": "Posteingang",
+    "empty": "Posteingang ist leer. Erfasse etwas von Heute, wenn es auftaucht.",
+    "dropHint": "Auf Heute legen, um zu planen."
+  },
+  "upcoming": {
+    "title": "Demnächst",
+    "empty": "Nach heute ist nichts geplant."
+  },
+  "calendar": {
+    "title": "Kalender",
+    "empty": "Diese Woche keine Termine.",
+    "emptyDay": "Offener Tag.",
+    "todayMark": "Heute",
+    "week": "Woche",
+    "stillOpen": "Noch offen",
+    "cancelled": "Abgebrochen",
+    "mood": {
+      "today": "Heute",
+      "resolved": "Geklärt",
+      "unresolved": "Manche Dinge noch offen"
+    }
+  },
+  "projects": {
+    "title": "Projekte",
+    "next": "Als Nächstes",
+    "upcoming": "Demnächst",
+    "notes": "Notizen",
+    "empty": "Noch keine Projekte.",
+    "new": "Neues Projekt",
+    "name": "Projektname"
+  },
+  "notes": {
+    "title": "Notizen",
+    "empty": "Noch keine Notizen.",
+    "new": "Neue Notiz",
+    "pinToday": "An Heute heften",
+    "unpin": "Lösen"
+  },
+  "brainDump": {
+    "title": "Gedanken leeren",
+    "intro": "Frei schreiben. Vorschläge prüfen, bevor etwas gespeichert wird.",
+    "placeholder": "Michael mailen\nJapan-Flüge ansehen\nVielleicht Preise neu denken",
+    "process": "Verarbeiten",
+    "empty": "Schreib mindestens eine Zeile."
+  },
+  "search": {
+    "title": "Suche",
+    "placeholder": "Aufgaben, Termine, Notizen, Projekte suchen",
+    "empty": "Keine Treffer."
+  },
+  "sometime": {
+    "title": "Irgendwann",
+    "empty": "Nichts auf der Irgendwann-Liste."
+  },
+  "focus": {
+    "notesPlaceholder": "Kurze Notiz zu dieser Aufgabe"
+  },
+  "pause": {
+    "meeting": "Meeting",
+    "phone": "Anruf",
+    "break": "Pause",
+    "other": "Sonstiges"
+  },
+  "review": {
+    "title": "Heute schließen",
+    "completed": "Erledigt: {count}",
+    "estimated": "Geschätzt: {estimated}",
+    "actual": "Tatsächlich: {actual}",
+    "unfinished": "Was soll mit dem Unerledigten passieren?",
+    "remember": "Etwas, das merkenwert ist?",
+    "tomorrow": "Was soll auf morgen?",
+    "openCount": "{count, plural, one {# noch offen} other {# noch offen}}",
+    "stillNeedHome": "{count, plural, one {# Sache braucht noch einen Platz.} other {# Sachen brauchen noch einen Platz.}}",
+    "decide": "Auf morgen legen oder im Posteingang lassen.",
+    "planTomorrow": "Morgen planen",
+    "leaveInbox": "Im Posteingang lassen",
+    "toTomorrow": "Morgen",
+    "toInbox": "Posteingang",
+    "moveAllTomorrow": "Alles auf morgen",
+    "finishToday": "Heute beenden",
+    "thatsToday": "Das war heute.",
+    "tomorrowReady": "Morgen ist bereit."
+  },
+  "companion": {
+    "label": "Dayline-Begleiter",
+    "eveningUnfinished": "Sollen diese unerledigten Dinge auf morgen?",
+    "afternoonOpen": "Der Nachmittag ist frei geworden.",
+    "quietAfternoon": "Ein ruhiger Nachmittag.",
+    "freeUntil": "Frei bis {time}.",
+    "stayWithThis": "Bleib dabei. Frei bis {time}.",
+    "stayWithThisOpen": "Bleib dabei.",
+    "stillWantThis": "Willst du das heute noch?",
+    "name": "Daymark"
+  },
+  "notices": {
+    "conflict": "Diese zwei Dinge überlappen. Optionen ansehen?",
+    "overrun": "Das dauert etwas länger als geplant.",
+    "upcoming": "{title} in {minutes} Min.",
+    "stillWantThis": "Willst du das heute noch?",
+    "wrapUp": "Aufgabe abschließen",
+    "keepGoing": "Weiter",
+    "adjustDay": "Tag anpassen",
+    "showOptions": "Optionen zeigen",
+    "ignore": "Ignorieren",
+    "dismiss": "Ausblenden"
+  },
+  "more": {
+    "title": "Mehr"
+  },
+  "emptyDay": "Dein Tag ist offen. Erfasse das Erste, das dir einfällt."
+}

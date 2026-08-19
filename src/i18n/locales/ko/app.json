@@ -1,0 +1,174 @@
+{
+  "today": {
+    "title": "오늘",
+    "unscheduled": "자리가 필요함",
+    "pinnedNotes": "고정됨",
+    "nextEvent": "다음: {time}의 {title}",
+    "freeBlock": "가장 긴 빈 시간: {start}–{end}",
+    "noEvents": "오늘 고정된 일정이 없습니다",
+    "noMoreEvents": "오늘 남은 일정이 없습니다",
+    "emptyUnscheduled": "둘 곳을 기다리는 항목이 없습니다.",
+    "planPreview": "제안된 자리",
+    "planWhy": "고정 일정을 옮기지 않고 빈 시간에 들어갑니다.",
+    "nowSuggestion": "{next}까지 {minutes}분 있습니다. {title}이(가) 맞을 거예요.",
+    "nowSuggestionOpen": "빈 시간이 있습니다. {title}부터 시작해 보세요.",
+    "nowBusy": "{time}까지 {title} 중입니다.",
+    "conflict": "시간이 겹칩니다",
+    "needsAttention": "살펴볼 필요가 있음",
+    "current": "현재",
+    "nowLabel": "지금",
+    "startedAt": "{time}에 시작",
+    "greeting": {
+      "morning": "좋은 아침입니다",
+      "afternoon": "안녕하세요",
+      "evening": "좋은 저녁입니다",
+      "night": "좋은 저녁입니다"
+    },
+    "summaryNowTask": "지금: {title}",
+    "summaryNowEvent": "{time}까지 {title} 중입니다",
+    "summaryNowFree": "지금은 예정된 것이 없습니다.",
+    "summaryNext": "다음: {time}의 {title}",
+    "summaryNextNone": "오늘 더 이상 예정된 것이 없습니다.",
+    "summaryTimeUntil": "{title}까지 {minutes}분",
+    "summaryOpenTime": "여기서부터는 빈 시간입니다.",
+    "summaryInCommitment": "이 시간은 이미 잡혀 있습니다.",
+    "freeGap": "{label} 비어 있음",
+    "dropHere": "여기에 놓아 배치하기",
+    "elapsedEstimate": "{elapsed} 경과 · 예상 ~{estimate}",
+    "elapsedOnly": "{elapsed} 경과",
+    "estimatedAbout": "예상 ~{estimate}",
+    "longerThanPlanned": "계획보다 {minutes}분 더 걸림",
+    "nextLabel": "다음",
+    "projectContext": "프로젝트",
+    "proposed": "제안",
+    "stillOpen": "아직 열려 있음",
+    "ready": "준비됨",
+    "readyWhenYouAre": "준비되면 언제든",
+    "plannedFor": "{time}에 예정됨",
+    "whatHappened": "이건 어떻게 됐나요?",
+    "startNow": "지금 시작",
+    "findAnotherTime": "다른 시간 찾기",
+    "inbox": "수신함",
+    "dismissCue": "숨기기",
+    "cancelled": "취소됨"
+  },
+  "capture": {
+    "placeholder": "머릿속에 있는 것은 무엇이든 여기에 두세요.",
+    "hint": "할 일, 일정, 메모, 아이디어, 알림 — 한곳이면 됩니다.",
+    "classifiedAs": "{kind}처럼 보입니다",
+    "uncertainTime": "시간이 정해지지 않음",
+    "suggestedEstimate": "제안된 예상: 약 {minutes}분",
+    "confirm": "여기에 두기"
+  },
+  "inbox": {
+    "title": "수신함",
+    "empty": "수신함이 비어 있습니다. 생각이 나면 오늘에서 담아 주세요.",
+    "dropHint": "오늘에 놓아 일정을 잡으세요."
+  },
+  "upcoming": {
+    "title": "다가오는 일",
+    "empty": "오늘 이후로 예정된 것이 없습니다."
+  },
+  "calendar": {
+    "title": "캘린더",
+    "empty": "이번 주 일정이 없습니다.",
+    "emptyDay": "열린 날입니다.",
+    "todayMark": "오늘",
+    "week": "주",
+    "stillOpen": "아직 열려 있음",
+    "cancelled": "취소됨",
+    "mood": {
+      "today": "오늘",
+      "resolved": "정리됨",
+      "unresolved": "아직 열린 일이 있습니다"
+    }
+  },
+  "projects": {
+    "title": "프로젝트",
+    "next": "다음",
+    "upcoming": "다가오는 일",
+    "notes": "메모",
+    "empty": "아직 프로젝트가 없습니다.",
+    "new": "새 프로젝트",
+    "name": "프로젝트 이름"
+  },
+  "notes": {
+    "title": "메모",
+    "empty": "아직 메모가 없습니다.",
+    "new": "새 메모",
+    "pinToday": "오늘에 고정",
+    "unpin": "고정 해제"
+  },
+  "brainDump": {
+    "title": "머릿속 비우기",
+    "intro": "자유롭게 쓰세요. 저장하기 전에 제안을 살펴봅니다.",
+    "placeholder": "마이클에게 메일 보내기\n일본 항공편 보기\n가격을 다시 생각해 볼까",
+    "process": "정리하기",
+    "empty": "한 줄 이상 적어 주세요."
+  },
+  "search": {
+    "title": "검색",
+    "placeholder": "할 일, 일정, 메모, 프로젝트 검색",
+    "empty": "일치하는 항목이 없습니다."
+  },
+  "sometime": {
+    "title": "언젠가",
+    "empty": "언젠가 목록이 비어 있습니다."
+  },
+  "focus": {
+    "notesPlaceholder": "이 할 일에 대한 짧은 메모"
+  },
+  "pause": {
+    "meeting": "회의",
+    "phone": "전화",
+    "break": "휴식",
+    "other": "기타"
+  },
+  "review": {
+    "title": "오늘 닫기",
+    "completed": "완료: {count}",
+    "estimated": "예상: {estimated}",
+    "actual": "실제: {actual}",
+    "unfinished": "끝나지 않은 항목은 어떻게 할까요?",
+    "remember": "기억해 둘 것이 있나요?",
+    "tomorrow": "내일로 옮길 것은?",
+    "openCount": "{count, plural, one {#개 아직 열림} other {#개 아직 열림}}",
+    "stillNeedHome": "{count, plural, one {#가지는 아직 자리가 필요합니다.} other {#가지는 아직 자리가 필요합니다.}}",
+    "decide": "내일로 옮기거나 수신함에 남겨 두세요.",
+    "planTomorrow": "내일 계획하기",
+    "leaveInbox": "수신함에 두기",
+    "toTomorrow": "내일",
+    "toInbox": "수신함",
+    "moveAllTomorrow": "모두 내일로 옮기기",
+    "finishToday": "오늘 마치기",
+    "thatsToday": "오늘이었습니다.",
+    "tomorrowReady": "내일이 준비됐습니다."
+  },
+  "companion": {
+    "label": "Dayline 동반자",
+    "eveningUnfinished": "끝나지 않은 것을 내일로 옮길까요?",
+    "afternoonOpen": "오후가 비었습니다.",
+    "quietAfternoon": "고요한 오후입니다.",
+    "freeUntil": "{time}까지 비어 있습니다.",
+    "stayWithThis": "여기에 머물러 보세요. {time}까지 비어 있습니다.",
+    "stayWithThisOpen": "여기에 머물러 보세요.",
+    "stillWantThis": "오늘 아직 하고 싶나요?",
+    "name": "Daymark"
+  },
+  "notices": {
+    "conflict": "이 두 가지가 겹칩니다. 몇 가지 선택을 볼까요?",
+    "overrun": "계획보다 조금 더 걸리고 있습니다.",
+    "upcoming": "{minutes}분 후 {title}",
+    "stillWantThis": "오늘 아직 하고 싶나요?",
+    "wrapUp": "할 일 마무리",
+    "keepGoing": "계속하기",
+    "adjustDay": "오늘 조정하기",
+    "showOptions": "선택 보기",
+    "ignore": "무시",
+    "dismiss": "숨기기"
+  },
+  "more": {
+    "title": "더보기"
+  },
+  "emptyDay": "오늘이 열려 있습니다. 머릿속에 있는 첫 번째 것을 담아 보세요."
+}

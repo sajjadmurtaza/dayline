@@ -1,0 +1,127 @@
+{
+  "appName": "Dayline",
+  "language": "Dil",
+  "nav": {
+    "today": "Bugün",
+    "inbox": "Gelen kutusu",
+    "upcoming": "Yaklaşan",
+    "calendar": "Takvim",
+    "projects": "Projeler",
+    "notes": "Notlar",
+    "sometime": "Bir ara",
+    "search": "Ara",
+    "brainDump": "Kafayı boşalt",
+    "more": "Daha fazla",
+    "add": "Ekle"
+  },
+  "actions": {
+    "save": "Kaydet",
+    "cancel": "Vazgeç",
+    "delete": "Sil",
+    "undo": "Geri al",
+    "start": "Başlat",
+    "pause": "Duraklat",
+    "done": "Bitti",
+    "resume": "Sürdür",
+    "planMyDay": "Günümü planla",
+    "acceptPlan": "Planı kabul et",
+    "keepSchedule": "Programı olduğu gibi bırak",
+    "whatNow": "Şimdi ne yapmalıyım?",
+    "convertToTask": "Göreve dönüştür",
+    "useEstimate": "Tahmini kullan",
+    "change": "Değiştir",
+    "moveTomorrow": "Yarına taşı",
+    "laterWeek": "Bu hafta daha sonra",
+    "pickTime": "Saat seç",
+    "backToInbox": "Gelen kutusuna dön",
+    "clearDemo": "Demo verilerini sıfırla",
+    "reviewSuggestions": "Önerileri incele",
+    "confirmSelected": "Seçilenleri kaydet"
+  },
+  "undoToast": {
+    "capture": "Kaydedildi",
+    "start": "Zamanlayıcı başladı",
+    "pause": "Duraklatıldı",
+    "complete": "Bitti olarak işaretlendi",
+    "schedule": "Zaman çizelgesinde taşındı",
+    "plan": "Plan uygulandı",
+    "inbox": "Gelen kutusuna gönderildi",
+    "delete": "Kaldırıldı",
+    "convert": "Göreve dönüştürüldü"
+  },
+  "status": {
+    "inbox": "Gelen kutusu",
+    "planned": "Planlandı",
+    "ready": "Hazır",
+    "running": "Devam ediyor",
+    "paused": "Duraklatıldı",
+    "completed": "Tamamlandı",
+    "deferred": "Ertelendi",
+    "cancelled": "İptal edildi"
+  },
+  "kind": {
+    "task": "Görev",
+    "event": "Etkinlik",
+    "note": "Not",
+    "reminder": "Anımsatıcı",
+    "fixed": "Sabit",
+    "flexible": "Esnek"
+  },
+  "priority": {
+    "low": "Düşük",
+    "normal": "Normal",
+    "high": "Yüksek",
+    "urgent": "Acil"
+  },
+  "deadlineKind": {
+    "none": "Son tarih yok",
+    "target": "Hedef",
+    "due": "Son tarih"
+  },
+  "noteType": {
+    "idea": "Fikir",
+    "remember": "Unutma",
+    "question": "Soru",
+    "research": "Araştırma",
+    "meeting": "Toplantı düşüncesi",
+    "personal": "Kişisel",
+    "temporary": "Geçici",
+    "freeform": "Not"
+  },
+  "duration": {
+    "estimated": "Tahmini",
+    "actual": "Gerçek",
+    "elapsed": "geçen",
+    "over": "tahminden {minutes} dk fazla",
+    "custom": "Özel",
+    "minutes": "{count, plural, one {# dk} other {# dk}}",
+    "hours": "{count, plural, one {# saat} other {# saat}}"
+  },
+  "bands": {
+    "past": "Geçmiş",
+    "now": "Şimdi",
+    "next": "Sıradaki",
+    "later": "Daha sonra"
+  },
+  "source": {
+    "local": "Dayline",
+    "google-calendar": "Google Takvim",
+    "outlook-calendar": "Outlook Takvim"
+  },
+  "a11y": {
+    "openNav": "Gezinmeyi aç",
+    "closeNav": "Gezinmeyi kapat",
+    "skipToContent": "İçeriğe geç",
+    "nowMarker": "Şu anki saat",
+    "progress": "Tahmini {estimate} içinden {elapsed} geçti",
+    "runningTask": "Devam eden görev"
+  },
+  "areas": {
+    "work": "İş",
+    "study": "Çalışma",
+    "health": "Sağlık",
+    "finance": "Para",
+    "family": "Aile",
+    "personal": "Kişisel"
+  }
+}

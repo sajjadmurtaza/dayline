@@ -1,0 +1,127 @@
+{
+  "appName": "Dayline",
+  "language": "Язык",
+  "nav": {
+    "today": "Сегодня",
+    "inbox": "Входящие",
+    "upcoming": "Предстоит",
+    "calendar": "Календарь",
+    "projects": "Проекты",
+    "notes": "Заметки",
+    "sometime": "Когда-нибудь",
+    "search": "Поиск",
+    "brainDump": "Выгрузить мысли",
+    "more": "Ещё",
+    "add": "Добавить"
+  },
+  "actions": {
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "delete": "Удалить",
+    "undo": "Отменить",
+    "start": "Начать",
+    "pause": "Пауза",
+    "done": "Готово",
+    "resume": "Продолжить",
+    "planMyDay": "Спланировать день",
+    "acceptPlan": "Принять план",
+    "keepSchedule": "Оставить расписание как есть",
+    "whatNow": "Что мне делать сейчас?",
+    "convertToTask": "Превратить в задачу",
+    "useEstimate": "Использовать оценку",
+    "change": "Изменить",
+    "moveTomorrow": "Перенести на завтра",
+    "laterWeek": "Позже на этой неделе",
+    "pickTime": "Выбрать время",
+    "backToInbox": "Назад во входящие",
+    "clearDemo": "Сбросить демоданные",
+    "reviewSuggestions": "Просмотреть предложения",
+    "confirmSelected": "Сохранить выбранное"
+  },
+  "undoToast": {
+    "capture": "Записано",
+    "start": "Таймер запущен",
+    "pause": "На паузе",
+    "complete": "Отмечено как готовое",
+    "schedule": "Перемещено на линии времени",
+    "plan": "План применён",
+    "inbox": "Отправлено во входящие",
+    "delete": "Убрано",
+    "convert": "Превращено в задачу"
+  },
+  "status": {
+    "inbox": "Входящие",
+    "planned": "Запланировано",
+    "ready": "Готово",
+    "running": "Идёт",
+    "paused": "На паузе",
+    "completed": "Выполнено",
+    "deferred": "Отложено",
+    "cancelled": "Отменено"
+  },
+  "kind": {
+    "task": "Задача",
+    "event": "Событие",
+    "note": "Заметка",
+    "reminder": "Напоминание",
+    "fixed": "Фиксированное",
+    "flexible": "Гибкое"
+  },
+  "priority": {
+    "low": "Низкий",
+    "normal": "Обычный",
+    "high": "Высокий",
+    "urgent": "Срочный"
+  },
+  "deadlineKind": {
+    "none": "Без срока",
+    "target": "Ориентир",
+    "due": "Срок"
+  },
+  "noteType": {
+    "idea": "Идея",
+    "remember": "Запомнить",
+    "question": "Вопрос",
+    "research": "Исследование",
+    "meeting": "Мысль со встречи",
+    "personal": "Личное",
+    "temporary": "Временное",
+    "freeform": "Заметка"
+  },
+  "duration": {
+    "estimated": "Оценка",
+    "actual": "Факт",
+    "elapsed": "прошло",
+    "over": "на {minutes} мин дольше оценки",
+    "custom": "Своё",
+    "minutes": "{count, plural, one {# мин} few {# мин} many {# мин} other {# мин}}",
+    "hours": "{count, plural, one {# час} few {# часа} many {# часов} other {# часа}}"
+  },
+  "bands": {
+    "past": "Прошлое",
+    "now": "Сейчас",
+    "next": "Дальше",
+    "later": "Позже"
+  },
+  "source": {
+    "local": "Dayline",
+    "google-calendar": "Google Календарь",
+    "outlook-calendar": "Календарь Outlook"
+  },
+  "a11y": {
+    "openNav": "Открыть навигацию",
+    "closeNav": "Закрыть навигацию",
+    "skipToContent": "К содержимому",
+    "nowMarker": "Текущее время",
+    "progress": "Прошло {elapsed} из оценки {estimate}",
+    "runningTask": "Текущая задача"
+  },
+  "areas": {
+    "work": "Работа",
+    "study": "Учёба",
+    "health": "Здоровье",
+    "finance": "Финансы",
+    "family": "Семья",
+    "personal": "Личное"
+  }
+}
