@@ -10,9 +10,10 @@
     "notes": "الملاحظات",
     "sometime": "في وقت ما",
     "search": "بحث",
-    "brainDump": "تفريغ ذهني",
+    "brainDump": "خواطر",
     "more": "المزيد",
-    "add": "إضافة"
+    "add": "إضافة",
+    "bookmarks": "الإشارات"
   },
   "actions": {
     "save": "حفظ",
@@ -106,7 +107,9 @@
   "source": {
     "local": "Dayline",
     "google-calendar": "تقويم غوغل",
-    "outlook-calendar": "تقويم أوتلوك"
+    "outlook-calendar": "تقويم أوتلوك",
+    "ics-file": "تقويم مستورد",
+    "calendar-feed": "رابط تقويم"
   },
   "a11y": {
     "openNav": "فتح التنقل",

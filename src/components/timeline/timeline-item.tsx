@@ -6,6 +6,8 @@ import { DaylineIcon } from "@/components/icons";
 import { SessionMeter } from "@/components/session-meter";
 import { itemHeight } from "@/components/timeline/spine";
 import { occurrenceTone, toneIcon, TONE_OBJECT } from "@/components/timeline/tone";
+import { ReadOnlyEvent } from "@/components/external-event-detail";
+import { faceClass, isExternallyManagedEvent, isReservedLunch, showsCalendarIcon, timeFace } from "@/domains/planning/time-kinds";
 import type {
   AttentionPhase,
   DayNotice,
@@ -55,6 +57,9 @@ export function TimelineItem({
   const completed = task?.status === "completed";
   const cancelled = task?.status === "cancelled";
   const tone = occurrenceTone(occurrence);
+  const face = task ? timeFace(task) : occurrence.event ? timeFace(occurrence.event) : null;
+  const calendar = occurrence.event ? showsCalendarIcon(occurrence.event) : false;
+  const reserved = occurrence.event ? isReservedLunch(occurrence.event) : false;
   const minutes = minutesBetweenDates(occurrence.start, occurrence.end);
   const height = itemHeight(Math.max(minutes, live ? 50 : 20), live ? "current" : band);
   const over = Boolean(running && task?.estimatedMinutes && elapsed > task.estimatedMinutes);
@@ -64,7 +69,7 @@ export function TimelineItem({
   const waiting = attention === "waiting";
   const fade = band === "past" && !stillOpen && !waiting && !ready;
 
-  return (
+  const card = (
     <motion.article
       layout={!reduce}
       className={`relative grid grid-cols-[3.6rem_minmax(0,1fr)] items-start gap-x-3 ${
@@ -78,6 +83,8 @@ export function TimelineItem({
       </p>
       <div
         className={`relative overflow-hidden rounded-[1.05rem] px-4 py-3 ${TONE_OBJECT[tone]} ${
+          face ? faceClass(face) : ""
+        } ${
           running ? "session-live" : live ? "shadow-[var(--shadow-now)]" : ""
         } ${band === "next" ? "ring-1 ring-now/30" : ""} ${stillOpen ? "object-open" : ""} ${ready ? "nudge-once" : ""}`}
       >
@@ -89,12 +96,17 @@ export function TimelineItem({
           {running ? <span className="live-dot" aria-hidden /> : null}
           {reduce && ready ? <span className="attention-dot" aria-hidden /> : null}
           <DaylineIcon
-            name={completed ? "done" : toneIcon(tone, occurrence.kind)}
+            name={completed ? "done" : calendar ? "calendar" : toneIcon(tone, occurrence.kind)}
             className="h-4 w-4 shrink-0"
           />
           {occurrence.event?.title ?? task?.title}
           <span className="sr-only"> {bands(band === "current" ? "now" : band)}</span>
         </p>
+        {reserved ? <p className="type-caption mt-1">{today("reserved")}</p> : null}
+        {occurrence.event?.participation === "tentative" ? (
+          <p className="type-caption mt-1">{today("tentative")}</p>
+        ) : null}
+        {occurrence.event?.location ? <p className="type-caption mt-1">{occurrence.event.location}</p> : null}
         {ready ? <p className="type-caption mt-1">{today("ready")}</p> : null}
         {waiting ? <p className="type-caption mt-1">{today("readyWhenYouAre")}</p> : null}
         {stillOpen ? (
@@ -221,5 +233,10 @@ export function TimelineItem({
         ) : null}
       </div>
     </motion.article>
+  );
+  return occurrence.event && isExternallyManagedEvent(occurrence.event) ? (
+    <ReadOnlyEvent event={occurrence.event}>{card}</ReadOnlyEvent>
+  ) : (
+    card
   );
 }

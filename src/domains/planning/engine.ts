@@ -24,6 +24,7 @@ export function eventsOnDay(doc: StoreDocument, day: Date): CalendarEvent[] {
   const start = startOfDay(day).getTime();
   const end = addDays(startOfDay(day), 1).getTime();
   return doc.items.filter(isEvent).filter((event) => {
+    if (event.calendarPlacement === "hidden" || event.calendarPlacement === "quiet") return false;
     const t = new Date(event.start).getTime();
     return t >= start && t < end;
   });

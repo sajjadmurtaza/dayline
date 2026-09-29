@@ -12,6 +12,7 @@ import {
 import { useEffect, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { useDayline, useTodayModel } from "@/components/app-provider";
+import { CalendarStaleNotice } from "@/components/calendar-sync";
 import { EveningClose } from "@/components/evening-close";
 import { DaylineIcon } from "@/components/icons";
 import { QuickCapture } from "@/components/quick-capture";
@@ -20,6 +21,9 @@ import { TaskChip } from "@/components/task-chip";
 import { Timeline } from "@/components/timeline";
 import { TodayRail } from "@/components/today-rail";
 import { TodaySummary } from "@/components/today-summary";
+import { canMoveItem, cueForToday, showsCalendarIcon } from "@/domains/planning/time-kinds";
+import { formatClock } from "@/lib/dates";
+import { isTask } from "@/lib/types";
 
 export function TodayView() {
   const t = useTranslations("app.today");
@@ -38,12 +42,20 @@ export function TodayView() {
     tomorrowAll,
     dismissNotice,
     schedule,
+    place,
     doc,
+    reflow,
+    opened,
+    acceptReflow,
+    keepReflow,
+    acceptOpened,
+    addPrep,
   } = useDayline();
   const model = useTodayModel();
   const [planning, setPlanning] = useState(false);
   const [dayClosed, setDayClosed] = useState(false);
   const [dismissedUndoAt, setDismissedUndoAt] = useState<string | null>(null);
+  const [prepSkipped, setPrepSkipped] = useState<string | null>(null);
   const dateLabel = now.toLocaleDateString(locale, {
     weekday: "long",
     month: "long",
@@ -76,7 +88,8 @@ export function TodayView() {
     const { active, over } = event;
     if (!over) return;
     const taskId = String(active.id).startsWith("task:") ? String(active.id).slice(5) : "";
-    if (!taskId) return;
+    const moving = doc.items.find((item) => item.id === taskId);
+    if (!taskId || !moving || !isTask(moving) || !canMoveItem(moving)) return;
     const startIso = over.data.current?.startIso;
     if (typeof startIso === "string") schedule(taskId, new Date(startIso));
   }
@@ -112,12 +125,67 @@ export function TodayView() {
               </button>
             </div>
           </header>
+          <CalendarStaleNotice />
 
           <div data-readme="today-summary">
             <TodaySummary snapshot={model.snapshot} />
           </div>
 
           <QuickCapture />
+
+          {reflow?.reflow ? (
+            <div className="rounded-[1.05rem] bg-paper-raised p-4" role="status">
+              <p className="type-title">{t("meetingMoved")}</p>
+              <p className="type-caption mt-1" suppressHydrationWarning>
+                {formatClock(new Date(reflow.from.start), locale)} →{" "}
+                {formatClock(new Date(reflow.to.start), locale)}
+              </p>
+              <p className="mt-2 text-[15px]">{t("proposalOverlaps")}</p>
+              <div className="mt-3 flex flex-wrap gap-2">
+                <button type="button" className="pill pill-now" onClick={acceptReflow}>
+                  {t("useThis")}
+                </button>
+                <button type="button" className="pill pill-muted" onClick={keepReflow}>
+                  {t("leaveEverything")}
+                </button>
+              </div>
+            </div>
+          ) : null}
+
+          {(() => {
+            const upcoming = model.events.find(
+              (event) => showsCalendarIcon(event) && new Date(event.end).getTime() > now.getTime(),
+            );
+            if (!upcoming || prepSkipped === upcoming.id) return null;
+            const prepared = doc.items.some((item) => isTask(item) && item.title === `Prepare: ${upcoming.title}`);
+            if (prepared) return null;
+            return (
+              <div className="rounded-[1.05rem] bg-paper-raised p-4">
+                <p className="type-title">{upcoming.title}</p>
+                <p className="mt-1 text-[15px]">{t("prepAsk")}</p>
+                <div className="mt-3 flex gap-2">
+                  <button type="button" className="pill pill-now" onClick={() => addPrep(upcoming.id)}>
+                    {t("addPrep")}
+                  </button>
+                  <button type="button" className="pill pill-muted" onClick={() => setPrepSkipped(upcoming.id)}>
+                    {t("prepSkip")}
+                  </button>
+                </div>
+              </div>
+            );
+          })()}
+
+          {opened ? (
+            <div className="rounded-[1.05rem] bg-paper-raised p-4" role="status">
+              <p className="text-[15px]">
+                {t("cancelledOpened", { title: opened.title, minutes: opened.cue.minutes })}
+              </p>
+              <p className="type-caption mt-1">{t("placementFits", { title: opened.cue.task.title, minutes: opened.cue.minutes })}</p>
+              <button type="button" className="pill pill-now mt-3" onClick={acceptOpened}>
+                {t("placeIt")}
+              </button>
+            </div>
+          ) : null}
 
           {planning ? (
             <div className="flex flex-wrap items-center gap-2" role="status">
@@ -210,14 +278,15 @@ export function TodayView() {
           ) : null}
         </div>
 
-        <TodayRail
+          <TodayRail
           snapshot={model.snapshot}
           unscheduled={model.unscheduled}
           pinned={model.pinned}
           running={model.running}
           projectName={projectName}
-          advice={model.advice}
+          placeCue={cueForToday(doc, now)}
           hideStart={evening}
+          onPlace={(cue) => place(cue.proposal)}
           onStart={start}
           onConvert={noteToTask}
           onPin={(id) => pin(id, false)}

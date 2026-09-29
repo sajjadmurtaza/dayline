@@ -2,8 +2,10 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import { BookmarkPicker } from "@/components/bookmarks-view";
 import { PageTitle } from "@/components/page-title";
 import { useDayline } from "@/components/app-provider";
+import { ShareButton } from "@/components/share/ShareButton";
 import { StickyNote } from "@/components/sticky-note";
 import { TaskCard } from "@/components/task-card";
 import { isNote, isTask } from "@/lib/types";
@@ -50,7 +52,13 @@ export function ProjectsView() {
             key={project.id}
             className="rounded-[1.4rem] bg-paper-raised p-5 ring-1 ring-line"
           >
-            <h2 className="type-heading">{project.name}</h2>
+            <div className="flex items-center justify-between gap-3">
+              <h2 className="type-heading">{project.name}</h2>
+              <ShareButton
+                className="pill pill-muted"
+                payload={{ title: project.name, text: project.name, source: "project", privacy: "private" }}
+              />
+            </div>
             {next ? (
               <div className="mt-3">
                 <p className="text-xs text-muted">{t("next")}</p>
@@ -76,6 +84,9 @@ export function ProjectsView() {
                 ))}
               </div>
             ) : null}
+            <div className="mt-4">
+              <BookmarkPicker target={{ kind: "project", id: project.id }} />
+            </div>
             {notes.length > 0 ? (
               <div className="mt-4 grid gap-3 sm:grid-cols-2">
                 <p className="col-span-full text-xs text-muted">{t("notes")}</p>

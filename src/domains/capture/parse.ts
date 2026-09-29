@@ -19,13 +19,17 @@ const DURATION = /(\d+)\s*(h(?:ours?)?|hours?|m(?:in(?:utes?)?)?)/i;
 const AT_TIME = /\bat\s+(\d{1,2})(?::(\d{2}))?\s*(am|pm)?/i;
 const IDEA = /^(idea|remember|question)\s*[:：]\s*/i;
 
-function guessDuration(title: string): number | null {
+function typedDuration(title: string): number | null {
   const match = title.match(DURATION);
-  if (!match) return heuristicEstimate(title);
+  if (!match) return null;
   const n = Number(match[1]);
   const unit = match[2].toLowerCase();
   if (unit.startsWith("h")) return n * 60;
   return n;
+}
+
+function guessDuration(title: string): number | null {
+  return typedDuration(title) ?? heuristicEstimate(title);
 }
 
 function heuristicEstimate(title: string): number | null {
@@ -86,6 +90,7 @@ export function parseCapture(input: string, now: Date): CaptureSuggestion | null
   }
 
   const when = parseWhen(raw, now);
+  const typed = typedDuration(raw);
   const estimatedMinutes = guessDuration(raw);
   const title =
     raw
@@ -116,11 +121,12 @@ export function parseCapture(input: string, now: Date): CaptureSuggestion | null
   return {
     kind: "task",
     title,
-    estimatedMinutes,
+    estimatedMinutes: typed,
     scheduledStart: when.start ? when.start.toISOString() : null,
-    scheduledEnd: when.start
-      ? new Date(when.start.getTime() + (estimatedMinutes ?? 30) * 60000).toISOString()
-      : null,
+    scheduledEnd:
+      when.start && typed
+        ? new Date(when.start.getTime() + typed * 60000).toISOString()
+        : null,
     noteType: null,
     priority: "normal",
     sometime,

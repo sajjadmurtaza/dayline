@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import { ShareButton } from "@/components/share/ShareButton";
 import type { Note } from "@/lib/types";
 
 function pinTilt(id: string) {
@@ -40,6 +41,15 @@ export function StickyNote({
             {note.pinnedToday ? app("unpin") : app("pinToday")}
           </button>
         ) : null}
+        <ShareButton
+          className="pill pill-muted"
+          payload={{
+            title: note.title,
+            text: [note.title, note.body].filter(Boolean).join("\n"),
+            source: "note",
+            privacy: "private",
+          }}
+        />
       </div>
     </article>
   );

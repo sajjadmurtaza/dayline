@@ -10,9 +10,10 @@
     "notes": "Заметки",
     "sometime": "Когда-нибудь",
     "search": "Поиск",
-    "brainDump": "Выгрузить мысли",
+    "brainDump": "Набросать мысли",
     "more": "Ещё",
-    "add": "Добавить"
+    "add": "Добавить",
+    "bookmarks": "Закладки"
   },
   "actions": {
     "save": "Сохранить",
@@ -106,7 +107,9 @@
   "source": {
     "local": "Dayline",
     "google-calendar": "Google Календарь",
-    "outlook-calendar": "Календарь Outlook"
+    "outlook-calendar": "Календарь Outlook",
+    "ics-file": "Импортированный календарь",
+    "calendar-feed": "Подписка на календарь"
   },
   "a11y": {
     "openNav": "Открыть навигацию",

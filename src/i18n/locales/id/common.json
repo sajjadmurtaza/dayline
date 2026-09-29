@@ -10,9 +10,10 @@
     "notes": "Catatan",
     "sometime": "Suatu saat",
     "search": "Cari",
-    "brainDump": "Kosongkan pikiran",
+    "brainDump": "Curahan pikiran",
     "more": "Lainnya",
-    "add": "Tambah"
+    "add": "Tambah",
+    "bookmarks": "Markah"
   },
   "actions": {
     "save": "Simpan",
@@ -106,7 +107,9 @@
   "source": {
     "local": "Dayline",
     "google-calendar": "Google Kalender",
-    "outlook-calendar": "Kalender Outlook"
+    "outlook-calendar": "Kalender Outlook",
+    "ics-file": "Kalender yang diimpor",
+    "calendar-feed": "Umpan kalender"
   },
   "a11y": {
     "openNav": "Buka navigasi",

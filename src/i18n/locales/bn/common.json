@@ -10,9 +10,10 @@
     "notes": "নোট",
     "sometime": "কখনো",
     "search": "খোঁজ",
-    "brainDump": "মাথা খালি করুন",
+    "brainDump": "মনের কথা",
     "more": "আরও",
-    "add": "যোগ"
+    "add": "যোগ",
+    "bookmarks": "বুকমার্ক"
   },
   "actions": {
     "save": "সংরক্ষণ",
@@ -106,7 +107,9 @@
   "source": {
     "local": "Dayline",
     "google-calendar": "Google ক্যালেন্ডার",
-    "outlook-calendar": "Outlook ক্যালেন্ডার"
+    "outlook-calendar": "Outlook ক্যালেন্ডার",
+    "ics-file": "আনা ক্যালেন্ডার",
+    "calendar-feed": "ক্যালেন্ডার ফিড"
   },
   "a11y": {
     "openNav": "নেভিগেশন খুলুন",

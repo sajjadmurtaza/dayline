@@ -232,6 +232,22 @@ body {
   color: var(--notes);
 }
 
+.time-fixed {
+  border-inline-start-style: solid;
+  border-inline-start-width: 4px;
+}
+
+.time-yours {
+  border-inline-start-style: solid;
+  border-inline-start-width: 4px;
+}
+
+.time-proposed {
+  border-inline-start-style: dashed;
+  border-inline-start-width: 4px;
+  opacity: 0.82;
+}
+
 .object-proposed {
   background: color-mix(in srgb, var(--task) 8%, var(--paper));
   border-inline-start: 4px dashed var(--task);

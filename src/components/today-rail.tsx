@@ -7,7 +7,7 @@ import { TaskChip } from "@/components/task-chip";
 import { formatClock } from "@/lib/dates";
 import type { Note, Task } from "@/lib/types";
 import type { DaySnapshot } from "@/domains/planning/day-view";
-import type { NowAdvice } from "@/domains/planning/engine";
+import type { PlacementCue } from "@/domains/planning/time-kinds";
 
 export function TodayRail({
   snapshot,
@@ -15,8 +15,9 @@ export function TodayRail({
   pinned,
   running,
   projectName,
-  advice,
+  placeCue = null,
   hideStart = false,
+  onPlace,
   onStart,
   onConvert,
   onPin,
@@ -29,8 +30,9 @@ export function TodayRail({
   pinned: Note[];
   running: Task | null;
   projectName: string | null;
-  advice: NowAdvice | null;
+  placeCue?: PlacementCue | null;
   hideStart?: boolean;
+  onPlace?: (cue: PlacementCue) => void;
   onStart: (id: string) => void;
   onConvert: (id: string) => void;
   onPin: (id: string) => void;
@@ -43,13 +45,11 @@ export function TodayRail({
   const locale = useLocale();
   const next = snapshot.nextOccurrence;
   const nextTime = next ? formatClock(next.start, locale) : null;
-  const suggestion = advice?.kind === "suggest" ? advice : null;
-
   let companionNode: {
     state: "idle" | "thinking" | "focused" | "curious";
     message: string;
   } | null = null;
-  if (running) {
+  if (running && next?.kind === "event") {
     companionNode = {
       state: "focused",
       message: nextTime
@@ -58,26 +58,13 @@ export function TodayRail({
     };
   } else if (snapshot.notice?.kind === "unresolved") {
     companionNode = { state: "curious", message: companion("stillWantThis") };
-  } else if (snapshot.notice) {
+  } else if (snapshot.showEveningClose) {
     companionNode = null;
-  } else if (suggestion) {
+  } else if (placeCue) {
     companionNode = {
       state: "thinking",
-      message: suggestion.nextTitle
-        ? t("nowSuggestion", {
-            minutes: suggestion.minutesFree,
-            next: suggestion.nextTitle,
-            title: suggestion.task.title,
-          })
-        : t("nowSuggestionOpen", { title: suggestion.task.title }),
+      message: t("placementFits", { title: placeCue.task.title, minutes: placeCue.minutes }),
     };
-  } else if (next && snapshot.minutesFree != null && snapshot.minutesFree >= 20) {
-    companionNode = {
-      state: "thinking",
-      message: companion("freeUntil", { time: nextTime ?? "" }),
-    };
-  } else if (!next && snapshot.greeting !== "evening" && snapshot.greeting !== "night") {
-    companionNode = { state: "idle", message: companion("quietAfternoon") };
   }
 
   const place = hideStart ? [] : unscheduled;
@@ -96,6 +83,13 @@ export function TodayRail({
               label={companion("label")}
               name={companion("name")}
             />
+            {placeCue && onPlace ? (
+              <div className="ps-12">
+                <button type="button" className="pill pill-now" onClick={() => onPlace(placeCue)}>
+                  {t("placeIt")}
+                </button>
+              </div>
+            ) : null}
             {snapshot.notice?.kind === "unresolved" && snapshot.notice.itemId ? (
               <div className="flex flex-wrap gap-1 ps-12">
                 {onFindTime ? (

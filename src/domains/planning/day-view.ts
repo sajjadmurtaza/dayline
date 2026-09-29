@@ -9,6 +9,7 @@ import {
   unscheduledTasks,
   type NowAdvice,
 } from "@/domains/planning/engine";
+import { getUsableTimeToday } from "@/domains/planning/time-kinds";
 
 export const TIME_BANDS = ["past", "now", "next", "later"] as const;
 export type TimeBand = (typeof TIME_BANDS)[number];
@@ -63,6 +64,8 @@ export type DaySnapshot = {
   nowOccurrence: TimedOccurrence | null;
   nextOccurrence: TimedOccurrence | null;
   minutesFree: number | null;
+  usableMinutes: number;
+  externalCalendar: boolean;
   unfinished: Task[];
   completedToday: Task[];
   advice: NowAdvice | null;
@@ -308,6 +311,8 @@ export function buildDaySnapshot(
     nowOccurrence: nowOccurrence ?? null,
     nextOccurrence: next,
     minutesFree,
+    usableMinutes: getUsableTimeToday(doc, now),
+    externalCalendar: eventsOnDay(doc, now).some((item) => item.source.kind === "connector"),
     unfinished,
     completedToday,
     advice: adviceNow(doc, now),

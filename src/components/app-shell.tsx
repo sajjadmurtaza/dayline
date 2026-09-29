@@ -8,6 +8,7 @@ import { DaylineIcon, type DaylineIconName } from "@/components/icons";
 import { LanguageSwitcher } from "@/components/language-switcher";
 import { QuickCapture } from "@/components/quick-capture";
 import { useDayline, useTodayModel } from "@/components/app-provider";
+import { CalendarSync } from "@/components/calendar-sync";
 
 const PRIMARY: { href: "/" | "/inbox" | "/calendar" | "/upcoming"; key: DaylineIconName }[] = [
   { href: "/", key: "today" },
@@ -17,14 +18,16 @@ const PRIMARY: { href: "/" | "/inbox" | "/calendar" | "/upcoming"; key: DaylineI
 ];
 
 const SECONDARY: {
-  href: "/projects" | "/notes" | "/sometime" | "/brain-dump" | "/search";
+  href: "/calendars" | "/projects" | "/notes" | "/sometime" | "/brain-dump" | "/search" | "/bookmarks";
   key: DaylineIconName;
 }[] = [
+  { href: "/calendars", key: "calendar" },
   { href: "/projects", key: "projects" },
   { href: "/notes", key: "notes" },
   { href: "/sometime", key: "sometime" },
   { href: "/brain-dump", key: "brainDump" },
   { href: "/search", key: "search" },
+  { href: "/bookmarks", key: "bookmarks" },
 ];
 
 const LINKS = [...PRIMARY, ...SECONDARY];
@@ -38,6 +41,7 @@ const MOBILE: { href: "/" | "/inbox" | "/calendar" | "/more"; key: DaylineIconNa
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const t = useTranslations("common");
+  const calendars = useTranslations("app.calendars");
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const [more, setMore] = useState(false);
@@ -50,8 +54,13 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     return pathname === href || (href === "/" && pathname === "");
   }
 
+  function navLabel(link: { href: string; key: DaylineIconName }) {
+    return link.href === "/calendars" ? calendars("nav") : t(`nav.${link.key}`);
+  }
+
   return (
     <div className="min-h-dvh">
+      <CalendarSync />
       <a
         href="#main"
         className="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:bg-paper focus:p-3"
@@ -72,14 +81,14 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                 <Link
                   key={link.href}
                   href={link.href}
-                  title={t(`nav.${link.key}`)}
+                  title={navLabel(link)}
                   className={`flex min-h-11 items-center overflow-hidden rounded-xl px-3 text-sm ${
                     active(link.href) ? "bg-ink/8 text-ink" : "text-muted hover:text-ink"
                   }`}
                 >
                   <DaylineIcon name={link.key} className="h-4 w-4 shrink-0" />
                   <span className="max-w-0 overflow-hidden whitespace-nowrap opacity-0 transition-all group-hover/nav:ms-3 group-hover/nav:max-w-[9rem] group-hover/nav:opacity-100 group-focus-within/nav:ms-3 group-focus-within/nav:max-w-[9rem] group-focus-within/nav:opacity-100">
-                    {t(`nav.${link.key}`)}
+                    {navLabel(link)}
                   </span>
                 </Link>
               ))}
@@ -99,14 +108,14 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                     <Link
                       key={link.href}
                       href={link.href}
-                      title={t(`nav.${link.key}`)}
+                      title={navLabel(link)}
                       className={`flex min-h-11 items-center overflow-hidden rounded-xl px-3 text-sm ${
                         active(link.href) ? "bg-ink/8 text-ink" : "text-muted hover:text-ink"
                       }`}
                     >
                       <DaylineIcon name={link.key} className="h-4 w-4 shrink-0" />
                       <span className="max-w-0 overflow-hidden whitespace-nowrap opacity-0 transition-all group-hover/nav:ms-3 group-hover/nav:max-w-[9rem] group-hover/nav:opacity-100 group-focus-within/nav:ms-3 group-focus-within/nav:max-w-[9rem] group-focus-within/nav:opacity-100">
-                        {t(`nav.${link.key}`)}
+                        {navLabel(link)}
                       </span>
                     </Link>
                   ))
@@ -155,7 +164,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                   onClick={() => setOpen(false)}
                 >
                   <DaylineIcon name={link.key} className="h-4 w-4" />
-                  {t(`nav.${link.key}`)}
+                  {navLabel(link)}
                 </Link>
               ))}
               <div className="col-span-2 mt-2">

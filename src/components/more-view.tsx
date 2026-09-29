@@ -8,6 +8,7 @@ import { useDayline } from "@/components/app-provider";
 
 export function MoreView() {
   const t = useTranslations("app.more");
+  const calendars = useTranslations("app.calendars");
   const common = useTranslations("common");
   const { resetDemo, undo } = useDayline();
   return (
@@ -15,11 +16,17 @@ export function MoreView() {
       <PageTitle>{t("title")}</PageTitle>
       <LanguageSwitcher />
       <div className="flex flex-col gap-1">
+        <Link href="/calendars" className="flex min-h-12 items-center px-1 text-sm">
+          {calendars("nav")}
+        </Link>
         <Link href="/brain-dump" className="flex min-h-12 items-center px-1 text-sm">
           {common("nav.brainDump")}
         </Link>
         <Link href="/search" className="flex min-h-12 items-center px-1 text-sm">
           {common("nav.search")}
+        </Link>
+        <Link href="/bookmarks" className="flex min-h-12 items-center px-1 text-sm">
+          {common("nav.bookmarks")}
         </Link>
         <Link href="/sometime" className="flex min-h-12 items-center px-1 text-sm">
           {common("nav.sometime")}

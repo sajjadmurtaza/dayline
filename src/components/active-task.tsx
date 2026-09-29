@@ -2,6 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { motion, useReducedMotion } from "motion/react";
+import { TaskReferences } from "@/components/bookmarks-view";
 import { DaylineIcon } from "@/components/icons";
 import { SessionMeter } from "@/components/session-meter";
 import type { Task } from "@/lib/types";
@@ -57,6 +58,7 @@ export function ActiveTask({
         </div>
       </div>
       <SessionMeter elapsed={elapsed} estimate={task.estimatedMinutes} live />
+      <TaskReferences taskId={task.id} />
     </motion.section>
   );
 }

@@ -4,26 +4,27 @@
   "nav": {
     "today": "آج",
     "inbox": "ان باکس",
-    "upcoming": "آنے والا",
+    "upcoming": "آئندہ",
     "calendar": "کیلنڈر",
     "projects": "پروجیکٹس",
     "notes": "نوٹس",
-    "sometime": "کبھی",
+    "sometime": "بعد میں",
     "search": "تلاش",
-    "brainDump": "دماغ خالی کریں",
+    "brainDump": "خیالات لکھیں",
     "more": "مزید",
-    "add": "شامل کریں"
+    "add": "شامل کریں",
+    "bookmarks": "بک مارکس"
   },
   "actions": {
     "save": "محفوظ کریں",
     "cancel": "منسوخ",
     "delete": "حذف کریں",
-    "undo": "واپس",
+    "undo": "واپس لیں",
     "start": "شروع کریں",
     "pause": "وقفہ",
     "done": "ہو گیا",
     "resume": "جاری رکھیں",
-    "planMyDay": "میرا دن منصوبہ بنائیں",
+    "planMyDay": "آج کا دن ترتیب دیں",
     "acceptPlan": "منصوبہ قبول کریں",
     "keepSchedule": "شیڈول جیسا ہے ویسا رہنے دیں",
     "whatNow": "اب مجھے کیا کرنا چاہیے؟",
@@ -36,13 +37,13 @@
     "backToInbox": "ان باکس پر واپس",
     "clearDemo": "ڈیمو ڈیٹا ری سیٹ کریں",
     "reviewSuggestions": "تجاویز دیکھیں",
-    "confirmSelected": "منتخب محفوظ کریں"
+    "confirmSelected": "چنے ہوئے محفوظ کریں"
   },
   "undoToast": {
     "capture": "لکھا گیا",
     "start": "ٹائمر شروع ہوا",
     "pause": "رک گیا",
-    "complete": "مکمل نشان لگایا",
+    "complete": "مکمل کر دیا",
     "schedule": "ٹائم لائن پر منتقل کیا",
     "plan": "منصوبہ لاگو ہوا",
     "inbox": "ان باکس بھیجا گیا",
@@ -61,7 +62,7 @@
   },
   "kind": {
     "task": "کام",
-    "event": "تقریب",
+    "event": "ایونٹ",
     "note": "نوٹ",
     "reminder": "یاددہانی",
     "fixed": "مقرر",
@@ -70,13 +71,13 @@
   "priority": {
     "low": "کم",
     "normal": "عام",
-    "high": "اونچی",
+    "high": "زیادہ",
     "urgent": "فوری"
   },
   "deadlineKind": {
     "none": "کوئی آخری تاریخ نہیں",
     "target": "ہدف",
-    "due": "واجب"
+    "due": "آخری وقت"
   },
   "noteType": {
     "idea": "خیال",
@@ -106,7 +107,9 @@
   "source": {
     "local": "Dayline",
     "google-calendar": "گوگل کیلنڈر",
-    "outlook-calendar": "آؤٹ لک کیلنڈر"
+    "outlook-calendar": "آؤٹ لک کیلنڈر",
+    "ics-file": "درآمد شدہ کیلنڈر",
+    "calendar-feed": "کیلنڈر فیڈ"
   },
   "a11y": {
     "openNav": "نیویگیشن کھولیں",

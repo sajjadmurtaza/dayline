@@ -10,9 +10,10 @@
     "notes": "メモ",
     "sometime": "いつか",
     "search": "検索",
-    "brainDump": "頭の中を出す",
+    "brainDump": "思いつき",
     "more": "その他",
-    "add": "追加"
+    "add": "追加",
+    "bookmarks": "ブックマーク"
   },
   "actions": {
     "save": "保存",
@@ -106,7 +107,9 @@
   "source": {
     "local": "Dayline",
     "google-calendar": "Google カレンダー",
-    "outlook-calendar": "Outlook カレンダー"
+    "outlook-calendar": "Outlook カレンダー",
+    "ics-file": "読み込んだカレンダー",
+    "calendar-feed": "カレンダーの配信"
   },
   "a11y": {
     "openNav": "ナビゲーションを開く",

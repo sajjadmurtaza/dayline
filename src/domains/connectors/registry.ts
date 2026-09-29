@@ -1,3 +1,4 @@
+import { googleCalendarConnector } from "@/domains/connectors/google-calendar";
 import { unsupportedLiveConnector, type Connector } from "./types";
 
 export const CONNECTORS: Connector[] = [
@@ -16,7 +17,7 @@ export const CONNECTORS: Connector[] = [
       return { connectorId: "local", items: [] };
     },
   },
-  unsupportedLiveConnector("google-calendar", "source.google-calendar"),
+  googleCalendarConnector,
   unsupportedLiveConnector("outlook-calendar", "source.outlook-calendar"),
 ];
 

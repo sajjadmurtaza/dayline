@@ -74,7 +74,7 @@ export function seedDemo(clock: Clock): StoreDocument {
     projectId: null,
     areaId: "personal",
     tags: [],
-    source: { kind: "local" },
+    source: { kind: "local-rule", rule: "lunch" },
     start: atTime(day, 12, 30).toISOString(),
     end: atTime(day, 13, 30).toISOString(),
     location: null,

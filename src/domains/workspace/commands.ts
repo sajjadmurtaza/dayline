@@ -2,10 +2,11 @@ import type { CaptureSuggestion } from "@/domains/capture/parse";
 import { parseCapture } from "@/domains/capture/parse";
 import { processBrainDump } from "@/domains/brain-dump/process";
 import { proposeDayPlan } from "@/domains/planning/engine";
+import { canDeleteEvent } from "@/domains/planning/time-kinds";
 import { createId } from "@/lib/id";
 import { iso, type Clock } from "@/lib/clock";
 import type { Item, Note, PauseReason, Project, StoreDocument, Task } from "@/lib/types";
-import { isNote, isTask } from "@/lib/types";
+import { isEvent, isNote, isTask } from "@/lib/types";
 
 const MAX_UNDO = 20;
 const MAX_PINNED = 3;
@@ -300,7 +301,9 @@ export function leaveUnfinishedInInbox(
 }
 
 export function deleteItem(doc: StoreDocument, id: string, clock: Clock): StoreDocument {
-  return { ...withUndo(doc, "delete", clock), items: doc.items.filter((item) => item.id !== id) };
+  const item = doc.items.find((entry) => entry.id === id);
+  if (item && isEvent(item) && !canDeleteEvent(item)) return doc;
+  return { ...withUndo(doc, "delete", clock), items: doc.items.filter((entry) => entry.id !== id) };
 }
 
 export function pinNote(
@@ -397,8 +400,10 @@ export function searchItems(doc: StoreDocument, query: string): Item[] {
   const q = query.trim().toLowerCase();
   if (!q) return [];
   return doc.items.filter((item) => {
+    const place =
+      isEvent(item) ? `${item.location ?? ""} ${item.calendarName ?? ""}` : "";
     const blob =
-      `${item.title} ${isNote(item) ? item.body : ""} ${isTask(item) ? item.notes : ""}`.toLowerCase();
+      `${item.title} ${place} ${isNote(item) ? item.body : ""} ${isTask(item) ? item.notes : ""}`.toLowerCase();
     return blob.includes(q);
   });
 }

@@ -10,6 +10,7 @@
     "notes": "Notes",
     "sometime": "Sometime",
     "search": "Search",
+    "bookmarks": "Bookmarks",
     "brainDump": "Brain Dump",
     "more": "More",
     "add": "Add"
@@ -106,7 +107,9 @@
   "source": {
     "local": "Dayline",
     "google-calendar": "Google Calendar",
-    "outlook-calendar": "Outlook Calendar"
+    "outlook-calendar": "Outlook Calendar",
+    "ics-file": "Imported calendar",
+    "calendar-feed": "Calendar feed"
   },
   "a11y": {
     "openNav": "Open navigation",

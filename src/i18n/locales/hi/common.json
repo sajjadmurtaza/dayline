@@ -10,9 +10,10 @@
     "notes": "नोट्स",
     "sometime": "कभी",
     "search": "खोज",
-    "brainDump": "दिमाग़ खाली करें",
+    "brainDump": "मन की बात",
     "more": "और",
-    "add": "जोड़ें"
+    "add": "जोड़ें",
+    "bookmarks": "बुकमार्क"
   },
   "actions": {
     "save": "सहेजें",
@@ -106,7 +107,9 @@
   "source": {
     "local": "Dayline",
     "google-calendar": "Google कैलेंडर",
-    "outlook-calendar": "Outlook कैलेंडर"
+    "outlook-calendar": "Outlook कैलेंडर",
+    "ics-file": "आयातित कैलेंडर",
+    "calendar-feed": "कैलेंडर फ़ीड"
   },
   "a11y": {
     "openNav": "नेविगेशन खोलें",

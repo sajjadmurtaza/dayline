@@ -10,9 +10,10 @@
     "notes": "메모",
     "sometime": "언젠가",
     "search": "검색",
-    "brainDump": "머릿속 비우기",
+    "brainDump": "떠오른 것",
     "more": "더보기",
-    "add": "추가"
+    "add": "추가",
+    "bookmarks": "북마크"
   },
   "actions": {
     "save": "저장",
@@ -106,7 +107,9 @@
   "source": {
     "local": "Dayline",
     "google-calendar": "Google 캘린더",
-    "outlook-calendar": "Outlook 캘린더"
+    "outlook-calendar": "Outlook 캘린더",
+    "ics-file": "가져온 캘린더",
+    "calendar-feed": "캘린더 피드"
   },
   "a11y": {
     "openNav": "탐색 열기",

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import { BookmarkPicker } from "@/components/bookmarks-view";
 import { PageTitle } from "@/components/page-title";
 import { useDayline } from "@/components/app-provider";
 import { StickyNote } from "@/components/sticky-note";
@@ -38,12 +39,14 @@ export function NotesView() {
       {notes.length === 0 ? <p className="text-muted">{t("empty")}</p> : null}
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {notes.map((note) => (
-          <StickyNote
-            key={note.id}
-            note={note}
-            onConvert={() => noteToTask(note.id)}
-            onPin={() => pin(note.id, !note.pinnedToday)}
-          />
+          <div key={note.id} className="space-y-2">
+            <StickyNote
+              note={note}
+              onConvert={() => noteToTask(note.id)}
+              onPin={() => pin(note.id, !note.pinnedToday)}
+            />
+            <BookmarkPicker target={{ kind: "note", id: note.id }} />
+          </div>
         ))}
       </div>
     </div>

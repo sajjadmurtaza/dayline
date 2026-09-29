@@ -41,7 +41,12 @@ export function TodaySummary({ snapshot }: { snapshot: DaySnapshot }) {
 
   return (
     <div className="space-y-1" suppressHydrationWarning>
-      <p className="type-title">{nowLine}</p>
+      {snapshot.usableMinutes > 0 ? (
+        <p className="type-title">{t("yoursToday", { minutes: snapshot.usableMinutes })}</p>
+      ) : (
+        <p className="type-title">{nowLine}</p>
+      )}
+      {snapshot.externalCalendar ? <p className="type-caption">{t("takenLine")}</p> : null}
       <p className="type-companion text-ink/80">{follow}</p>
     </div>
   );

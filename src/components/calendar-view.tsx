@@ -7,6 +7,8 @@ import { occurrenceTone, TONE_OBJECT } from "@/components/timeline/tone";
 import { addDays, startOfDay } from "@/lib/clock";
 import { formatClock, minutesBetweenDates } from "@/lib/dates";
 import { calendarTaskState, dayMood, occurrencesOnDay } from "@/domains/planning/day-view";
+import { ReadOnlyEvent } from "@/components/external-event-detail";
+import { isExternallyManagedEvent } from "@/domains/planning/time-kinds";
 
 export function CalendarView() {
   const t = useTranslations("app.calendar");
@@ -64,6 +66,19 @@ export function CalendarView() {
                       const state = occurrence.task
                         ? calendarTaskState(occurrence.task, occurrence.end, now)
                         : "scheduled";
+                      const block = (
+                        <>
+                          <p className="type-time text-[0.7rem]" suppressHydrationWarning>
+                            {formatClock(occurrence.start, locale)}
+                          </p>
+                          <p className="type-title text-[0.9rem] text-ink">
+                            {state === "completed" ? "✓ " : state === "unresolved" ? "○ " : ""}
+                            {occurrence.event?.title ?? occurrence.task?.title}
+                          </p>
+                          {state === "unresolved" ? <p className="type-caption">{t("stillOpen")}</p> : null}
+                          {state === "cancelled" ? <p className="type-caption">{t("cancelled")}</p> : null}
+                        </>
+                      );
                       return (
                         <li
                           key={occurrence.id}
@@ -76,19 +91,11 @@ export function CalendarView() {
                           }`}
                           style={{ minHeight: Math.min(20 + minutes * 0.55, 120) }}
                         >
-                          <p className="type-time text-[0.7rem]" suppressHydrationWarning>
-                            {formatClock(occurrence.start, locale)}
-                          </p>
-                          <p className="type-title text-[0.9rem] text-ink">
-                            {state === "completed" ? "✓ " : state === "unresolved" ? "○ " : ""}
-                            {occurrence.event?.title ?? occurrence.task?.title}
-                          </p>
-                          {state === "unresolved" ? (
-                            <p className="type-caption">{t("stillOpen")}</p>
-                          ) : null}
-                          {state === "cancelled" ? (
-                            <p className="type-caption">{t("cancelled")}</p>
-                          ) : null}
+                          {occurrence.event && isExternallyManagedEvent(occurrence.event) ? (
+                            <ReadOnlyEvent event={occurrence.event}>{block}</ReadOnlyEvent>
+                          ) : (
+                            block
+                          )}
                         </li>
                       );
                     })}

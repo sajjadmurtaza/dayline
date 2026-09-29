@@ -44,6 +44,28 @@ export function emptyStore(): StoreDocument {
     workingHours: DEFAULT_WORKING_HOURS,
     undo: [],
     seeded: false,
+    bookmarkFolders: [],
+    bookmarks: [],
+    bookmarkPlacements: [],
+    bookmarkAttachments: [],
+    googleConnection: null,
+    calendarFiles: [],
+    calendarFeeds: [],
+  };
+}
+
+function withBookmarkCollections(value: unknown): unknown {
+  if (!value || typeof value !== "object") return value;
+  const doc = value as Record<string, unknown>;
+  return {
+    ...doc,
+    bookmarkFolders: Array.isArray(doc.bookmarkFolders) ? doc.bookmarkFolders : [],
+    bookmarks: Array.isArray(doc.bookmarks) ? doc.bookmarks : [],
+    bookmarkPlacements: Array.isArray(doc.bookmarkPlacements) ? doc.bookmarkPlacements : [],
+    bookmarkAttachments: Array.isArray(doc.bookmarkAttachments) ? doc.bookmarkAttachments : [],
+    googleConnection: doc.googleConnection ?? null,
+    calendarFiles: Array.isArray(doc.calendarFiles) ? doc.calendarFiles : [],
+    calendarFeeds: Array.isArray(doc.calendarFeeds) ? doc.calendarFeeds : [],
   };
 }
 
@@ -51,7 +73,7 @@ export function parseStore(raw: string | null): StoreDocument {
   if (!raw) return emptyStore();
   try {
     const parsed: unknown = JSON.parse(raw);
-    const result = storeDocumentSchema.safeParse(parsed);
+    const result = storeDocumentSchema.safeParse(withBookmarkCollections(parsed));
     if (!result.success) return emptyStore();
     return result.data;
   } catch {

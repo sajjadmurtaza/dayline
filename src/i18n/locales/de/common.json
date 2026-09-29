@@ -10,9 +10,10 @@
     "notes": "Notizen",
     "sometime": "Irgendwann",
     "search": "Suche",
-    "brainDump": "Gedanken leeren",
+    "brainDump": "Gedanken notieren",
     "more": "Mehr",
-    "add": "Hinzufügen"
+    "add": "Hinzufügen",
+    "bookmarks": "Lesezeichen"
   },
   "actions": {
     "save": "Speichern",
@@ -106,7 +107,9 @@
   "source": {
     "local": "Dayline",
     "google-calendar": "Google Kalender",
-    "outlook-calendar": "Outlook-Kalender"
+    "outlook-calendar": "Outlook-Kalender",
+    "ics-file": "Importierter Kalender",
+    "calendar-feed": "Kalenderabo"
   },
   "a11y": {
     "openNav": "Navigation öffnen",

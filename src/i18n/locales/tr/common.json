@@ -10,9 +10,10 @@
     "notes": "Notlar",
     "sometime": "Bir ara",
     "search": "Ara",
-    "brainDump": "Kafayı boşalt",
+    "brainDump": "Aklındakiler",
     "more": "Daha fazla",
-    "add": "Ekle"
+    "add": "Ekle",
+    "bookmarks": "Yer imleri"
   },
   "actions": {
     "save": "Kaydet",
@@ -106,7 +107,9 @@
   "source": {
     "local": "Dayline",
     "google-calendar": "Google Takvim",
-    "outlook-calendar": "Outlook Takvim"
+    "outlook-calendar": "Outlook Takvim",
+    "ics-file": "İçe aktarılan takvim",
+    "calendar-feed": "Takvim akışı"
   },
   "a11y": {
     "openNav": "Gezinmeyi aç",

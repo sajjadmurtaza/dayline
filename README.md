@@ -121,16 +121,21 @@ Tap **Start** on the presentation (or any task). The block becomes Current: live
 
 ![Upcoming](docs/readme/11-upcoming.jpg)
 
-### 11. Projects, Notes, Sometime, Brain Dump, Search, More
+### 11. Projects, Notes, Bookmarks, Sometime, Brain Dump, Search, More
 
-| Screen     | URL              | What to do                                                          |
-| ---------- | ---------------- | ------------------------------------------------------------------- |
-| Projects   | `/en/projects`   | Named projects with next work and notes. Demo: **Acme proposal**    |
-| Notes      | `/en/notes`      | Ideas, remember, questions. Pin to Today                            |
-| Sometime   | `/en/sometime`   | Someday / maybe, not on the calendar. Demo: **Read research paper** |
-| Brain Dump | `/en/brain-dump` | Write freely, review suggestions, save what you confirm             |
-| Search     | `/en/search`     | Tasks, events, notes, projects                                      |
-| More       | `/en/more`       | Language, Undo, Reset demo data, and overflow links                 |
+| Screen     | URL              | What to do                                                                                          |
+| ---------- | ---------------- | --------------------------------------------------------------------------------------------------- |
+| Projects   | `/en/projects`   | Named projects with next work and notes. Demo: **Acme proposal**                                    |
+| Notes      | `/en/notes`      | Ideas, remember, questions. Pin to Today                                                            |
+| Bookmarks  | `/en/bookmarks`  | Private links in folders. Browse a folder, or search. Under **More**, not the main nav             |
+| Sometime   | `/en/sometime`   | Someday / maybe, not on the calendar. Demo: **Read research paper**                                 |
+| Brain Dump | `/en/brain-dump` | Write freely, review suggestions, save what you confirm                                             |
+| Search     | `/en/search`     | Tasks, events, notes, projects, and bookmarks                                                       |
+| More       | `/en/more`       | Language, Undo, Reset demo data, Bookmarks, and the other overflow links                           |
+
+Bookmarks stay in `dayline.local.v1` with the rest of the day. The library starts empty. **Import browser bookmarks** accepts a Netscape HTML export after you review the preview, or add one link with **+ Bookmark**. A full `http` or `https` or `file` URL in Today’s capture box can also be saved as a bookmark.
+
+The first screen is folders, not every link. Open a folder and only that folder and its children stay on the page. **Search** defaults to the open folder; **All bookmarks** searches the whole library. **Hide folders** removes the side panel and keeps that choice in this browser. **Show all** is a separate list of every link. **Pinned**, **Attached**, **Recent**, and **Local files** are filters. Open and **···** sit on each link (edit, pin, archive, delete). A link attached to the running task shows under that session.
 
 ![Projects](docs/readme/12-projects.jpg)
 
@@ -201,7 +206,7 @@ npm run verify
 
 Canonical origin: `NEXT_PUBLIC_SITE_URL`, then the Vercel project host, then `http://localhost:3000`. Do not hardcode `dayline.vercel.app` — that domain is a different app.
 
-Sitemap and robots use that origin. Indexed routes: Today, Inbox, Calendar, Upcoming, Projects, Notes, Sometime, Brain Dump, Search, More — in every locale.
+Sitemap and robots use that origin. Indexed routes: Today, Inbox, Calendar, Upcoming, Projects, Notes, Sometime, Brain Dump, Search, More — in every locale. Bookmarks is in the app and omitted from the sitemap.
 
 ## Commands
 

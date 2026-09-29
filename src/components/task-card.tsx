@@ -1,10 +1,12 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import { BookmarkPicker } from "@/components/bookmarks-view";
 import { DaylineIcon } from "@/components/icons";
 import { DurationPicker } from "@/components/duration-picker";
 import { ProgressBar } from "@/components/progress-bar";
 import { taskTone, toneIcon, TONE_CLASS } from "@/components/timeline/tone";
+import { faceClass, timeFace } from "@/domains/planning/time-kinds";
 import type { Task } from "@/lib/types";
 
 export function TaskCard({
@@ -31,7 +33,11 @@ export function TaskCard({
   const tone = taskTone(task);
   const showMeter = running || task.status === "paused" || elapsed > 0;
   return (
-    <article className={`rounded-[1.05rem] px-3 py-2.5 ring-1 ring-line ${TONE_CLASS[tone]}`}>
+    <article
+      className={`rounded-[1.05rem] px-3 py-2.5 ring-1 ring-line ${TONE_CLASS[tone]} ${
+        timeFace(task) ? faceClass(timeFace(task)!) : ""
+      }`}
+    >
       <div className="flex items-start justify-between gap-3">
         <p className="type-title flex min-w-0 items-center gap-1.5 text-ink">
           <DaylineIcon name={toneIcon(tone)} className="h-4 w-4 shrink-0" />
@@ -85,6 +91,7 @@ export function TaskCard({
           </button>
         ) : null}
       </div>
+      <BookmarkPicker target={{ kind: "task", id: task.id }} />
     </article>
   );
 }

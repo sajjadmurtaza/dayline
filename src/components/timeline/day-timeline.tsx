@@ -8,8 +8,10 @@ import { buildSpine } from "@/components/timeline/spine";
 import { TimelineGap } from "@/components/timeline/timeline-gap";
 import { TimelineItem } from "@/components/timeline/timeline-item";
 import { occurrencesOnDay } from "@/domains/planning/day-view";
+import { addDays, startOfDay } from "@/lib/clock";
 import { formatClock } from "@/lib/dates";
-import { isTask } from "@/lib/types";
+import { detectConflicts, eventsOnDay } from "@/domains/planning/engine";
+import { isEvent, isTask } from "@/lib/types";
 
 export function DayTimeline({
   planning = false,
@@ -37,9 +39,23 @@ export function DayTimeline({
     greeting: snapshot.greeting,
   });
   const notice = snapshot.notice;
+  const dayStart = startOfDay(now).getTime();
+  const dayEnd = addDays(startOfDay(now), 1).getTime();
+  const quiet = doc.items.filter(isEvent).filter((event) => {
+    if (event.calendarPlacement !== "quiet") return false;
+    const start = new Date(event.start).getTime();
+    return start >= dayStart && start < dayEnd;
+  });
+  const overlap = detectConflicts(eventsOnDay(doc, now));
 
   return (
     <div className="spine">
+      {quiet.map((event) => (
+        <p key={event.id} className="type-caption ms-[3.6rem]">
+          {event.title}
+        </p>
+      ))}
+      {overlap.length ? <p className="type-caption ms-[3.6rem]">{today("overlap")}</p> : null}
       <div className="spine-line" aria-hidden />
       <div className="relative space-y-1">
         {nodes.map((node) => {
@@ -96,7 +112,7 @@ export function DayTimeline({
                   <p className="type-time pt-3 text-end text-muted" suppressHydrationWarning>
                     {formatClock(startAt, locale)}
                   </p>
-                  <div className="object-proposed rounded-[1.05rem] px-4 py-3">
+                  <div className="object-proposed time-proposed rounded-[1.05rem] px-4 py-3">
                     <p className="type-caption text-task">{today("proposed")}</p>
                     <p className="type-title text-ink">{task.title}</p>
                     <p className="type-caption" suppressHydrationWarning>

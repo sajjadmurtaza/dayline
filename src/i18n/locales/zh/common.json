@@ -10,9 +10,10 @@
     "notes": "笔记",
     "sometime": "有空再说",
     "search": "搜索",
-    "brainDump": "清空脑子",
+    "brainDump": "随手记下",
     "more": "更多",
-    "add": "添加"
+    "add": "添加",
+    "bookmarks": "书签"
   },
   "actions": {
     "save": "保存",
@@ -106,7 +107,9 @@
   "source": {
     "local": "Dayline",
     "google-calendar": "Google 日历",
-    "outlook-calendar": "Outlook 日历"
+    "outlook-calendar": "Outlook 日历",
+    "ics-file": "导入的日历",
+    "calendar-feed": "日历订阅"
   },
   "a11y": {
     "openNav": "打开导航",
